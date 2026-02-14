@@ -2,9 +2,10 @@ import pandas as pd
 import json
 import numpy as np
 
-df = pd.read_csv("Datasets/indian_food_nutrition.csv")
-
+df = pd.read_csv("Datasets/food_dataset_without_prices.csv")
+df = df[["Calories","Carbohydrates","Protein","Fats","Free Sugar","Fibre"]]
 a = df.to_dict(orient="records")
+
 #a=  []
 #print(df)
 #for x in range(len(df)):
