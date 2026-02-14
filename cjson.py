@@ -2,8 +2,8 @@ import pandas as pd
 import json
 import numpy as np
 
-df = pd.read_csv("Datasets/food_dataset_without_prices.csv")
-df = df[["Calories","Carbohydrates","Protein","Fats","Free Sugar","Fibre"]]
+df = pd.read_csv("Datasets/reducednew.csv")
+#df = df[["Dish Name","Calories","Carbohydrates","Protein","Fats","Free Sugar","Fibre"]]
 a = df.to_dict(orient="records")
 
 #a=  []
