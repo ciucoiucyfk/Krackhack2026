@@ -1,20 +1,16 @@
 import json
 
-input_file = "Datasets/dataset.jsonl"
-output_file = "Datasets/dataset_smolify.jsonl"
+input_file = "Datasets/dataset_smolify.jsonl"
+output_file = "Datasets/dataset_smolify.json"
 
-with open(input_file, "r") as infile, open(output_file, "w") as outfile:
-    for line in infile:
-        item = json.loads(line)
+data = []
 
-        new_format = {
-            "messages": [
-                {"role": "user", "content": item["input"]},
-                {"role": "assistant", "content": item["output"]}
-            ]
-        }
+with open(input_file, "r") as f:
+    for line in f:
+        if line.strip():  # skip empty lines
+            data.append(json.loads(line))
 
-        json.dump(new_format, outfile)
-        outfile.write("\n")
+with open(output_file, "w") as f:
+    json.dump(data, f, indent=2)
 
-print("Converted for Smolify.")
+print("Converted to proper JSON array format.")
