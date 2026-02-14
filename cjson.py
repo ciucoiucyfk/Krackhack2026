@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import numpy as np
 
-df = pd.read_csv("Datasets/reduceddf.csv")
+df = pd.read_csv("Datasets/reducednew.csv")
 df = df.dropna(subset=["protein", "carbs", "fat", "calories"])
 
 # Convert to list of dictionaries
