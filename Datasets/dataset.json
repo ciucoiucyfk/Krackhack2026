@@ -1,7772 +1,1152 @@
 [
   {
-    "food_name": "cream cheese",
-    "protein": 0.9,
-    "carbs": 0.8,
-    "fat": 5.0,
-    "calories": 51
-  },
-  {
-    "food_name": "neufchatel cheese",
-    "protein": 7.8,
-    "carbs": 3.1,
-    "fat": 19.4,
-    "calories": 215
-  },
-  {
-    "food_name": "ricotta cheese",
-    "protein": 1.5,
-    "carbs": 1.5,
-    "fat": 2.0,
-    "calories": 30
-  },
-  {
-    "food_name": "cream cheese low fat",
-    "protein": 1.2,
-    "carbs": 1.2,
-    "fat": 2.3,
-    "calories": 30
-  },
-  {
-    "food_name": "cream cheese fat free",
-    "protein": 2.8,
-    "carbs": 1.4,
-    "fat": 0.2,
-    "calories": 19
-  },
-  {
-    "food_name": "gruyere cheese",
-    "protein": 8.3,
-    "carbs": 0.1,
-    "fat": 9.1,
-    "calories": 116
-  },
-  {
-    "food_name": "cheddar cheese",
-    "protein": 6.4,
-    "carbs": 0.9,
-    "fat": 9.3,
-    "calories": 113
-  },
-  {
-    "food_name": "parmesan cheese",
-    "protein": 6.4,
-    "carbs": 0.6,
-    "fat": 4.5,
-    "calories": 71
-  },
-  {
-    "food_name": "romano cheese",
-    "protein": 1.6,
-    "carbs": 0.2,
-    "fat": 1.3,
-    "calories": 19
-  },
-  {
-    "food_name": "parmesan cheese grated",
-    "protein": 1.4,
-    "carbs": 0.7,
-    "fat": 1.4,
-    "calories": 21
-  },
-  {
-    "food_name": "port salut cheese",
-    "protein": 31.4,
-    "carbs": 0.8,
-    "fat": 37.2,
-    "calories": 465
-  },
-  {
-    "food_name": "swiss cheese",
-    "protein": 6.7,
-    "carbs": 0.4,
-    "fat": 7.7,
-    "calories": 98
-  },
-  {
-    "food_name": "goat cheese hard",
-    "protein": 8.6,
-    "carbs": 0.6,
-    "fat": 10.1,
-    "calories": 128
-  },
-  {
-    "food_name": "gouda cheese",
-    "protein": 7.0,
-    "carbs": 0.6,
-    "fat": 7.7,
-    "calories": 100
-  },
-  {
-    "food_name": "pepper jack cheese lucerne",
-    "protein": 5.0,
-    "carbs": 0.0,
-    "fat": 6.0,
-    "calories": 75
-  },
-  {
-    "food_name": "caraway cheese",
-    "protein": 7.1,
-    "carbs": 0.9,
-    "fat": 8.3,
-    "calories": 106
-  },
-  {
-    "food_name": "gjetost cheese",
-    "protein": 21.9,
-    "carbs": 96.8,
-    "fat": 67.0,
-    "calories": 1058
-  },
-  {
-    "food_name": "tilsit cheese",
-    "protein": 9.8,
-    "carbs": 0.8,
-    "fat": 10.4,
-    "calories": 136
-  },
-  {
-    "food_name": "goat cheese",
-    "protein": 6.1,
-    "carbs": 0.009,
-    "fat": 8.4,
-    "calories": 103
-  },
-  {
-    "food_name": "brick cheese",
-    "protein": 7.0,
-    "carbs": 0.8,
-    "fat": 8.9,
-    "calories": 111
-  },
-  {
-    "food_name": "asadero cheese",
-    "protein": 25.5,
-    "carbs": 3.2,
-    "fat": 31.9,
-    "calories": 402
-  },
-  {
-    "food_name": "camembert cheese",
-    "protein": 5.9,
-    "carbs": 0.1,
-    "fat": 7.3,
-    "calories": 90
-  },
-  {
-    "food_name": "provolone cheese reduced fat",
-    "protein": 27.9,
-    "carbs": 4.0,
-    "fat": 19.9,
-    "calories": 310
-  },
-  {
-    "food_name": "roquefort cheese",
-    "protein": 18.3,
-    "carbs": 1.7,
-    "fat": 26.0,
-    "calories": 314
-  },
-  {
-    "food_name": "queso blanco cheese",
-    "protein": 24.0,
-    "carbs": 3.0,
-    "fat": 28.7,
-    "calories": 366
-  },
-  {
-    "food_name": "queso seco cheese",
-    "protein": 23.8,
-    "carbs": 2.0,
-    "fat": 23.6,
-    "calories": 315
-  },
-  {
-    "food_name": "goat cheese soft",
-    "protein": 5.2,
-    "carbs": 0.0,
-    "fat": 6.0,
-    "calories": 75
-  },
-  {
-    "food_name": "mozzarella cheese",
-    "protein": 6.7,
-    "carbs": 0.7,
-    "fat": 6.6,
-    "calories": 90
-  },
-  {
-    "food_name": "chihuahua cheese",
-    "protein": 28.5,
-    "carbs": 7.3,
-    "fat": 39.2,
-    "calories": 494
-  },
-  {
-    "food_name": "limburger cheese",
-    "protein": 6.0,
-    "carbs": 0.1,
-    "fat": 8.2,
-    "calories": 98
-  },
-  {
-    "food_name": "muenster cheese",
-    "protein": 30.9,
-    "carbs": 1.5,
-    "fat": 39.7,
-    "calories": 486
-  },
-  {
-    "food_name": "queso fresco cheese",
-    "protein": 22.1,
-    "carbs": 3.6,
-    "fat": 29.1,
-    "calories": 365
-  },
-  {
-    "food_name": "brie cheese",
-    "protein": 6.2,
-    "carbs": 0.1,
-    "fat": 8.3,
-    "calories": 100
-  },
-  {
-    "food_name": "pimento cheese",
-    "protein": 31.0,
-    "carbs": 2.4,
-    "fat": 43.7,
-    "calories": 525
-  },
-  {
-    "food_name": "mexican cheese",
-    "protein": 27.7,
-    "carbs": 3.8,
-    "fat": 21.7,
-    "calories": 316
-  },
-  {
-    "food_name": "feta cheese",
-    "protein": 4.3,
-    "carbs": 1.2,
-    "fat": 6.4,
-    "calories": 80
-  },
-  {
-    "food_name": "mozzarella cheese fat free",
-    "protein": 35.8,
-    "carbs": 4.0,
-    "fat": 0.0,
-    "calories": 159
-  },
-  {
-    "food_name": "provolone cheese",
-    "protein": 33.8,
-    "carbs": 2.8,
-    "fat": 35.1,
-    "calories": 463
-  },
-  {
-    "food_name": "anejo cheese",
-    "protein": 28.3,
-    "carbs": 6.1,
-    "fat": 39.6,
-    "calories": 492
-  },
-  {
-    "food_name": "apple butter",
-    "protein": 0.045,
-    "carbs": 8.5,
-    "fat": 0.063,
-    "calories": 35
-  },
-  {
-    "food_name": "chocolate hazelnut spread",
-    "protein": 1.0,
-    "carbs": 11.5,
-    "fat": 5.5,
-    "calories": 100
-  },
-  {
-    "food_name": "peanut butter",
-    "protein": 3.3,
-    "carbs": 3.6,
-    "fat": 7.4,
-    "calories": 88
-  },
-  {
-    "food_name": "peanut spread",
-    "protein": 3.8,
-    "carbs": 2.2,
-    "fat": 8.5,
-    "calories": 101
-  },
-  {
-    "food_name": "chicken spread",
-    "protein": 10.1,
-    "carbs": 2.3,
-    "fat": 9.8,
-    "calories": 88
-  },
-  {
-    "food_name": "cheese spread",
-    "protein": 17.0,
-    "carbs": 8.4,
-    "fat": 68.6,
-    "calories": 708
-  },
-  {
-    "food_name": "orange marmalade",
-    "protein": 0.014,
-    "carbs": 13.3,
-    "fat": 0.0,
-    "calories": 49
-  },
-  {
-    "food_name": "american cheese spread",
-    "protein": 2.6,
-    "carbs": 1.4,
-    "fat": 3.4,
-    "calories": 46
-  },
-  {
-    "food_name": "chunky peanut butter",
-    "protein": 3.8,
-    "carbs": 3.5,
-    "fat": 8.0,
-    "calories": 94
-  },
-  {
-    "food_name": "ham and cheese spread",
-    "protein": 2.4,
-    "carbs": 0.3,
-    "fat": 2.8,
-    "calories": 37
-  },
-  {
-    "food_name": "chicken and rice casserole homade",
-    "protein": 2.0,
-    "carbs": 2.4,
-    "fat": 1.0,
-    "calories": 27
-  },
-  {
-    "food_name": "corn tamale",
-    "protein": 5.8,
-    "carbs": 44.3,
-    "fat": 12.0,
-    "calories": 309
-  },
-  {
-    "food_name": "baked potato with cheese sauce bacon",
-    "protein": 18.4,
-    "carbs": 44.4,
-    "fat": 25.9,
-    "calories": 451
-  },
-  {
-    "food_name": "butter croissant",
-    "protein": 4.7,
-    "carbs": 26.1,
-    "fat": 12.0,
-    "calories": 231
-  },
-  {
-    "food_name": "enchilada with cheese beef",
-    "protein": 11.9,
-    "carbs": 30.5,
-    "fat": 17.6,
-    "calories": 323
-  },
-  {
-    "food_name": "corned beef hash with potatoes",
-    "protein": 20.6,
-    "carbs": 21.9,
-    "fat": 24.2,
-    "calories": 387
-  },
-  {
-    "food_name": "biscuit with egg cheese bacon",
-    "protein": 17.4,
-    "carbs": 35.4,
-    "fat": 25.3,
-    "calories": 436
-  },
-  {
-    "food_name": "bagel with ham egg cheese",
-    "protein": 26.7,
-    "carbs": 52.4,
-    "fat": 18.5,
-    "calories": 483
-  },
-  {
-    "food_name": "quesadilla with chicken",
-    "protein": 27.1,
-    "carbs": 43.3,
-    "fat": 27.5,
-    "calories": 529
-  },
-  {
-    "food_name": "corn rice",
-    "protein": 1.8,
-    "carbs": 25.2,
-    "fat": 0.3,
-    "calories": 110
-  },
-  {
-    "food_name": "kung pao chicken",
-    "protein": 59.0,
-    "carbs": 41.5,
-    "fat": 42.2,
-    "calories": 779
-  },
-  {
-    "food_name": "frijoles with cheese",
-    "protein": 11.4,
-    "carbs": 28.7,
-    "fat": 7.8,
-    "calories": 225
-  },
-  {
-    "food_name": "crispy chicken sandwich",
-    "protein": 14.8,
-    "carbs": 33.2,
-    "fat": 17.6,
-    "calories": 350
-  },
-  {
-    "food_name": "enchilada with cheese",
-    "protein": 15.4,
-    "carbs": 21.2,
-    "fat": 25.3,
-    "calories": 374
-  },
-  {
-    "food_name": "corn on the cob with butter",
-    "protein": 4.5,
-    "carbs": 31.9,
-    "fat": 3.4,
-    "calories": 155
-  },
-  {
-    "food_name": "pancakes with butter syrup",
-    "protein": 4.1,
-    "carbs": 45.4,
-    "fat": 7.0,
-    "calories": 260
-  },
-  {
-    "food_name": "burrito with beans",
-    "protein": 7.0,
-    "carbs": 35.7,
-    "fat": 6.7,
-    "calories": 224
-  },
-  {
-    "food_name": "baked potato with sour cream",
-    "protein": 6.7,
-    "carbs": 50.0,
-    "fat": 22.3,
-    "calories": 393
-  },
-  {
-    "food_name": "chicken egg roll",
-    "protein": 8.4,
-    "carbs": 22.8,
-    "fat": 3.6,
-    "calories": 158
-  },
-  {
-    "food_name": "ham cheese roll",
-    "protein": 3.8,
-    "carbs": 1.1,
-    "fat": 5.2,
-    "calories": 67
-  },
-  {
-    "food_name": "lemon chicken",
-    "protein": 68.6,
-    "carbs": 122.0,
-    "fat": 74.9,
-    "calories": 1440
-  },
-  {
-    "food_name": "croissant with egg cheese",
-    "protein": 12.8,
-    "carbs": 24.3,
-    "fat": 24.7,
-    "calories": 368
-  },
-  {
-    "food_name": "enchirito with cheese beef beans",
-    "protein": 17.9,
-    "carbs": 33.8,
-    "fat": 16.1,
-    "calories": 344
-  },
-  {
-    "food_name": "crab cake",
-    "protein": 11.3,
-    "carbs": 5.1,
-    "fat": 10.4,
-    "calories": 160
-  },
-  {
-    "food_name": "english muffin with egg cheese sausage",
-    "protein": 22.1,
-    "carbs": 28.8,
-    "fat": 29.9,
-    "calories": 472
-  },
-  {
-    "food_name": "buttermilk pancakes",
-    "protein": 2.6,
-    "carbs": 10.9,
-    "fat": 3.5,
-    "calories": 86
-  },
-  {
-    "food_name": "taco with chicken cheese lettuce",
-    "protein": 13.0,
-    "carbs": 19.3,
-    "fat": 6.2,
-    "calories": 185
-  },
-  {
-    "food_name": "spinach souffle",
-    "protein": 10.7,
-    "carbs": 8.0,
-    "fat": 17.6,
-    "calories": 230
-  },
-  {
-    "food_name": "english muffin with cheese sausage",
-    "protein": 14.3,
-    "carbs": 27.3,
-    "fat": 22.3,
-    "calories": 365
-  },
-  {
-    "food_name": "potato gratin",
-    "protein": 12.4,
-    "carbs": 27.6,
-    "fat": 18.6,
-    "calories": 328
-  },
-  {
-    "food_name": "sweet sour chicken",
-    "protein": 1.8,
-    "carbs": 4.4,
-    "fat": 2.3,
-    "calories": 46
-  },
-  {
-    "food_name": "burrito with beans beef",
-    "protein": 27.8,
-    "carbs": 47.0,
-    "fat": 18.0,
-    "calories": 460
-  },
-  {
-    "food_name": "chicken sandwich with cheese",
-    "protein": 29.4,
-    "carbs": 41.6,
-    "fat": 38.8,
-    "calories": 632
-  },
-  {
-    "food_name": "biscuit with egg steak",
-    "protein": 17.9,
-    "carbs": 21.3,
-    "fat": 28.4,
-    "calories": 410
-  },
-  {
-    "food_name": "nachos with cheese jalapeno peppers",
-    "protein": 16.8,
-    "carbs": 60.1,
-    "fat": 34.1,
-    "calories": 608
-  },
-  {
-    "food_name": "mozzarella steak fried",
-    "protein": 4.6,
-    "carbs": 7.7,
-    "fat": 5.9,
-    "calories": 102
-  },
-  {
-    "food_name": "blueberry pancakes",
-    "protein": 2.3,
-    "carbs": 11.0,
-    "fat": 3.5,
-    "calories": 84
-  },
-  {
-    "food_name": "chimichanga with beef cheese",
-    "protein": 20.1,
-    "carbs": 39.3,
-    "fat": 23.4,
-    "calories": 443
-  },
-  {
-    "food_name": "egg cheese sandwich",
-    "protein": 15.6,
-    "carbs": 25.9,
-    "fat": 19.4,
-    "calories": 340
-  },
-  {
-    "food_name": "apple croissant",
-    "protein": 4.2,
-    "carbs": 21.1,
-    "fat": 5.0,
-    "calories": 145
-  },
-  {
-    "food_name": "refried red beans",
-    "protein": 11.7,
-    "carbs": 36.0,
-    "fat": 16.1,
-    "calories": 336
-  },
-  {
-    "food_name": "chicken sandwich",
-    "protein": 30.4,
-    "carbs": 39.1,
-    "fat": 20.9,
-    "calories": 468
-  },
-  {
-    "food_name": "fried rice",
-    "protein": 6.5,
-    "carbs": 43.4,
-    "fat": 3.2,
-    "calories": 228
-  },
-  {
-    "food_name": "cheese croissant",
-    "protein": 7.4,
-    "carbs": 37.6,
-    "fat": 16.7,
-    "calories": 331
-  },
-  {
-    "food_name": "french toast with butter",
-    "protein": 5.2,
-    "carbs": 18.0,
-    "fat": 9.4,
-    "calories": 178
-  },
-  {
-    "food_name": "ham egg cheese sandwich",
-    "protein": 19.2,
-    "carbs": 30.9,
-    "fat": 16.3,
-    "calories": 347
-  },
-  {
-    "food_name": "english muffin with butter",
-    "protein": 4.9,
-    "carbs": 30.4,
-    "fat": 5.8,
-    "calories": 189
-  },
-  {
-    "food_name": "ham cheese sandwich",
-    "protein": 20.7,
-    "carbs": 33.3,
-    "fat": 15.5,
-    "calories": 352
-  },
-  {
-    "food_name": "sweet gefilte fish",
-    "protein": 3.8,
-    "carbs": 3.1,
-    "fat": 0.7,
-    "calories": 35
-  },
-  {
-    "food_name": "tostada with beef cheese",
-    "protein": 19.0,
-    "carbs": 22.8,
-    "fat": 16.3,
-    "calories": 315
-  },
-  {
-    "food_name": "tostada with beans cheese",
-    "protein": 9.6,
-    "carbs": 26.5,
-    "fat": 9.9,
-    "calories": 223
-  },
-  {
-    "food_name": "nachos with cheese",
-    "protein": 3.5,
-    "carbs": 27.9,
-    "fat": 17.2,
-    "calories": 274
-  },
-  {
-    "food_name": "baked potato with cheese sauce",
-    "protein": 14.6,
-    "carbs": 46.5,
-    "fat": 28.7,
-    "calories": 474
-  },
-  {
-    "food_name": "baked beans",
-    "protein": 11.1,
-    "carbs": 43.3,
-    "fat": 10.3,
-    "calories": 310
-  },
-  {
-    "food_name": "taco with beef cheese lettuce",
-    "protein": 6.1,
-    "carbs": 13.7,
-    "fat": 8.8,
-    "calories": 156
-  },
-  {
-    "food_name": "burrito with beans cheese beef",
-    "protein": 7.3,
-    "carbs": 19.8,
-    "fat": 6.6,
-    "calories": 165
-  },
-  {
-    "food_name": "chicken pot pie",
-    "protein": 14.6,
-    "carbs": 57.3,
-    "fat": 34.6,
-    "calories": 598
-  },
-  {
-    "food_name": "general tsos chicken",
-    "protein": 69.0,
-    "carbs": 128.3,
-    "fat": 87.5,
-    "calories": 1578
-  },
-  {
-    "food_name": "burrito with beans cheese",
-    "protein": 13.6,
-    "carbs": 57.8,
-    "fat": 11.2,
-    "calories": 379
-  },
-  {
-    "food_name": "chicken chow mein",
-    "protein": 40.8,
-    "carbs": 50.1,
-    "fat": 16.9,
-    "calories": 513
-  },
-  {
-    "food_name": "caramel custard flan",
-    "protein": 13.9,
-    "carbs": 69.7,
-    "fat": 12.3,
-    "calories": 444
-  },
-  {
-    "food_name": "chocolate milk dessert",
-    "protein": 5.9,
-    "carbs": 51.6,
-    "fat": 1.4,
-    "calories": 229
-  },
-  {
-    "food_name": "chocolate mousse",
-    "protein": 6.2,
-    "carbs": 24.1,
-    "fat": 24.0,
-    "calories": 338
-  },
-  {
-    "food_name": "apple crisp",
-    "protein": 4.9,
-    "carbs": 87.0,
-    "fat": 9.7,
-    "calories": 454
-  },
-  {
-    "food_name": "spinach spaghetti cooked",
-    "protein": 6.4,
-    "carbs": 36.6,
-    "fat": 0.9,
-    "calories": 182
-  },
-  {
-    "food_name": "corn pasta cooked",
-    "protein": 3.7,
-    "carbs": 39.1,
-    "fat": 1.0,
-    "calories": 176
-  },
-  {
-    "food_name": "pasta with meatballs in tomato sauce",
-    "protein": 10.6,
-    "carbs": 28.3,
-    "fat": 13.0,
-    "calories": 273
-  },
-  {
-    "food_name": "cheese tortellini",
-    "protein": 14.6,
-    "carbs": 50.8,
-    "fat": 7.8,
-    "calories": 332
-  },
-  {
-    "food_name": "pasta with sliced franks in tomato sauce",
-    "protein": 11.0,
-    "carbs": 32.0,
-    "fat": 6.0,
-    "calories": 227
-  },
-  {
-    "food_name": "macaroni cheese",
-    "protein": 12.6,
-    "carbs": 43.7,
-    "fat": 9.4,
-    "calories": 310
-  },
-  {
-    "food_name": "spinach egg noodles cooked",
-    "protein": 8.1,
-    "carbs": 38.8,
-    "fat": 2.5,
-    "calories": 211
-  },
-  {
-    "food_name": "cheese lasagna",
-    "protein": 15.9,
-    "carbs": 33.6,
-    "fat": 13.0,
-    "calories": 316
-  },
-  {
-    "food_name": "pasta with tomato sauce",
-    "protein": 5.6,
-    "carbs": 35.1,
-    "fat": 1.8,
-    "calories": 176
-  },
-  {
-    "food_name": "spinach pasta cooked",
-    "protein": 1.4,
-    "carbs": 7.1,
-    "fat": 0.3,
-    "calories": 37
-  },
-  {
-    "food_name": "vegetable chicken soup",
-    "protein": 12.3,
-    "carbs": 21.1,
-    "fat": 4.8,
-    "calories": 166
-  },
-  {
-    "food_name": "bean ham soup",
-    "protein": 10.3,
-    "carbs": 33.5,
-    "fat": 2.5,
-    "calories": 198
-  },
-  {
-    "food_name": "cream of chicken soup",
-    "protein": 6.0,
-    "carbs": 18.0,
-    "fat": 14.5,
-    "calories": 227
-  },
-  {
-    "food_name": "tomato soup canned",
-    "protein": 6.3,
-    "carbs": 22.6,
-    "fat": 3.3,
-    "calories": 139
-  },
-  {
-    "food_name": "cream of onion soup",
-    "protein": 6.7,
-    "carbs": 31.7,
-    "fat": 12.8,
-    "calories": 268
-  },
-  {
-    "food_name": "chicken broth dry",
-    "protein": 0.7,
-    "carbs": 1.1,
-    "fat": 0.2,
-    "calories": 10
-  },
-  {
-    "food_name": "chili with beans canned",
-    "protein": 14.6,
-    "carbs": 30.5,
-    "fat": 14.1,
-    "calories": 287
-  },
-  {
-    "food_name": "chicken mushroom soup",
-    "protein": 2.0,
-    "carbs": 15.1,
-    "fat": 6.1,
-    "calories": 126
-  },
-  {
-    "food_name": "black bean soup",
-    "protein": 12.4,
-    "carbs": 39.6,
-    "fat": 3.4,
-    "calories": 234
-  },
-  {
-    "food_name": "split pea soup with ham bacon",
-    "protein": 11.6,
-    "carbs": 28.6,
-    "fat": 3.1,
-    "calories": 189
-  },
-  {
-    "food_name": "cream of mushroom soup",
-    "protein": 3.4,
-    "carbs": 17.1,
-    "fat": 13.4,
-    "calories": 199
-  },
-  {
-    "food_name": "green pea soup",
-    "protein": 16.7,
-    "carbs": 51.7,
-    "fat": 5.7,
-    "calories": 320
-  },
-  {
-    "food_name": "chicken broth soup",
-    "protein": 11.1,
-    "carbs": 1.9,
-    "fat": 2.6,
-    "calories": 78
-  },
-  {
-    "food_name": "chicken mushroom chowder soup",
-    "protein": 16.2,
-    "carbs": 38.3,
-    "fat": 23.7,
-    "calories": 431
-  },
-  {
-    "food_name": "chicken dumplings soup",
-    "protein": 13.6,
-    "carbs": 14.7,
-    "fat": 13.4,
-    "calories": 235
-  },
-  {
-    "food_name": "chicken vegetable soup",
-    "protein": 7.1,
-    "carbs": 17.0,
-    "fat": 5.6,
-    "calories": 148
-  },
-  {
-    "food_name": "mushroom barley soup",
-    "protein": 4.6,
-    "carbs": 29.3,
-    "fat": 5.5,
-    "calories": 186
-  },
-  {
-    "food_name": "chicken rice soup",
-    "protein": 12.3,
-    "carbs": 13.0,
-    "fat": 3.2,
-    "calories": 127
-  },
-  {
-    "food_name": "pepperpot soup",
-    "protein": 6.2,
-    "carbs": 9.1,
-    "fat": 4.5,
-    "calories": 100
-  },
-  {
-    "food_name": "chicken soup",
-    "protein": 12.4,
-    "carbs": 16.9,
-    "fat": 6.5,
-    "calories": 174
-  },
-  {
-    "food_name": "bean with frankfurters soup",
-    "protein": 10.0,
-    "carbs": 22.0,
-    "fat": 7.0,
-    "calories": 188
-  },
-  {
-    "food_name": "pea soup",
-    "protein": 8.3,
-    "carbs": 25.6,
-    "fat": 2.8,
-    "calories": 161
-  },
-  {
-    "food_name": "cheese soup",
-    "protein": 2.0,
-    "carbs": 28.0,
-    "fat": 9.7,
-    "calories": 203
-  },
-  {
-    "food_name": "cream of potato soup",
-    "protein": 3.8,
-    "carbs": 32.2,
-    "fat": 4.7,
-    "calories": 186
-  },
-  {
-    "food_name": "bean with bacon soup",
-    "protein": 5.5,
-    "carbs": 16.4,
-    "fat": 2.1,
-    "calories": 106
-  },
-  {
-    "food_name": "fish stock",
-    "protein": 5.3,
-    "carbs": 0.0,
-    "fat": 1.9,
-    "calories": 40
-  },
-  {
-    "food_name": "split pea soup with ham",
-    "protein": 20.7,
-    "carbs": 56.2,
-    "fat": 8.9,
-    "calories": 381
-  },
-  {
-    "food_name": "lentil soup with ham",
-    "protein": 9.3,
-    "carbs": 20.2,
-    "fat": 2.8,
-    "calories": 139
-  },
-  {
-    "food_name": "tomato soup",
-    "protein": 2.2,
-    "carbs": 22.5,
-    "fat": 0.7,
-    "calories": 98
-  },
-  {
-    "food_name": "fish broth",
-    "protein": 4.9,
-    "carbs": 1.0,
-    "fat": 1.5,
-    "calories": 39
-  },
-  {
-    "food_name": "chili without beans canned",
-    "protein": 18.1,
-    "carbs": 14.6,
-    "fat": 17.0,
-    "calories": 283
-  },
-  {
-    "food_name": "tomato vegetable soup",
-    "protein": 1.9,
-    "carbs": 9.9,
-    "fat": 0.8,
-    "calories": 54
-  },
-  {
-    "food_name": "cream of rice coup",
-    "protein": 2.2,
-    "carbs": 28.1,
-    "fat": 0.2,
-    "calories": 127
-  },
-  {
-    "food_name": "cream of celery soup",
-    "protein": 3.3,
-    "carbs": 17.7,
-    "fat": 11.2,
-    "calories": 181
-  },
-  {
-    "food_name": "chicken gravy",
-    "protein": 4.6,
-    "carbs": 12.9,
-    "fat": 13.6,
-    "calories": 188
-  },
-  {
-    "food_name": "tomato rice soup",
-    "protein": 4.2,
-    "carbs": 44.1,
-    "fat": 5.5,
-    "calories": 240
-  },
-  {
-    "food_name": "tomato beef noodle soup",
-    "protein": 8.9,
-    "carbs": 42.3,
-    "fat": 8.6,
-    "calories": 281
-  },
-  {
-    "food_name": "oyster stew soup",
-    "protein": 4.2,
-    "carbs": 8.2,
-    "fat": 7.7,
-    "calories": 118
-  },
-  {
-    "food_name": "chicken noodle soup",
-    "protein": 7.2,
-    "carbs": 18.4,
-    "fat": 4.7,
-    "calories": 145
-  },
-  {
-    "food_name": "chicken bouillon dry",
-    "protein": 0.7,
-    "carbs": 0.7,
-    "fat": 0.6,
-    "calories": 11
-  },
-  {
-    "food_name": "cream of asparagus soup",
-    "protein": 4.6,
-    "carbs": 21.5,
-    "fat": 8.2,
-    "calories": 174
-  },
-  {
-    "food_name": "cream of shrimp soup",
-    "protein": 5.6,
-    "carbs": 16.5,
-    "fat": 10.4,
-    "calories": 181
-  },
-  {
-    "food_name": "bean with pork soup",
-    "protein": 15.3,
-    "carbs": 44.1,
-    "fat": 11.5,
-    "calories": 335
-  },
-  {
-    "food_name": "chicken broth",
-    "protein": 1.0,
-    "carbs": 1.0,
-    "fat": 0.5,
-    "calories": 12
-  },
-  {
-    "food_name": "split pea soup",
-    "protein": 9.7,
-    "carbs": 29.9,
-    "fat": 2.3,
-    "calories": 180
-  },
-  {
-    "food_name": "chicken stock",
-    "protein": 6.0,
-    "carbs": 8.5,
-    "fat": 2.9,
-    "calories": 86
-  },
-  {
-    "food_name": "tomato bisque soup",
-    "protein": 4.5,
-    "carbs": 47.7,
-    "fat": 5.0,
-    "calories": 248
-  },
-  {
-    "food_name": "onion soup",
-    "protein": 7.5,
-    "carbs": 16.4,
-    "fat": 3.5,
-    "calories": 113
-  },
-  {
-    "food_name": "chicken gumbo soup",
-    "protein": 5.3,
-    "carbs": 16.8,
-    "fat": 2.9,
-    "calories": 113
-  },
-  {
-    "food_name": "crab soup",
-    "protein": 10.4,
-    "carbs": 12.5,
-    "fat": 0.8,
-    "calories": 95
-  },
-  {
-    "food_name": "original chicken sandwich chick fil a",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 5.1,
-    "calories": 125
-  },
-  {
-    "food_name": "crispy chicken drumstick kentucky fried chicken",
-    "protein": 10.6,
-    "carbs": 0.0,
-    "fat": 3.0,
-    "calories": 70
-  },
-  {
-    "food_name": "chicken crispy drumsticks kentucky fried chicken",
-    "protein": 11.8,
-    "carbs": 4.5,
-    "fat": 10.1,
-    "calories": 156
-  },
-  {
-    "food_name": "biscuit kentucky fried chicken",
-    "protein": 3.8,
-    "carbs": 22.1,
-    "fat": 9.1,
-    "calories": 185
-  },
-  {
-    "food_name": "original taco with beef cheese lettuce taco bell",
-    "protein": 6.1,
-    "carbs": 13.7,
-    "fat": 8.8,
-    "calories": 158
-  },
-  {
-    "food_name": "chicken crispy wings kentucky fried chicken",
-    "protein": 9.2,
-    "carbs": 5.1,
-    "fat": 10.1,
-    "calories": 148
-  },
-  {
-    "food_name": "mcchicken mcdonalds",
-    "protein": 13.7,
-    "carbs": 36.6,
-    "fat": 17.3,
-    "calories": 358
-  },
-  {
-    "food_name": "crispy chicken wing kentucky fried chicken",
-    "protein": 12.6,
-    "carbs": 1.3,
-    "fat": 5.3,
-    "calories": 104
-  },
-  {
-    "food_name": "chicken strips burger king",
-    "protein": 6.6,
-    "carbs": 7.4,
-    "fat": 5.5,
-    "calories": 105
-  },
-  {
-    "food_name": "crispy chicken breast kentucky fried chicken",
-    "protein": 38.2,
-    "carbs": 0.4,
-    "fat": 6.7,
-    "calories": 214
-  },
-  {
-    "food_name": "onion rings fried",
-    "protein": 0.3,
-    "carbs": 2.8,
-    "fat": 1.6,
-    "calories": 27
-  },
-  {
-    "food_name": "onion rings burger king",
-    "protein": 3.5,
-    "carbs": 39.7,
-    "fat": 23.0,
-    "calories": 379
-  },
-  {
-    "food_name": "hotcakes with syrup mcdonalds",
-    "protein": 9.0,
-    "carbs": 101.8,
-    "fat": 17.8,
-    "calories": 601
-  },
-  {
-    "food_name": "crispy chicken thigh kentucky fried chicken",
-    "protein": 20.4,
-    "carbs": 0.0,
-    "fat": 9.1,
-    "calories": 163
-  },
-  {
-    "food_name": "corn dog",
-    "protein": 6.7,
-    "carbs": 21.0,
-    "fat": 9.4,
-    "calories": 195
-  },
-  {
-    "food_name": "chicken box mcdonalds",
-    "protein": 0.2,
-    "carbs": 5.5,
-    "fat": 4.0,
-    "calories": 70
-  },
-  {
-    "food_name": "potato wedges kentucky fried chicken",
-    "protein": 5.4,
-    "carbs": 45.0,
-    "fat": 19.8,
-    "calories": 379
-  },
-  {
-    "food_name": "crispy chicken strips kentucky fried chicken",
-    "protein": 9.5,
-    "carbs": 6.4,
-    "fat": 7.2,
-    "calories": 129
-  },
-  {
-    "food_name": "hotcakes mcdonalds",
-    "protein": 3.0,
-    "carbs": 19.0,
-    "fat": 2.9,
-    "calories": 113
-  },
-  {
-    "food_name": "chicken crispy breast kentucky fried chicken",
-    "protein": 29.7,
-    "carbs": 11.9,
-    "fat": 23.2,
-    "calories": 375
-  },
-  {
-    "food_name": "hotcakes sausage mcdonalds",
-    "protein": 15.5,
-    "carbs": 102.4,
-    "fat": 34.9,
-    "calories": 776
-  },
-  {
-    "food_name": "chicken mcnuggets mcdonalds",
-    "protein": 2.5,
-    "carbs": 2.4,
-    "fat": 3.2,
-    "calories": 48
-  },
-  {
-    "food_name": "rice bowl with chicken",
-    "protein": 1.6,
-    "carbs": 6.4,
-    "fat": 0.4,
-    "calories": 36
-  },
-  {
-    "food_name": "cheese ravioli canned",
-    "protein": 6.0,
-    "carbs": 33.0,
-    "fat": 3.5,
-    "calories": 186
-  },
-  {
-    "food_name": "premium crispy chicken ranch blt sandwich mcdonalds",
-    "protein": 35.3,
-    "carbs": 59.8,
-    "fat": 22.9,
-    "calories": 586
-  },
-  {
-    "food_name": "steak sandwich",
-    "protein": 30.3,
-    "carbs": 52.0,
-    "fat": 14.1,
-    "calories": 459
-  },
-  {
-    "food_name": "cheeseburger burger king",
-    "protein": 19.4,
-    "carbs": 31.5,
-    "fat": 19.7,
-    "calories": 380
-  },
-  {
-    "food_name": "cheeseburger mcdonalds",
-    "protein": 15.4,
-    "carbs": 33.1,
-    "fat": 14.0,
-    "calories": 313
-  },
-  {
-    "food_name": "double cheeseburger",
-    "protein": 37.0,
-    "carbs": 41.0,
-    "fat": 36.9,
-    "calories": 643
-  },
-  {
-    "food_name": "premium grilled chicken classic sandwich mcdonalds",
-    "protein": 28.3,
-    "carbs": 44.6,
-    "fat": 8.6,
-    "calories": 366
-  },
-  {
-    "food_name": "big n tasty with cheese mcdonalds",
-    "protein": 27.2,
-    "carbs": 39.7,
-    "fat": 36.0,
-    "calories": 573
-  },
-  {
-    "food_name": "premium grilled chicken club sandwich mcdonalds",
-    "protein": 38.3,
-    "carbs": 44.3,
-    "fat": 18.0,
-    "calories": 493
-  },
-  {
-    "food_name": "premium crispy chicken classic sandwich mcdonalds",
-    "protein": 27.8,
-    "carbs": 58.6,
-    "fat": 20.0,
-    "calories": 524
-  },
-  {
-    "food_name": "quarter pounder with cheese mcdonalds",
-    "protein": 29.0,
-    "carbs": 39.7,
-    "fat": 28.3,
-    "calories": 513
-  },
-  {
-    "food_name": "beef sandwich steak raw",
-    "protein": 9.2,
-    "carbs": 0.0,
-    "fat": 15.1,
-    "calories": 173
-  },
-  {
-    "food_name": "cheeseburger",
-    "protein": 15.0,
-    "carbs": 28.7,
-    "fat": 13.2,
-    "calories": 292
-  },
-  {
-    "food_name": "premium grilled chicken ranch blt sandwich mcdonalds",
-    "protein": 33.7,
-    "carbs": 44.3,
-    "fat": 10.9,
-    "calories": 412
-  },
-  {
-    "food_name": "double whopper with cheese burger king",
-    "protein": 57.7,
-    "carbs": 53.9,
-    "fat": 68.1,
-    "calories": 1061
-  },
-  {
-    "food_name": "filet o fish mcdonalds",
-    "protein": 15.1,
-    "carbs": 35.4,
-    "fat": 19.6,
-    "calories": 378
-  },
-  {
-    "food_name": "hand breaded chicken tenders carls jr",
-    "protein": 0.0,
-    "carbs": 0.2,
-    "fat": 2.9,
-    "calories": 57
-  },
-  {
-    "food_name": "grilled chicken sandwich wendys",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 8.0,
-    "calories": 370
-  },
-  {
-    "food_name": "roast beef sandwich with cheese",
-    "protein": 32.2,
-    "carbs": 45.4,
-    "fat": 18.0,
-    "calories": 473
-  },
-  {
-    "food_name": "premium fish sandwich burger king",
-    "protein": 22.6,
-    "carbs": 58.7,
-    "fat": 27.4,
-    "calories": 572
-  },
-  {
-    "food_name": "sandwich with tuna salad",
-    "protein": 29.7,
-    "carbs": 55.4,
-    "fat": 28.0,
-    "calories": 584
-  },
-  {
-    "food_name": "original chicken sandwich burger king",
-    "protein": 24.2,
-    "carbs": 52.2,
-    "fat": 29.2,
-    "calories": 569
-  },
-  {
-    "food_name": "premium crispy chicken club sandwich mcdonalds",
-    "protein": 39.1,
-    "carbs": 57.4,
-    "fat": 29.9,
-    "calories": 635
-  },
-  {
-    "food_name": "pepperoni pizza dominos",
-    "protein": 12.7,
-    "carbs": 36.0,
-    "fat": 12.6,
-    "calories": 308
-  },
-  {
-    "food_name": "pepperoni pizza",
-    "protein": 13.0,
-    "carbs": 35.5,
-    "fat": 13.2,
-    "calories": 313
-  },
-  {
-    "food_name": "pepperoni pizza pizza hut",
-    "protein": 12.3,
-    "carbs": 30.3,
-    "fat": 10.9,
-    "calories": 269
-  },
-  {
-    "food_name": "cheese pizza pizza hut",
-    "protein": 11.5,
-    "carbs": 30.0,
-    "fat": 10.5,
-    "calories": 260
-  },
-  {
-    "food_name": "cheese pizza",
-    "protein": 12.2,
-    "carbs": 35.7,
-    "fat": 10.4,
-    "calories": 285
-  },
-  {
-    "food_name": "cheese pizza dominos",
-    "protein": 11.7,
-    "carbs": 35.9,
-    "fat": 9.7,
-    "calories": 278
-  },
-  {
-    "food_name": "whitefish cooked",
-    "protein": 37.7,
-    "carbs": 0.0,
-    "fat": 11.6,
-    "calories": 265
-  },
-  {
-    "food_name": "wolffish cooked",
-    "protein": 53.4,
-    "carbs": 0.0,
-    "fat": 7.3,
-    "calories": 293
-  },
-  {
-    "food_name": "skipjack tuna cooked",
-    "protein": 86.9,
-    "carbs": 0.0,
-    "fat": 4.0,
-    "calories": 407
-  },
-  {
-    "food_name": "salmon cooked",
-    "protein": 78.7,
-    "carbs": 0.0,
-    "fat": 44.0,
-    "calories": 733
-  },
-  {
-    "food_name": "chum salmon cooked",
-    "protein": 79.5,
-    "carbs": 0.0,
-    "fat": 14.9,
-    "calories": 474
-  },
-  {
-    "food_name": "trout cooked",
-    "protein": 16.5,
-    "carbs": 0.0,
-    "fat": 5.3,
-    "calories": 118
-  },
-  {
-    "food_name": "swordfish raw",
-    "protein": 26.7,
-    "carbs": 0.0,
-    "fat": 9.0,
-    "calories": 196
-  },
-  {
-    "food_name": "rainbow trout cooked",
-    "protein": 16.9,
-    "carbs": 0.0,
-    "fat": 5.2,
-    "calories": 119
-  },
-  {
-    "food_name": "fish sandwich with cheese",
-    "protein": 15.1,
-    "carbs": 35.4,
-    "fat": 19.6,
-    "calories": 374
-  },
-  {
-    "food_name": "jellyfish dried",
-    "protein": 3.2,
-    "carbs": 0.0,
-    "fat": 0.8,
-    "calories": 21
-  },
-  {
-    "food_name": "orange roughy cooked",
-    "protein": 6.4,
-    "carbs": 0.0,
-    "fat": 0.3,
-    "calories": 30
-  },
-  {
-    "food_name": "fish sandwich",
-    "protein": 22.6,
-    "carbs": 58.7,
-    "fat": 27.4,
-    "calories": 565
-  },
-  {
-    "food_name": "cuttlefish cooked",
-    "protein": 9.2,
-    "carbs": 0.5,
-    "fat": 0.4,
-    "calories": 45
-  },
-  {
-    "food_name": "seatrout raw",
-    "protein": 39.8,
-    "carbs": 0.0,
-    "fat": 8.6,
-    "calories": 248
-  },
-  {
-    "food_name": "pumpkin seed sunfish raw",
-    "protein": 9.3,
-    "carbs": 0.0,
-    "fat": 0.3,
-    "calories": 43
-  },
-  {
-    "food_name": "pumpkin seed sunfish cooked",
-    "protein": 9.2,
-    "carbs": 0.0,
-    "fat": 0.3,
-    "calories": 42
-  },
-  {
-    "food_name": "wolffish raw",
-    "protein": 53.6,
-    "carbs": 0.0,
-    "fat": 7.3,
-    "calories": 294
-  },
-  {
-    "food_name": "bluefin tuna cooked",
-    "protein": 44.9,
-    "carbs": 0.0,
-    "fat": 9.4,
-    "calories": 276
-  },
-  {
-    "food_name": "bluefish raw",
-    "protein": 30.1,
-    "carbs": 0.0,
-    "fat": 6.4,
-    "calories": 186
-  },
-  {
-    "food_name": "chinook salmon raw",
-    "protein": 78.9,
-    "carbs": 0.0,
-    "fat": 41.3,
-    "calories": 709
-  },
-  {
-    "food_name": "rockfish raw",
-    "protein": 35.1,
-    "carbs": 0.0,
-    "fat": 2.6,
-    "calories": 172
-  },
-  {
-    "food_name": "tilefish raw",
-    "protein": 67.6,
-    "carbs": 0.0,
-    "fat": 8.9,
-    "calories": 371
-  },
-  {
-    "food_name": "sablefish cooked",
-    "protein": 51.9,
-    "carbs": 0.0,
-    "fat": 59.3,
-    "calories": 755
-  },
-  {
-    "food_name": "tuna salad",
-    "protein": 32.9,
-    "carbs": 19.3,
-    "fat": 19.0,
-    "calories": 383
-  },
-  {
-    "food_name": "coho salmon cooked",
-    "protein": 34.7,
-    "carbs": 0.0,
-    "fat": 11.8,
-    "calories": 255
-  },
-  {
-    "food_name": "pink salmon cooked",
-    "protein": 56.0,
-    "carbs": 0.0,
-    "fat": 12.0,
-    "calories": 349
-  },
-  {
-    "food_name": "sockeye salmon cooked",
-    "protein": 82.1,
-    "carbs": 0.0,
-    "fat": 17.3,
-    "calories": 493
-  },
-  {
-    "food_name": "whitefish raw",
-    "protein": 37.8,
-    "carbs": 0.0,
-    "fat": 11.6,
-    "calories": 265
-  },
-  {
-    "food_name": "salmon raw",
-    "protein": 80.9,
-    "carbs": 0.0,
-    "fat": 53.1,
-    "calories": 824
-  },
-  {
-    "food_name": "chinook salmon cooked",
-    "protein": 79.2,
-    "carbs": 0.0,
-    "fat": 41.2,
-    "calories": 711
-  },
-  {
-    "food_name": "chum salmon raw",
-    "protein": 0.6,
-    "carbs": 0.0,
-    "fat": 0.1,
-    "calories": 3
-  },
-  {
-    "food_name": "butterfish raw",
-    "protein": 5.5,
-    "carbs": 0.0,
-    "fat": 2.6,
-    "calories": 47
-  },
-  {
-    "food_name": "fish fillet fried",
-    "protein": 13.3,
-    "carbs": 15.4,
-    "fat": 11.2,
-    "calories": 211
-  },
-  {
-    "food_name": "rainbow trout raw",
-    "protein": 15.8,
-    "carbs": 0.0,
-    "fat": 4.9,
-    "calories": 111
-  },
-  {
-    "food_name": "monkfish raw",
-    "protein": 4.1,
-    "carbs": 0.0,
-    "fat": 0.4,
-    "calories": 22
-  },
-  {
-    "food_name": "trout raw",
-    "protein": 16.4,
-    "carbs": 0.0,
-    "fat": 5.2,
-    "calories": 117
-  },
-  {
-    "food_name": "dolphinfish cooked",
-    "protein": 37.7,
-    "carbs": 0.0,
-    "fat": 1.4,
-    "calories": 173
-  },
-  {
-    "food_name": "crayfish cooked",
-    "protein": 5.0,
-    "carbs": 0.0,
-    "fat": 0.4,
-    "calories": 25
-  },
-  {
-    "food_name": "dolphinfish raw",
-    "protein": 37.7,
-    "carbs": 0.0,
-    "fat": 1.4,
-    "calories": 173
-  },
-  {
-    "food_name": "bluefin tuna raw",
-    "protein": 6.6,
-    "carbs": 0.0,
-    "fat": 1.4,
-    "calories": 41
-  },
-  {
-    "food_name": "milkfish cooked",
-    "protein": 7.4,
-    "carbs": 0.0,
-    "fat": 2.4,
-    "calories": 54
-  },
-  {
-    "food_name": "orange roughy raw",
-    "protein": 4.6,
-    "carbs": 0.0,
-    "fat": 0.2,
-    "calories": 22
-  },
-  {
-    "food_name": "catfish fried",
-    "protein": 15.7,
-    "carbs": 7.0,
-    "fat": 11.6,
-    "calories": 199
-  },
-  {
-    "food_name": "cuttlefish raw",
-    "protein": 4.6,
-    "carbs": 0.2,
-    "fat": 0.2,
-    "calories": 22
-  },
-  {
-    "food_name": "milkfish raw",
-    "protein": 5.8,
-    "carbs": 0.0,
-    "fat": 1.9,
-    "calories": 42
-  },
-  {
-    "food_name": "catfish raw",
-    "protein": 24.2,
-    "carbs": 0.0,
-    "fat": 9.4,
-    "calories": 189
-  },
-  {
-    "food_name": "fish sticks",
-    "protein": 3.1,
-    "carbs": 6.1,
-    "fat": 4.5,
-    "calories": 78
-  },
-  {
-    "food_name": "coho salmon raw",
-    "protein": 33.8,
-    "carbs": 0.0,
-    "fat": 12.2,
-    "calories": 254
-  },
-  {
-    "food_name": "monkfish cooked",
-    "protein": 5.3,
-    "carbs": 0.0,
-    "fat": 0.6,
-    "calories": 27
-  },
-  {
-    "food_name": "yellowfin tuna cooked",
-    "protein": 8.2,
-    "carbs": 0.0,
-    "fat": 0.2,
-    "calories": 37
-  },
-  {
-    "food_name": "sablefish raw",
-    "protein": 51.8,
-    "carbs": 0.0,
-    "fat": 59.1,
-    "calories": 753
-  },
-  {
-    "food_name": "salmon nuggets",
-    "protein": 3.6,
-    "carbs": 4.0,
-    "fat": 3.3,
-    "calories": 60
-  },
-  {
-    "food_name": "butterfish cooked",
-    "protein": 5.5,
-    "carbs": 0.0,
-    "fat": 2.6,
-    "calories": 47
-  },
-  {
-    "food_name": "catfish cooked",
-    "protein": 26.4,
-    "carbs": 0.0,
-    "fat": 10.3,
-    "calories": 206
-  },
-  {
-    "food_name": "pink salmon raw",
-    "protein": 65.2,
-    "carbs": 0.0,
-    "fat": 14.0,
-    "calories": 404
-  },
-  {
-    "food_name": "yellowfin tuna raw",
-    "protein": 6.9,
-    "carbs": 0.0,
-    "fat": 0.1,
-    "calories": 31
-  },
-  {
-    "food_name": "crayfish raw",
-    "protein": 0.6,
-    "carbs": 0.0,
-    "fat": 0.048,
-    "calories": 3
-  },
-  {
-    "food_name": "tilefish cooked",
-    "protein": 73.5,
-    "carbs": 0.0,
-    "fat": 14.1,
-    "calories": 441
-  },
-  {
-    "food_name": "bluefish cooked",
-    "protein": 30.1,
-    "carbs": 0.0,
-    "fat": 6.4,
-    "calories": 186
-  },
-  {
-    "food_name": "rockfish cooked",
-    "protein": 33.1,
-    "carbs": 0.0,
-    "fat": 2.4,
-    "calories": 162
-  },
-  {
-    "food_name": "seatrout cooked",
-    "protein": 39.9,
-    "carbs": 0.0,
-    "fat": 8.6,
-    "calories": 247
-  },
-  {
-    "food_name": "sockeye salmon raw",
-    "protein": 84.4,
-    "carbs": 0.0,
-    "fat": 22.2,
-    "calories": 562
-  },
-  {
-    "food_name": "swordfish cooked",
-    "protein": 24.9,
-    "carbs": 0.0,
-    "fat": 8.4,
-    "calories": 182
-  },
-  {
-    "food_name": "salmon canned",
-    "protein": 79.1,
-    "carbs": 0.0,
-    "fat": 20.3,
-    "calories": 520
-  },
-  {
-    "food_name": "sardines in tomato sauce canned",
-    "protein": 18.6,
-    "carbs": 0.5,
-    "fat": 9.3,
-    "calories": 165
-  },
-  {
-    "food_name": "sockeye salmon canned",
-    "protein": 79.5,
-    "carbs": 0.0,
-    "fat": 24.9,
-    "calories": 563
-  },
-  {
-    "food_name": "tuna canned",
-    "protein": 18.9,
-    "carbs": 0.0,
-    "fat": 2.4,
-    "calories": 102
-  },
-  {
-    "food_name": "pink salmon canned",
-    "protein": 80.9,
-    "carbs": 0.0,
-    "fat": 20.4,
-    "calories": 530
-  },
-  {
-    "food_name": "eastern oyster canned",
-    "protein": 11.4,
-    "carbs": 6.3,
-    "fat": 4.0,
-    "calories": 110
-  },
-  {
-    "food_name": "chum salmon canned",
-    "protein": 79.1,
-    "carbs": 0.0,
-    "fat": 20.3,
-    "calories": 520
-  },
-  {
-    "food_name": "tuna canned in oil",
-    "protein": 47.2,
-    "carbs": 0.0,
-    "fat": 14.4,
-    "calories": 331
-  },
-  {
-    "food_name": "wild pink salmon oceans",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 16.0,
-    "calories": 320
-  },
-  {
-    "food_name": "shrimp canned",
-    "protein": 26.1,
-    "carbs": 0.0,
-    "fat": 1.7,
-    "calories": 128
-  },
-  {
-    "food_name": "alaska king crab raw",
-    "protein": 31.5,
-    "carbs": 0.0,
-    "fat": 1.0,
-    "calories": 144
-  },
-  {
-    "food_name": "shrimp cooked",
-    "protein": 1.3,
-    "carbs": 0.013,
-    "fat": 0.092,
-    "calories": 7
-  },
-  {
-    "food_name": "alaska king crab cooked",
-    "protein": 25.9,
-    "carbs": 0.0,
-    "fat": 2.1,
-    "calories": 130
-  },
-  {
-    "food_name": "oyster raw",
-    "protein": 4.7,
-    "carbs": 2.5,
-    "fat": 1.2,
-    "calories": 41
-  },
-  {
-    "food_name": "queen crab raw",
-    "protein": 5.2,
-    "carbs": 0.0,
-    "fat": 0.3,
-    "calories": 25
-  },
-  {
-    "food_name": "oyster cooked",
-    "protein": 4.7,
-    "carbs": 2.5,
-    "fat": 1.2,
-    "calories": 41
-  },
-  {
-    "food_name": "eastern oyster cooked",
-    "protein": 0.7,
-    "carbs": 0.7,
-    "fat": 0.2,
-    "calories": 8
-  },
-  {
-    "food_name": "spiny lobster cooked",
-    "protein": 43.0,
-    "carbs": 5.1,
-    "fat": 3.2,
-    "calories": 233
-  },
-  {
-    "food_name": "queen crab cooked",
-    "protein": 20.2,
-    "carbs": 0.0,
-    "fat": 1.3,
-    "calories": 98
-  },
-  {
-    "food_name": "dungeness crab cooked",
-    "protein": 28.3,
-    "carbs": 1.2,
-    "fat": 1.6,
-    "calories": 140
-  },
-  {
-    "food_name": "dungeness crab raw",
-    "protein": 28.4,
-    "carbs": 1.2,
-    "fat": 1.6,
-    "calories": 140
-  },
-  {
-    "food_name": "shrimp fried",
-    "protein": 1.3,
-    "carbs": 4.8,
-    "fat": 3.2,
-    "calories": 52
-  },
-  {
-    "food_name": "shrimp raw",
-    "protein": 0.7,
-    "carbs": 0.041,
-    "fat": 0.023,
-    "calories": 4
-  },
-  {
-    "food_name": "blue crab cooked",
-    "protein": 15.2,
-    "carbs": 0.0,
-    "fat": 0.6,
-    "calories": 71
-  },
-  {
-    "food_name": "shrimp imitation",
-    "protein": 3.5,
-    "carbs": 2.6,
-    "fat": 0.4,
-    "calories": 29
-  },
-  {
-    "food_name": "lobster raw",
-    "protein": 24.8,
-    "carbs": 0.0,
-    "fat": 1.1,
-    "calories": 116
-  },
-  {
-    "food_name": "blue crab raw",
-    "protein": 3.8,
-    "carbs": 0.018,
-    "fat": 0.2,
-    "calories": 18
-  },
-  {
-    "food_name": "spiny lobster raw",
-    "protein": 43.1,
-    "carbs": 5.1,
-    "fat": 3.2,
-    "calories": 234
-  },
-  {
-    "food_name": "lobster cooked",
-    "protein": 28.5,
-    "carbs": 0.0,
-    "fat": 1.3,
-    "calories": 134
-  },
-  {
-    "food_name": "eastern oyster fried",
-    "protein": 1.3,
-    "carbs": 1.7,
-    "fat": 1.8,
-    "calories": 29
-  },
-  {
-    "food_name": "eastern oyster raw",
-    "protein": 0.7,
-    "carbs": 0.8,
-    "fat": 0.2,
-    "calories": 8
-  },
-  {
-    "food_name": "oyster fried",
-    "protein": 2.1,
-    "carbs": 6.7,
-    "fat": 3.0,
-    "calories": 61
-  },
-  {
-    "food_name": "chinook salmon smoked",
-    "protein": 24.9,
-    "carbs": 0.0,
-    "fat": 5.9,
-    "calories": 159
-  },
-  {
-    "food_name": "whitefish smoked",
-    "protein": 31.8,
-    "carbs": 0.0,
-    "fat": 1.3,
-    "calories": 147
-  },
-  {
-    "food_name": "red salmon sockeye filets smoked",
-    "protein": 65.5,
-    "carbs": 0.0,
-    "fat": 12.3,
-    "calories": 373
-  },
-  {
-    "food_name": "coffee liqueur",
-    "protein": 0.041,
-    "carbs": 13.8,
-    "fat": 0.038,
-    "calories": 96
-  },
-  {
-    "food_name": "rice sake",
-    "protein": 0.7,
-    "carbs": 7.4,
-    "fat": 0.0,
-    "calories": 197
-  },
-  {
-    "food_name": "chocolate frosting",
-    "protein": 0.2,
-    "carbs": 13.0,
-    "fat": 3.6,
-    "calories": 81
-  },
-  {
-    "food_name": "baking chocolate",
-    "protein": 3.7,
-    "carbs": 8.7,
-    "fat": 15.2,
-    "calories": 145
-  },
-  {
-    "food_name": "pineapple topping",
-    "protein": 0.3,
-    "carbs": 225.8,
-    "fat": 0.3,
-    "calories": 860
-  },
-  {
-    "food_name": "almond paste",
-    "protein": 20.4,
-    "carbs": 108.5,
-    "fat": 63.0,
-    "calories": 1040
-  },
-  {
-    "food_name": "cream of tartar",
-    "protein": 0.0,
-    "carbs": 1.8,
-    "fat": 0.0,
-    "calories": 8
-  },
-  {
-    "food_name": "tapioca pearls",
-    "protein": 0.3,
-    "carbs": 134.8,
-    "fat": 0.093,
-    "calories": 544
-  },
-  {
-    "food_name": "millet flour",
-    "protein": 12.8,
-    "carbs": 86.9,
-    "fat": 5.1,
-    "calories": 444
-  },
-  {
-    "food_name": "triticale flour",
-    "protein": 17.1,
-    "carbs": 95.1,
-    "fat": 2.4,
-    "calories": 439
-  },
-  {
-    "food_name": "corn flour white",
-    "protein": 9.6,
-    "carbs": 87.3,
-    "fat": 4.2,
-    "calories": 414
-  },
-  {
-    "food_name": "rice flour brown",
-    "protein": 11.4,
-    "carbs": 120.8,
-    "fat": 4.4,
-    "calories": 574
-  },
-  {
-    "food_name": "sorghum flour",
-    "protein": 9.5,
-    "carbs": 93.7,
-    "fat": 4.0,
-    "calories": 437
-  },
-  {
-    "food_name": "cornmeal whole grain",
-    "protein": 9.9,
-    "carbs": 93.8,
-    "fat": 4.4,
-    "calories": 442
-  },
-  {
-    "food_name": "cornmeal white",
-    "protein": 11.2,
-    "carbs": 124.7,
-    "fat": 2.7,
-    "calories": 581
-  },
-  {
-    "food_name": "barley flour",
-    "protein": 15.5,
-    "carbs": 110.3,
-    "fat": 2.4,
-    "calories": 511
-  },
-  {
-    "food_name": "sesame flour",
-    "protein": 38.5,
-    "carbs": 33.3,
-    "fat": 46.4,
-    "calories": 658
-  },
-  {
-    "food_name": "whole grain wheat flour",
-    "protein": 15.9,
-    "carbs": 86.4,
-    "fat": 3.0,
-    "calories": 408
-  },
-  {
-    "food_name": "corn flour yellow",
-    "protein": 8.1,
-    "carbs": 89.9,
-    "fat": 4.5,
-    "calories": 422
-  },
-  {
-    "food_name": "corn flour whole grain",
-    "protein": 8.1,
-    "carbs": 89.9,
-    "fat": 4.5,
-    "calories": 422
-  },
-  {
-    "food_name": "cottonseed flour low fat",
-    "protein": 14.1,
-    "carbs": 10.2,
-    "fat": 0.4,
-    "calories": 94
-  },
-  {
-    "food_name": "sunflower seed flour",
-    "protein": 1.9,
-    "carbs": 1.4,
-    "fat": 0.013,
-    "calories": 13
-  },
-  {
-    "food_name": "acorn flour",
-    "protein": 9.4,
-    "carbs": 68.3,
-    "fat": 37.7,
-    "calories": 626
-  },
-  {
-    "food_name": "rice flour white",
-    "protein": 9.4,
-    "carbs": 126.6,
-    "fat": 2.2,
-    "calories": 578
-  },
-  {
-    "food_name": "sesame flour low fat",
-    "protein": 14.2,
-    "carbs": 10.0,
-    "fat": 0.5,
-    "calories": 94
-  },
-  {
-    "food_name": "potato flour",
-    "protein": 11.0,
-    "carbs": 133.0,
-    "fat": 0.5,
-    "calories": 571
-  },
-  {
-    "food_name": "cornmeal yellow",
-    "protein": 11.2,
-    "carbs": 124.7,
-    "fat": 2.7,
-    "calories": 581
-  },
-  {
-    "food_name": "rye flour",
-    "protein": 10.0,
-    "carbs": 78.2,
-    "fat": 1.4,
-    "calories": 364
-  },
-  {
-    "food_name": "arrowroot flour",
-    "protein": 0.4,
-    "carbs": 112.8,
-    "fat": 0.1,
-    "calories": 457
-  },
-  {
-    "food_name": "chickpea flour",
-    "protein": 20.6,
-    "carbs": 53.2,
-    "fat": 6.2,
-    "calories": 356
-  },
-  {
-    "food_name": "wheat flour",
-    "protein": 12.9,
-    "carbs": 95.4,
-    "fat": 1.2,
-    "calories": 455
-  },
-  {
-    "food_name": "cornstarch",
-    "protein": 0.3,
-    "carbs": 116.8,
-    "fat": 0.03,
-    "calories": 488
-  },
-  {
-    "food_name": "carob flour",
-    "protein": 0.3,
-    "carbs": 5.3,
-    "fat": 0.061,
-    "calories": 13
-  },
-  {
-    "food_name": "buckwheat flour",
-    "protein": 15.1,
-    "carbs": 84.7,
-    "fat": 3.7,
-    "calories": 402
-  },
-  {
-    "food_name": "pecan pie",
-    "protein": 6.0,
-    "carbs": 63.7,
-    "fat": 27.1,
-    "calories": 503
-  },
-  {
-    "food_name": "apple pie",
-    "protein": 3.0,
-    "carbs": 46.4,
-    "fat": 15.6,
-    "calories": 331
-  },
-  {
-    "food_name": "chocolate pie crust",
-    "protein": 11.1,
-    "carbs": 117.4,
-    "fat": 40.8,
-    "calories": 881
-  },
-  {
-    "food_name": "apple strudel",
-    "protein": 2.3,
-    "carbs": 29.2,
-    "fat": 8.0,
-    "calories": 195
-  },
-  {
-    "food_name": "chocolate snack cake",
-    "protein": 1.8,
-    "carbs": 30.2,
-    "fat": 8.0,
-    "calories": 200
-  },
-  {
-    "food_name": "corn cake",
-    "protein": 0.7,
-    "carbs": 7.5,
-    "fat": 0.2,
-    "calories": 35
-  },
-  {
-    "food_name": "sponge snack cake",
-    "protein": 1.5,
-    "carbs": 26.9,
-    "fat": 4.8,
-    "calories": 157
-  },
-  {
-    "food_name": "chocolate cream pie",
-    "protein": 2.6,
-    "carbs": 33.3,
-    "fat": 19.2,
-    "calories": 301
-  },
-  {
-    "food_name": "angel food cake",
-    "protein": 1.7,
-    "carbs": 16.2,
-    "fat": 0.2,
-    "calories": 72
-  },
-  {
-    "food_name": "cinnamon coffeecake",
-    "protein": 3.9,
-    "carbs": 26.6,
-    "fat": 13.3,
-    "calories": 238
-  },
-  {
-    "food_name": "cheesecake",
-    "protein": 4.4,
-    "carbs": 20.4,
-    "fat": 18.0,
-    "calories": 257
-  },
-  {
-    "food_name": "fruitcake",
-    "protein": 1.2,
-    "carbs": 26.5,
-    "fat": 3.9,
-    "calories": 139
-  },
-  {
-    "food_name": "egg custard",
-    "protein": 14.2,
-    "carbs": 31.0,
-    "fat": 12.9,
-    "calories": 293
-  },
-  {
-    "food_name": "yellow cake with chocolate frosting",
-    "protein": 4.6,
-    "carbs": 79.7,
-    "fat": 25.6,
-    "calories": 546
-  },
-  {
-    "food_name": "white cake with coconut frosting",
-    "protein": 4.9,
-    "carbs": 70.8,
-    "fat": 11.5,
-    "calories": 399
-  },
-  {
-    "food_name": "danish pastry with cheese",
-    "protein": 5.8,
-    "carbs": 28.7,
-    "fat": 24.6,
-    "calories": 353
-  },
-  {
-    "food_name": "yellow cake with vanilla frosting",
-    "protein": 2.2,
-    "carbs": 37.6,
-    "fat": 9.3,
-    "calories": 239
-  },
-  {
-    "food_name": "chocolate cake with chocolate frosting",
-    "protein": 4.8,
-    "carbs": 72.9,
-    "fat": 27.7,
-    "calories": 537
-  },
-  {
-    "food_name": "cheese coffeecake",
-    "protein": 5.3,
-    "carbs": 33.7,
-    "fat": 11.6,
-    "calories": 258
-  },
-  {
-    "food_name": "vanilla cream pie",
-    "protein": 6.0,
-    "carbs": 41.1,
-    "fat": 18.1,
-    "calories": 350
-  },
-  {
-    "food_name": "pineapple cake",
-    "protein": 4.0,
-    "carbs": 58.1,
-    "fat": 13.9,
-    "calories": 367
-  },
-  {
-    "food_name": "peach pie",
-    "protein": 2.2,
-    "carbs": 38.5,
-    "fat": 11.7,
-    "calories": 262
-  },
-  {
-    "food_name": "fruit coffeecake",
-    "protein": 2.6,
-    "carbs": 25.8,
-    "fat": 5.1,
-    "calories": 156
-  },
-  {
-    "food_name": "pound cake",
-    "protein": 1.7,
-    "carbs": 14.6,
-    "fat": 6.0,
-    "calories": 116
-  },
-  {
-    "food_name": "pound cake bread",
-    "protein": 3.9,
-    "carbs": 28.2,
-    "fat": 9.6,
-    "calories": 215
-  },
-  {
-    "food_name": "white cake",
-    "protein": 4.0,
-    "carbs": 42.3,
-    "fat": 9.2,
-    "calories": 264
-  },
-  {
-    "food_name": "coffeecake with chocolate frosting",
-    "protein": 4.5,
-    "carbs": 48.4,
-    "fat": 9.7,
-    "calories": 298
-  },
-  {
-    "food_name": "popcorn cake",
-    "protein": 1.0,
-    "carbs": 8.0,
-    "fat": 0.3,
-    "calories": 38
-  },
-  {
-    "food_name": "banana cream pie",
-    "protein": 52.2,
-    "carbs": 390.2,
-    "fat": 161.3,
-    "calories": 3190
-  },
-  {
-    "food_name": "baked apple pie mcdonalds",
-    "protein": 0.9,
-    "carbs": 12.3,
-    "fat": 4.4,
-    "calories": 91
-  },
-  {
-    "food_name": "sponge cake",
-    "protein": 4.6,
-    "carbs": 36.4,
-    "fat": 2.7,
-    "calories": 187
-  },
-  {
-    "food_name": "yellow cake",
-    "protein": 3.6,
-    "carbs": 36.0,
-    "fat": 9.9,
-    "calories": 245
-  },
-  {
-    "food_name": "shortcake",
-    "protein": 1.7,
-    "carbs": 13.7,
-    "fat": 4.0,
-    "calories": 98
-  },
-  {
-    "food_name": "dutch apple pie",
-    "protein": 3.0,
-    "carbs": 61.0,
-    "fat": 15.8,
-    "calories": 397
-  },
-  {
-    "food_name": "chocolate cake",
-    "protein": 5.0,
-    "carbs": 50.7,
-    "fat": 14.3,
-    "calories": 352
-  },
-  {
-    "food_name": "sugar apple",
-    "protein": 1.6,
-    "carbs": 18.2,
-    "fat": 0.2,
-    "calories": 72
-  },
-  {
-    "food_name": "peanuts chocolate coated",
-    "protein": 0.5,
-    "carbs": 2.0,
-    "fat": 1.3,
-    "calories": 21
-  },
-  {
-    "food_name": "caramel with nuts chocolate coated",
-    "protein": 1.3,
-    "carbs": 8.5,
-    "fat": 2.9,
-    "calories": 66
-  },
-  {
-    "food_name": "gingerbread",
-    "protein": 2.9,
-    "carbs": 36.4,
-    "fat": 12.1,
-    "calories": 263
-  },
-  {
-    "food_name": "fruit juice bar",
-    "protein": 0.9,
-    "carbs": 15.6,
-    "fat": 0.089,
-    "calories": 67
-  },
-  {
-    "food_name": "peanut brittle",
-    "protein": 2.1,
-    "carbs": 20.2,
-    "fat": 5.4,
-    "calories": 138
-  },
-  {
-    "food_name": "butterscotch",
-    "protein": 0.079,
-    "carbs": 4.8,
-    "fat": 0.2,
-    "calories": 21
-  },
-  {
-    "food_name": "chocolate coffee beans",
-    "protein": 2.1,
-    "carbs": 15.6,
-    "fat": 9.4,
-    "calories": 155
-  },
-  {
-    "food_name": "nougat with almonds",
-    "protein": 0.5,
-    "carbs": 12.9,
-    "fat": 0.2,
-    "calories": 56
-  },
-  {
-    "food_name": "peanut butter fudge",
-    "protein": 0.6,
-    "carbs": 12.4,
-    "fat": 1.1,
-    "calories": 62
-  },
-  {
-    "food_name": "sugar coated almonds",
-    "protein": 0.4,
-    "carbs": 2.4,
-    "fat": 0.6,
-    "calories": 17
-  },
-  {
-    "food_name": "chocolate coated marshmallow",
-    "protein": 1.1,
-    "carbs": 19.0,
-    "fat": 4.7,
-    "calories": 118
-  },
-  {
-    "food_name": "raisins chocolate coated",
-    "protein": 4.1,
-    "carbs": 68.4,
-    "fat": 14.8,
-    "calories": 390
-  },
-  {
-    "food_name": "chocolate syrup",
-    "protein": 0.8,
-    "carbs": 25.4,
-    "fat": 0.4,
-    "calories": 109
-  },
-  {
-    "food_name": "chocolate fudge syrup",
-    "protein": 0.9,
-    "carbs": 12.0,
-    "fat": 1.7,
-    "calories": 67
-  },
-  {
-    "food_name": "m ms milk chocolate mars",
-    "protein": 1.8,
-    "carbs": 29.9,
-    "fat": 8.9,
-    "calories": 207
-  },
-  {
-    "food_name": "milk chocolate with almonds",
-    "protein": 3.7,
-    "carbs": 21.9,
-    "fat": 14.1,
-    "calories": 216
-  },
-  {
-    "food_name": "chocolate fudge",
-    "protein": 0.4,
-    "carbs": 13.0,
-    "fat": 1.8,
-    "calories": 70
-  },
-  {
-    "food_name": "milk chocolate with rice cereal",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 0.0,
-    "calories": 0
-  },
-  {
-    "food_name": "m ms peanut chocolate mars",
-    "protein": 1.7,
-    "carbs": 10.9,
-    "fat": 4.7,
-    "calories": 93
-  },
-  {
-    "food_name": "dark chocolate",
-    "protein": 1.5,
-    "carbs": 18.0,
-    "fat": 9.7,
-    "calories": 165
-  },
-  {
-    "food_name": "chocolate semisweet",
-    "protein": 7.1,
-    "carbs": 107.4,
-    "fat": 50.4,
-    "calories": 806
-  },
-  {
-    "food_name": "milk chocolate",
-    "protein": 0.5,
-    "carbs": 4.2,
-    "fat": 2.1,
-    "calories": 37
-  },
-  {
-    "food_name": "white chocolate",
-    "protein": 1.8,
-    "carbs": 17.8,
-    "fat": 9.6,
-    "calories": 162
-  },
-  {
-    "food_name": "chocolate",
-    "protein": 1.6,
-    "carbs": 24.8,
-    "fat": 14.0,
-    "calories": 208
-  },
-  {
-    "food_name": "milky way mars",
-    "protein": 2.3,
-    "carbs": 41.3,
-    "fat": 10.0,
-    "calories": 264
-  },
-  {
-    "food_name": "jellybeans",
-    "protein": 0.0,
-    "carbs": 1.0,
-    "fat": 0.043,
-    "calories": 4
-  },
-  {
-    "food_name": "wheat germ toasted",
-    "protein": 8.7,
-    "carbs": 14.9,
-    "fat": 3.2,
-    "calories": 115
-  },
-  {
-    "food_name": "crispy brown rice",
-    "protein": 2.3,
-    "carbs": 27.5,
-    "fat": 1.1,
-    "calories": 124
-  },
-  {
-    "food_name": "barley raw",
-    "protein": 1.2,
-    "carbs": 9.3,
-    "fat": 0.1,
-    "calories": 42
-  },
-  {
-    "food_name": "rice bran",
-    "protein": 15.8,
-    "carbs": 58.6,
-    "fat": 24.6,
-    "calories": 373
-  },
-  {
-    "food_name": "chaptti roti indian bread",
-    "protein": 7.0,
-    "carbs": 0.089,
-    "fat": 2.5,
-    "calories": 491
-  },
-  {
-    "food_name": "quinoa cooked",
-    "protein": 8.1,
-    "carbs": 39.4,
-    "fat": 3.6,
-    "calories": 222
-  },
-  {
-    "food_name": "buckwheat cooked",
-    "protein": 5.7,
-    "carbs": 33.5,
-    "fat": 1.0,
-    "calories": 155
-  },
-  {
-    "food_name": "millet puffed",
-    "protein": 2.7,
-    "carbs": 16.8,
-    "fat": 0.7,
-    "calories": 74
-  },
-  {
-    "food_name": "popcorn oil popped",
-    "protein": 0.8,
-    "carbs": 5.0,
-    "fat": 4.8,
-    "calories": 64
-  },
-  {
-    "food_name": "wheat bran",
-    "protein": 9.0,
-    "carbs": 37.4,
-    "fat": 2.5,
-    "calories": 125
-  },
-  {
-    "food_name": "cheese popcorn",
-    "protein": 1.0,
-    "carbs": 5.7,
-    "fat": 3.7,
-    "calories": 58
-  },
-  {
-    "food_name": "popcorn air popped",
-    "protein": 1.0,
-    "carbs": 6.2,
-    "fat": 0.4,
-    "calories": 31
-  },
-  {
-    "food_name": "millet raw",
-    "protein": 22.0,
-    "carbs": 145.7,
-    "fat": 8.4,
-    "calories": 756
-  },
-  {
-    "food_name": "popcorn unpopped",
-    "protein": 3.1,
-    "carbs": 20.9,
-    "fat": 1.2,
-    "calories": 106
-  },
-  {
-    "food_name": "whole wheat cooked",
-    "protein": 4.8,
-    "carbs": 33.2,
-    "fat": 1.0,
-    "calories": 150
-  },
-  {
-    "food_name": "wheat sprouted",
-    "protein": 8.1,
-    "carbs": 45.9,
-    "fat": 1.4,
-    "calories": 214
-  },
-  {
-    "food_name": "whole wheat dry",
-    "protein": 3.1,
-    "carbs": 21.1,
-    "fat": 0.6,
-    "calories": 96
-  },
-  {
-    "food_name": "caramel popcorn",
-    "protein": 1.1,
-    "carbs": 22.4,
-    "fat": 3.6,
-    "calories": 122
-  },
-  {
-    "food_name": "wheat puffed",
-    "protein": 1.8,
-    "carbs": 9.6,
-    "fat": 0.1,
-    "calories": 44
-  },
-  {
-    "food_name": "wheat germ",
-    "protein": 7.2,
-    "carbs": 16.1,
-    "fat": 3.0,
-    "calories": 112
-  },
-  {
-    "food_name": "microwave popcorn",
-    "protein": 7.3,
-    "carbs": 49.8,
-    "fat": 26.3,
-    "calories": 465
-  },
-  {
-    "food_name": "millet cooked",
-    "protein": 6.1,
-    "carbs": 41.2,
-    "fat": 1.7,
-    "calories": 207
-  },
-  {
-    "food_name": "wheat durum",
-    "protein": 26.3,
-    "carbs": 136.6,
-    "fat": 4.7,
-    "calories": 651
-  },
-  {
-    "food_name": "white wheat",
-    "protein": 21.7,
-    "carbs": 145.7,
-    "fat": 3.3,
-    "calories": 657
-  },
-  {
-    "food_name": "buckwheat raw",
-    "protein": 1.6,
-    "carbs": 8.6,
-    "fat": 0.4,
-    "calories": 41
-  },
-  {
-    "food_name": "barley cooked",
-    "protein": 3.5,
-    "carbs": 44.3,
-    "fat": 0.7,
-    "calories": 193
-  },
-  {
-    "food_name": "oats",
-    "protein": 1.7,
-    "carbs": 6.6,
-    "fat": 0.7,
-    "calories": 39
-  },
-  {
-    "food_name": "quinoa dry",
-    "protein": 8.5,
-    "carbs": 38.5,
-    "fat": 3.6,
-    "calories": 221
-  },
-  {
-    "food_name": "wheat shredded",
-    "protein": 5.2,
-    "carbs": 36.2,
-    "fat": 1.0,
-    "calories": 155
-  },
-  {
-    "food_name": "peanut granola bar",
-    "protein": 2.4,
-    "carbs": 15.0,
-    "fat": 5.7,
-    "calories": 116
-  },
-  {
-    "food_name": "almond granola bar",
-    "protein": 1.8,
-    "carbs": 14.9,
-    "fat": 6.1,
-    "calories": 119
-  },
-  {
-    "food_name": "chocolate chip granola bar",
-    "protein": 1.8,
-    "carbs": 17.3,
-    "fat": 3.9,
-    "calories": 105
-  },
-  {
-    "food_name": "peanut bar",
-    "protein": 6.2,
-    "carbs": 19.0,
-    "fat": 13.5,
-    "calories": 209
-  },
-  {
-    "food_name": "milk cereal bar",
-    "protein": 1.6,
-    "carbs": 18.0,
-    "fat": 2.7,
-    "calories": 103
-  },
-  {
-    "food_name": "almond rice bar",
-    "protein": 2.0,
-    "carbs": 18.1,
-    "fat": 5.7,
-    "calories": 128
-  },
-  {
-    "food_name": "rice wheat cereal bar",
-    "protein": 2.0,
-    "carbs": 16.0,
-    "fat": 2.0,
-    "calories": 90
-  },
-  {
-    "food_name": "crisped rice bar",
-    "protein": 1.4,
-    "carbs": 20.4,
-    "fat": 3.8,
-    "calories": 113
-  },
-  {
-    "food_name": "brown rice raw",
-    "protein": 14.7,
-    "carbs": 142.9,
-    "fat": 5.4,
-    "calories": 685
-  },
-  {
-    "food_name": "rice pilaf cooked",
-    "protein": 7.0,
-    "carbs": 61.1,
-    "fat": 8.8,
-    "calories": 352
-  },
-  {
-    "food_name": "beef flavored rice raw",
-    "protein": 19.8,
-    "carbs": 139.1,
-    "fat": 2.3,
-    "calories": 657
-  },
-  {
-    "food_name": "wild rice cooked",
-    "protein": 6.5,
-    "carbs": 35.0,
-    "fat": 0.6,
-    "calories": 166
-  },
-  {
-    "food_name": "wild rice raw",
-    "protein": 23.6,
-    "carbs": 119.8,
-    "fat": 1.7,
-    "calories": 571
-  },
-  {
-    "food_name": "congee with pork shrimp and squid plus egg",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 0.3,
-    "calories": 178
-  },
-  {
-    "food_name": "white rice pasta cooked",
-    "protein": 5.1,
-    "carbs": 43.3,
-    "fat": 5.7,
-    "calories": 246
-  },
-  {
-    "food_name": "chicken flavored rice raw",
-    "protein": 17.9,
-    "carbs": 127.3,
-    "fat": 2.2,
-    "calories": 601
-  },
-  {
-    "food_name": "instant white rice raw",
-    "protein": 7.4,
-    "carbs": 78.2,
-    "fat": 0.9,
-    "calories": 361
-  },
-  {
-    "food_name": "rice crisps",
-    "protein": 1.8,
-    "carbs": 24.1,
-    "fat": 0.4,
-    "calories": 107
-  },
-  {
-    "food_name": "parboiled white rice raw",
-    "protein": 13.9,
-    "carbs": 149.6,
-    "fat": 1.9,
-    "calories": 692
-  },
-  {
-    "food_name": "instant white rice cooked",
-    "protein": 3.6,
-    "carbs": 41.4,
-    "fat": 0.8,
-    "calories": 193
-  },
-  {
-    "food_name": "rice pilaf raw",
-    "protein": 21.3,
-    "carbs": 155.7,
-    "fat": 2.8,
-    "calories": 732
-  },
-  {
-    "food_name": "rice cracker cake",
-    "protein": 2.0,
-    "carbs": 23.0,
-    "fat": 1.2,
-    "calories": 111
-  },
-  {
-    "food_name": "parboiled white rice cooked",
-    "protein": 4.6,
-    "carbs": 41.2,
-    "fat": 0.6,
-    "calories": 194
-  },
-  {
-    "food_name": "white rice steamed",
-    "protein": 4.2,
-    "carbs": 44.7,
-    "fat": 0.4,
-    "calories": 199
-  },
-  {
-    "food_name": "brown rice cake",
-    "protein": 0.7,
-    "carbs": 7.3,
-    "fat": 0.3,
-    "calories": 35
-  },
-  {
-    "food_name": "glutinous white rice raw",
-    "protein": 12.6,
-    "carbs": 151.1,
-    "fat": 1.0,
-    "calories": 685
-  },
-  {
-    "food_name": "white rice pasta raw",
-    "protein": 15.3,
-    "carbs": 122.8,
-    "fat": 4.0,
-    "calories": 600
-  },
-  {
-    "food_name": "glutinous white rice cooked",
-    "protein": 3.5,
-    "carbs": 36.7,
-    "fat": 0.3,
-    "calories": 169
-  },
-  {
-    "food_name": "brown rice cooked",
-    "protein": 4.5,
-    "carbs": 45.8,
-    "fat": 1.6,
-    "calories": 218
-  },
-  {
-    "food_name": "beef flavored rice cooked",
-    "protein": 7.0,
-    "carbs": 54.4,
-    "fat": 7.9,
-    "calories": 319
-  },
-  {
-    "food_name": "white rice cooked",
-    "protein": 4.3,
-    "carbs": 44.5,
-    "fat": 0.4,
-    "calories": 205
-  },
-  {
-    "food_name": "chicken flavored rice cooked",
-    "protein": 6.2,
-    "carbs": 54.8,
-    "fat": 8.0,
-    "calories": 317
-  },
-  {
-    "food_name": "white rice raw",
-    "protein": 13.2,
-    "carbs": 147.9,
-    "fat": 1.2,
-    "calories": 675
-  },
-  {
-    "food_name": "cheese imitation",
-    "protein": 28.3,
-    "carbs": 1.1,
-    "fat": 36.2,
-    "calories": 441
-  },
-  {
-    "food_name": "cheshire cheese",
-    "protein": 6.6,
-    "carbs": 1.4,
-    "fat": 8.7,
-    "calories": 110
-  },
-  {
-    "food_name": "monterey cheese",
-    "protein": 27.7,
-    "carbs": 0.8,
-    "fat": 34.2,
-    "calories": 421
-  },
-  {
-    "food_name": "edam cheese",
-    "protein": 7.5,
-    "carbs": 0.4,
-    "fat": 8.3,
-    "calories": 107
-  },
-  {
-    "food_name": "fontina cheese",
-    "protein": 27.6,
-    "carbs": 1.7,
-    "fat": 33.6,
-    "calories": 420
-  },
-  {
-    "food_name": "monterey cheese low fat",
-    "protein": 31.9,
-    "carbs": 0.8,
-    "fat": 24.4,
-    "calories": 350
-  },
-  {
-    "food_name": "colby cheese",
-    "protein": 26.8,
-    "carbs": 2.9,
-    "fat": 36.3,
-    "calories": 445
-  },
-  {
-    "food_name": "american cheese",
-    "protein": 4.5,
-    "carbs": 0.9,
-    "fat": 7.9,
-    "calories": 93
-  },
-  {
-    "food_name": "blue cheese",
-    "protein": 6.4,
-    "carbs": 0.7,
-    "fat": 8.6,
-    "calories": 106
-  },
-  {
-    "food_name": "prickly pear raw",
-    "protein": 0.001,
-    "carbs": 1.9,
-    "fat": 0.072,
-    "calories": 8
-  },
-  {
-    "food_name": "pineapple",
-    "protein": 0.5,
-    "carbs": 11.8,
-    "fat": 0.1,
-    "calories": 45
-  },
-  {
-    "food_name": "muscadine grapes",
-    "protein": 0.014,
-    "carbs": 0.8,
-    "fat": 0.056,
-    "calories": 3
-  },
-  {
-    "food_name": "banana",
-    "protein": 1.6,
-    "carbs": 34.3,
-    "fat": 0.5,
-    "calories": 134
-  },
-  {
-    "food_name": "orange",
-    "protein": 1.7,
-    "carbs": 21.6,
-    "fat": 0.2,
-    "calories": 86
-  },
-  {
-    "food_name": "bartlett pear",
-    "protein": 0.7,
-    "carbs": 26.6,
-    "fat": 0.3,
-    "calories": 112
-  },
-  {
-    "food_name": "applesauce",
-    "protein": 0.4,
-    "carbs": 27.5,
-    "fat": 0.2,
-    "calories": 102
-  },
-  {
-    "food_name": "american grapes",
-    "protein": 0.035,
-    "carbs": 0.4,
-    "fat": 0.087,
-    "calories": 2
-  },
-  {
-    "food_name": "peach",
-    "protein": 1.4,
-    "carbs": 14.3,
-    "fat": 0.4,
-    "calories": 59
-  },
-  {
-    "food_name": "asian pear",
-    "protein": 0.6,
-    "carbs": 13.0,
-    "fat": 0.3,
-    "calories": 51
-  },
-  {
-    "food_name": "fruit walnut salad mcdonalds",
-    "protein": 4.8,
-    "carbs": 43.8,
-    "fat": 13.3,
-    "calories": 312
-  },
-  {
-    "food_name": "grapefruit",
-    "protein": 1.0,
-    "carbs": 13.3,
-    "fat": 0.2,
-    "calories": 53
-  },
-  {
-    "food_name": "japanese persimmon",
-    "protein": 1.0,
-    "carbs": 31.2,
-    "fat": 0.3,
-    "calories": 118
-  },
-  {
-    "food_name": "pink lady apple",
-    "protein": 0.1,
-    "carbs": 3.9,
-    "fat": 0.1,
-    "calories": 18
-  },
-  {
-    "food_name": "crab apple",
-    "protein": 0.4,
-    "carbs": 21.9,
-    "fat": 0.3,
-    "calories": 84
-  },
-  {
-    "food_name": "apple",
-    "protein": 0.5,
-    "carbs": 25.1,
-    "fat": 0.3,
-    "calories": 95
-  },
-  {
-    "food_name": "prickly pear cooked",
-    "protein": 0.091,
-    "carbs": 1.6,
-    "fat": 0.043,
-    "calories": 7
-  },
-  {
-    "food_name": "japanese persimmon dried",
-    "protein": 0.5,
-    "carbs": 25.0,
-    "fat": 0.2,
-    "calories": 93
-  },
-  {
-    "food_name": "orange peel",
-    "protein": 0.093,
-    "carbs": 1.5,
-    "fat": 0.017,
-    "calories": 6
-  },
-  {
-    "food_name": "breadfruit",
-    "protein": 2.4,
-    "carbs": 59.7,
-    "fat": 0.5,
-    "calories": 227
-  },
-  {
-    "food_name": "pear",
-    "protein": 0.6,
-    "carbs": 27.1,
-    "fat": 0.2,
-    "calories": 101
-  },
-  {
-    "food_name": "apple dippers mcdonalds",
-    "protein": 0.0,
-    "carbs": 8.2,
-    "fat": 0.0,
-    "calories": 33
-  },
-  {
-    "food_name": "white grapefruit",
-    "protein": 1.6,
-    "carbs": 19.8,
-    "fat": 0.2,
-    "calories": 78
-  },
-  {
-    "food_name": "golden delicious apple",
-    "protein": 0.3,
-    "carbs": 14.8,
-    "fat": 0.2,
-    "calories": 62
-  },
-  {
-    "food_name": "orange with peel",
-    "protein": 2.1,
-    "carbs": 24.6,
-    "fat": 0.5,
-    "calories": 100
-  },
-  {
-    "food_name": "mango",
-    "protein": 2.8,
-    "carbs": 50.3,
-    "fat": 1.3,
-    "calories": 202
-  },
-  {
-    "food_name": "persimmon",
-    "protein": 0.2,
-    "carbs": 8.4,
-    "fat": 0.1,
-    "calories": 32
-  },
-  {
-    "food_name": "grapes",
-    "protein": 0.045,
-    "carbs": 0.9,
-    "fat": 0.044,
-    "calories": 3
-  },
-  {
-    "food_name": "pineapples canned",
-    "protein": 0.2,
-    "carbs": 7.4,
-    "fat": 0.05,
-    "calories": 28
-  },
-  {
-    "food_name": "mangosteen canned",
-    "protein": 0.8,
-    "carbs": 35.1,
-    "fat": 1.1,
-    "calories": 143
-  },
-  {
-    "food_name": "apricot juice",
-    "protein": 1.5,
-    "carbs": 30.1,
-    "fat": 0.07,
-    "calories": 117
-  },
-  {
-    "food_name": "peach canned",
-    "protein": 1.6,
-    "carbs": 28.9,
-    "fat": 0.094,
-    "calories": 110
-  },
-  {
-    "food_name": "grapefruit canned",
-    "protein": 1.4,
-    "carbs": 22.3,
-    "fat": 0.2,
-    "calories": 88
-  },
-  {
-    "food_name": "pear canned",
-    "protein": 0.3,
-    "carbs": 9.8,
-    "fat": 0.001,
-    "calories": 38
-  },
-  {
-    "food_name": "papaya canned",
-    "protein": 0.001,
-    "carbs": 21.8,
-    "fat": 0.2,
-    "calories": 80
-  },
-  {
-    "food_name": "grapes canned",
-    "protein": 1.2,
-    "carbs": 25.2,
-    "fat": 0.3,
-    "calories": 98
-  },
-  {
-    "food_name": "apple dried",
-    "protein": 0.6,
-    "carbs": 39.1,
-    "fat": 0.2,
-    "calories": 145
-  },
-  {
-    "food_name": "peach dried",
-    "protein": 3.0,
-    "carbs": 50.8,
-    "fat": 0.6,
-    "calories": 199
-  },
-  {
-    "food_name": "pear dried",
-    "protein": 0.7,
-    "carbs": 25.1,
-    "fat": 0.2,
-    "calories": 94
-  },
-  {
-    "food_name": "banana chips",
-    "protein": 0.7,
-    "carbs": 16.5,
-    "fat": 9.5,
-    "calories": 147
-  },
-  {
-    "food_name": "mammy apple mamey",
-    "protein": 4.2,
-    "carbs": 105.8,
-    "fat": 4.2,
-    "calories": 431
-  },
-  {
-    "food_name": "prickly pear",
-    "protein": 0.8,
-    "carbs": 9.9,
-    "fat": 0.5,
-    "calories": 42
-  },
-  {
-    "food_name": "papaya",
-    "protein": 0.7,
-    "carbs": 15.7,
-    "fat": 0.4,
-    "calories": 62
-  },
-  {
-    "food_name": "pasilla peppers dried",
-    "protein": 0.9,
-    "carbs": 3.6,
-    "fat": 1.1,
-    "calories": 24
-  },
-  {
-    "food_name": "ancho pepper dried",
-    "protein": 2.0,
-    "carbs": 8.7,
-    "fat": 1.4,
-    "calories": 48
-  },
-  {
-    "food_name": "butterbur",
-    "protein": 0.1,
-    "carbs": 0.5,
-    "fat": 0.2,
-    "calories": 4
-  },
-  {
-    "food_name": "white pepper",
-    "protein": 0.2,
-    "carbs": 1.6,
-    "fat": 0.0,
-    "calories": 7
-  },
-  {
-    "food_name": "black pepper",
-    "protein": 0.2,
-    "carbs": 1.5,
-    "fat": 0.006,
-    "calories": 6
-  },
-  {
-    "food_name": "spearmint fresh",
-    "protein": 0.2,
-    "carbs": 0.5,
-    "fat": 0.089,
-    "calories": 3
-  },
-  {
-    "food_name": "peppermint",
-    "protein": 0.038,
-    "carbs": 0.2,
-    "fat": 0.004,
-    "calories": 1
-  },
-  {
-    "food_name": "cayenne pepper",
-    "protein": 0.039,
-    "carbs": 0.2,
-    "fat": 0.094,
-    "calories": 1
-  },
-  {
-    "food_name": "spearmint dried",
-    "protein": 0.094,
-    "carbs": 0.3,
-    "fat": 0.018,
-    "calories": 1
-  },
-  {
-    "food_name": "onion powder",
-    "protein": 0.2,
-    "carbs": 1.9,
-    "fat": 0.024,
-    "calories": 8
-  },
-  {
-    "food_name": "fava beans cooked",
-    "protein": 12.9,
-    "carbs": 33.4,
-    "fat": 0.7,
-    "calories": 187
-  },
-  {
-    "food_name": "french beans raw",
-    "protein": 34.6,
-    "carbs": 118.0,
-    "fat": 3.7,
-    "calories": 631
-  },
-  {
-    "food_name": "chickpeas canned",
-    "protein": 17.8,
-    "carbs": 57.0,
-    "fat": 7.0,
-    "calories": 352
-  },
-  {
-    "food_name": "yellow beans cooked",
-    "protein": 16.2,
-    "carbs": 44.7,
-    "fat": 1.9,
-    "calories": 255
-  },
-  {
-    "food_name": "mung beans cooked",
-    "protein": 14.2,
-    "carbs": 38.7,
-    "fat": 0.8,
-    "calories": 212
-  },
-  {
-    "food_name": "white beans canned",
-    "protein": 19.0,
-    "carbs": 55.5,
-    "fat": 0.8,
-    "calories": 299
-  },
-  {
-    "food_name": "pink beans cooked",
-    "protein": 15.3,
-    "carbs": 47.2,
-    "fat": 0.8,
-    "calories": 252
-  },
-  {
-    "food_name": "pink beans raw",
-    "protein": 44.0,
-    "carbs": 134.8,
-    "fat": 2.4,
-    "calories": 720
-  },
-  {
-    "food_name": "navy beans raw",
-    "protein": 46.4,
-    "carbs": 126.4,
-    "fat": 3.1,
-    "calories": 701
-  },
-  {
-    "food_name": "snap beans cooked",
-    "protein": 2.4,
-    "carbs": 9.9,
-    "fat": 0.4,
-    "calories": 44
-  },
-  {
-    "food_name": "black eyed cowpeas raw",
-    "protein": 4.3,
-    "carbs": 27.3,
-    "fat": 0.5,
-    "calories": 131
-  },
-  {
-    "food_name": "black eyed cowpeas cooked",
-    "protein": 5.2,
-    "carbs": 33.5,
-    "fat": 0.6,
-    "calories": 160
-  },
-  {
-    "food_name": "hyacinth beans cooked",
-    "protein": 15.8,
-    "carbs": 40.2,
-    "fat": 1.1,
-    "calories": 227
-  },
-  {
-    "food_name": "cowpeas canned",
-    "protein": 11.4,
-    "carbs": 32.7,
-    "fat": 1.3,
-    "calories": 185
-  },
-  {
-    "food_name": "pinto beans cooked",
-    "protein": 15.4,
-    "carbs": 44.8,
-    "fat": 1.1,
-    "calories": 245
-  },
-  {
-    "food_name": "winged beans cooked",
-    "protein": 18.3,
-    "carbs": 25.7,
-    "fat": 10.0,
-    "calories": 253
-  },
-  {
-    "food_name": "pinto beans raw",
-    "protein": 41.3,
-    "carbs": 120.7,
-    "fat": 2.4,
-    "calories": 670
-  },
-  {
-    "food_name": "black turtle beans raw",
-    "protein": 39.1,
-    "carbs": 116.4,
-    "fat": 1.7,
-    "calories": 624
-  },
-  {
-    "food_name": "fava beans raw",
-    "protein": 39.2,
-    "carbs": 87.4,
-    "fat": 2.3,
-    "calories": 512
-  },
-  {
-    "food_name": "lima beans canned",
-    "protein": 11.9,
-    "carbs": 35.9,
-    "fat": 0.4,
-    "calories": 190
-  },
-  {
-    "food_name": "hyacinth beans raw",
-    "protein": 50.2,
-    "carbs": 127.6,
-    "fat": 3.5,
-    "calories": 722
-  },
-  {
-    "food_name": "white beans raw",
-    "protein": 47.2,
-    "carbs": 121.7,
-    "fat": 1.7,
-    "calories": 673
-  },
-  {
-    "food_name": "snap beans canned",
-    "protein": 3.5,
-    "carbs": 15.4,
-    "fat": 0.4,
-    "calories": 66
-  },
-  {
-    "food_name": "navy beans canned",
-    "protein": 19.7,
-    "carbs": 53.6,
-    "fat": 1.1,
-    "calories": 296
-  },
-  {
-    "food_name": "mung beans raw",
-    "protein": 49.4,
-    "carbs": 129.6,
-    "fat": 2.4,
-    "calories": 718
-  },
-  {
-    "food_name": "adzuki beans raw",
-    "protein": 39.1,
-    "carbs": 123.9,
-    "fat": 1.0,
-    "calories": 648
-  },
-  {
-    "food_name": "black turtle beans cooked",
-    "protein": 15.1,
-    "carbs": 45.0,
-    "fat": 0.6,
-    "calories": 241
-  },
-  {
-    "food_name": "pink lentils raw",
-    "protein": 47.9,
-    "carbs": 113.6,
-    "fat": 4.2,
-    "calories": 662
-  },
-  {
-    "food_name": "yellow beans raw",
-    "protein": 43.1,
-    "carbs": 119.0,
-    "fat": 5.1,
-    "calories": 676
-  },
-  {
-    "food_name": "white beans cooked",
-    "protein": 17.4,
-    "carbs": 44.9,
-    "fat": 0.6,
-    "calories": 249
-  },
-  {
-    "food_name": "lentils raw",
-    "protein": 49.5,
-    "carbs": 115.4,
-    "fat": 2.0,
-    "calories": 678
-  },
-  {
-    "food_name": "cranberry beans cooked",
-    "protein": 16.5,
-    "carbs": 43.3,
-    "fat": 0.8,
-    "calories": 241
-  },
-  {
-    "food_name": "chickpeas raw",
-    "protein": 38.6,
-    "carbs": 121.3,
-    "fat": 12.1,
-    "calories": 728
-  },
-  {
-    "food_name": "lentils cooked",
-    "protein": 17.9,
-    "carbs": 39.9,
-    "fat": 0.8,
-    "calories": 230
-  },
-  {
-    "food_name": "baked beans canned",
-    "protein": 12.1,
-    "carbs": 53.7,
-    "fat": 0.9,
-    "calories": 239
-  },
-  {
-    "food_name": "cranberry beans canned",
-    "protein": 14.4,
-    "carbs": 39.3,
-    "fat": 0.7,
-    "calories": 216
-  },
-  {
-    "food_name": "black beans cooked",
-    "protein": 15.2,
-    "carbs": 40.8,
-    "fat": 0.9,
-    "calories": 227
-  },
-  {
-    "food_name": "lima beans cooked",
-    "protein": 14.7,
-    "carbs": 39.3,
-    "fat": 0.7,
-    "calories": 216
-  },
-  {
-    "food_name": "mungo beans raw",
-    "protein": 52.2,
-    "carbs": 122.1,
-    "fat": 3.4,
-    "calories": 706
-  },
-  {
-    "food_name": "pigeon peas raw",
-    "protein": 44.5,
-    "carbs": 128.7,
-    "fat": 3.1,
-    "calories": 703
-  },
-  {
-    "food_name": "fava beans canned",
-    "protein": 14.0,
-    "carbs": 31.8,
-    "fat": 0.6,
-    "calories": 182
-  },
-  {
-    "food_name": "yellow snap beans raw",
-    "protein": 1.8,
-    "carbs": 7.1,
-    "fat": 0.1,
-    "calories": 31
-  },
-  {
-    "food_name": "snap beans raw",
-    "protein": 1.8,
-    "carbs": 7.0,
-    "fat": 0.2,
-    "calories": 31
-  },
-  {
-    "food_name": "yellow snap beans canned",
-    "protein": 1.9,
-    "carbs": 8.4,
-    "fat": 0.2,
-    "calories": 36
-  },
-  {
-    "food_name": "pigeon peas cooked",
-    "protein": 11.4,
-    "carbs": 39.1,
-    "fat": 0.6,
-    "calories": 203
-  },
-  {
-    "food_name": "catjang cowpeas raw",
-    "protein": 39.8,
-    "carbs": 99.6,
-    "fat": 3.5,
-    "calories": 573
-  },
-  {
-    "food_name": "navy beans cooked",
-    "protein": 15.0,
-    "carbs": 47.4,
-    "fat": 1.1,
-    "calories": 255
-  },
-  {
-    "food_name": "mothbeans raw",
-    "protein": 45.0,
-    "carbs": 120.6,
-    "fat": 3.2,
-    "calories": 672
-  },
-  {
-    "food_name": "cowpeas cooked",
-    "protein": 5.4,
-    "carbs": 14.5,
-    "fat": 0.4,
-    "calories": 81
-  },
-  {
-    "food_name": "mothbeans cooked",
-    "protein": 13.8,
-    "carbs": 37.1,
-    "fat": 1.0,
-    "calories": 207
-  },
-  {
-    "food_name": "french beans cooked",
-    "protein": 12.5,
-    "carbs": 42.5,
-    "fat": 1.3,
-    "calories": 228
-  },
-  {
-    "food_name": "lima beans raw",
-    "protein": 38.2,
-    "carbs": 112.8,
-    "fat": 1.2,
-    "calories": 602
-  },
-  {
-    "food_name": "winged beans raw",
-    "protein": 54.0,
-    "carbs": 75.9,
-    "fat": 29.7,
-    "calories": 744
-  },
-  {
-    "food_name": "adzuki beans cooked",
-    "protein": 17.3,
-    "carbs": 57.0,
-    "fat": 0.2,
-    "calories": 294
-  },
-  {
-    "food_name": "black beans raw",
-    "protein": 41.9,
-    "carbs": 121.0,
-    "fat": 2.8,
-    "calories": 662
-  },
-  {
-    "food_name": "catjang cowpeas cooked",
-    "protein": 13.9,
-    "carbs": 34.7,
-    "fat": 1.2,
-    "calories": 200
-  },
-  {
-    "food_name": "baby lima beans cooked",
-    "protein": 12.0,
-    "carbs": 35.0,
-    "fat": 0.5,
-    "calories": 189
-  },
-  {
-    "food_name": "cowpeas raw",
-    "protein": 3.1,
-    "carbs": 8.9,
-    "fat": 0.3,
-    "calories": 41
-  },
-  {
-    "food_name": "shellie beans canned",
-    "protein": 4.3,
-    "carbs": 15.2,
-    "fat": 0.5,
-    "calories": 74
-  },
-  {
-    "food_name": "yardlong beans raw",
-    "protein": 40.6,
-    "carbs": 103.4,
-    "fat": 2.2,
-    "calories": 579
-  },
-  {
-    "food_name": "pinto beans canned",
-    "protein": 11.0,
-    "carbs": 36.4,
-    "fat": 1.3,
-    "calories": 197
-  },
-  {
-    "food_name": "chickpeas cooked",
-    "protein": 14.5,
-    "carbs": 45.0,
-    "fat": 4.2,
-    "calories": 269
-  },
-  {
-    "food_name": "cranberry beans raw",
-    "protein": 44.9,
-    "carbs": 117.1,
-    "fat": 2.4,
-    "calories": 653
-  },
-  {
-    "food_name": "mungo beans cooked",
-    "protein": 13.6,
-    "carbs": 33.0,
-    "fat": 1.0,
-    "calories": 189
-  },
-  {
-    "food_name": "yellow snap beans cooked",
-    "protein": 2.4,
-    "carbs": 9.9,
-    "fat": 0.4,
-    "calories": 44
-  },
-  {
-    "food_name": "yardlong beans cooked",
-    "protein": 14.2,
-    "carbs": 36.1,
-    "fat": 0.8,
-    "calories": 202
-  },
-  {
-    "food_name": "bacon beef steak",
-    "protein": 8.2,
-    "carbs": 0.2,
-    "fat": 12.5,
-    "calories": 146
-  },
-  {
-    "food_name": "scrapple",
-    "protein": 2.3,
-    "carbs": 4.0,
-    "fat": 3.9,
-    "calories": 60
-  },
-  {
-    "food_name": "chicken nuggets",
-    "protein": 3.2,
-    "carbs": 3.0,
-    "fat": 4.1,
-    "calories": 61
-  },
-  {
-    "food_name": "chicken patty",
-    "protein": 8.9,
-    "carbs": 7.7,
-    "fat": 11.7,
-    "calories": 172
-  },
-  {
-    "food_name": "beef under blade steak cooked",
-    "protein": 140.8,
-    "carbs": 0.0,
-    "fat": 46.7,
-    "calories": 983
-  },
-  {
-    "food_name": "mock tender steak raw",
-    "protein": 42.2,
-    "carbs": 0.0,
-    "fat": 8.3,
-    "calories": 244
-  },
-  {
-    "food_name": "t bone steak cooked",
-    "protein": 89.3,
-    "carbs": 0.0,
-    "fat": 74.1,
-    "calories": 1049
-  },
-  {
-    "food_name": "beef top sirloin steak raw",
-    "protein": 123.4,
-    "carbs": 0.0,
-    "fat": 77.3,
-    "calories": 1222
-  },
-  {
-    "food_name": "beef plate steak grilled",
-    "protein": 47.1,
-    "carbs": 0.0,
-    "fat": 35.6,
-    "calories": 508
-  },
-  {
-    "food_name": "porterhouse steak raw",
-    "protein": 81.6,
-    "carbs": 0.0,
-    "fat": 91.1,
-    "calories": 1170
-  },
-  {
-    "food_name": "corned beef canned",
-    "protein": 5.7,
-    "carbs": 0.0,
-    "fat": 3.1,
-    "calories": 53
-  },
-  {
-    "food_name": "rib eye steak grilled",
-    "protein": 62.4,
-    "carbs": 0.0,
-    "fat": 47.7,
-    "calories": 680
-  },
-  {
-    "food_name": "t bone steak raw",
-    "protein": 85.7,
-    "carbs": 0.0,
-    "fat": 76.3,
-    "calories": 1052
-  },
-  {
-    "food_name": "sirloin steak",
-    "protein": 49.5,
-    "carbs": 0.0,
-    "fat": 14.1,
-    "calories": 324
-  },
-  {
-    "food_name": "mock tender steak cooked",
-    "protein": 21.9,
-    "carbs": 0.0,
-    "fat": 4.9,
-    "calories": 137
-  },
-  {
-    "food_name": "beef round steak cooked",
-    "protein": 64.8,
-    "carbs": 0.0,
-    "fat": 12.1,
-    "calories": 385
-  },
-  {
-    "food_name": "beef shoulder steak raw",
-    "protein": 48.2,
-    "carbs": 0.0,
-    "fat": 17.3,
-    "calories": 349
-  },
-  {
-    "food_name": "corned beef cooked",
-    "protein": 3.8,
-    "carbs": 0.006,
-    "fat": 4.0,
-    "calories": 53
-  },
-  {
-    "food_name": "beef round steak raw",
-    "protein": 100.1,
-    "carbs": 0.0,
-    "fat": 36.0,
-    "calories": 753
-  },
-  {
-    "food_name": "beef shoulder steak grilled",
-    "protein": 24.0,
-    "carbs": 0.0,
-    "fat": 5.8,
-    "calories": 155
-  },
-  {
-    "food_name": "chuck eye steak raw",
-    "protein": 72.4,
-    "carbs": 0.0,
-    "fat": 62.8,
-    "calories": 856
-  },
-  {
-    "food_name": "beef bottom round steak cooked",
-    "protein": 155.8,
-    "carbs": 0.0,
-    "fat": 35.1,
-    "calories": 980
-  },
-  {
-    "food_name": "porterhouse steak cooked",
-    "protein": 20.4,
-    "carbs": 0.0,
-    "fat": 16.4,
-    "calories": 235
-  },
-  {
-    "food_name": "beef under blade steak raw",
-    "protein": 126.8,
-    "carbs": 0.0,
-    "fat": 80.8,
-    "calories": 1235
-  },
-  {
-    "food_name": "beef plate steak raw",
-    "protein": 47.8,
-    "carbs": 0.9,
-    "fat": 46.8,
-    "calories": 617
-  },
-  {
-    "food_name": "corned beef raw",
-    "protein": 66.6,
-    "carbs": 0.6,
-    "fat": 67.6,
-    "calories": 898
-  },
-  {
-    "food_name": "rib eye steak raw",
-    "protein": 62.8,
-    "carbs": 0.4,
-    "fat": 54.5,
-    "calories": 743
-  },
-  {
-    "food_name": "beef tenderloin steak cooked",
-    "protein": 37.0,
-    "carbs": 0.0,
-    "fat": 24.0,
-    "calories": 374
-  },
-  {
-    "food_name": "beef flank steak cooked",
-    "protein": 51.8,
-    "carbs": 0.0,
-    "fat": 17.5,
-    "calories": 380
-  },
-  {
-    "food_name": "chuck eye steak grilled",
-    "protein": 76.9,
-    "carbs": 0.0,
-    "fat": 60.5,
-    "calories": 853
-  },
-  {
-    "food_name": "beef tenderloin steak raw",
-    "protein": 32.2,
-    "carbs": 0.0,
-    "fat": 29.8,
-    "calories": 405
-  },
-  {
-    "food_name": "beef flank steak raw",
-    "protein": 6.0,
-    "carbs": 0.0,
-    "fat": 2.3,
-    "calories": 47
-  },
-  {
-    "food_name": "beef top sirloin steak cooked",
-    "protein": 47.7,
-    "carbs": 0.0,
-    "fat": 25.2,
-    "calories": 430
-  },
-  {
-    "food_name": "pepperoni beef",
-    "protein": 0.5,
-    "carbs": 0.0,
-    "fat": 0.9,
-    "calories": 10
-  },
-  {
-    "food_name": "peppered loaf",
-    "protein": 4.9,
-    "carbs": 1.3,
-    "fat": 1.8,
-    "calories": 42
-  },
-  {
-    "food_name": "chicken pork bologna",
-    "protein": 2.9,
-    "carbs": 1.2,
-    "fat": 8.6,
-    "calories": 94
-  },
-  {
-    "food_name": "chicken gizzard cooked",
-    "protein": 44.1,
-    "carbs": 0.0,
-    "fat": 3.9,
-    "calories": 223
-  },
-  {
-    "food_name": "chicken heart cooked",
-    "protein": 38.3,
-    "carbs": 0.1,
-    "fat": 11.5,
-    "calories": 268
-  },
-  {
-    "food_name": "chicken liver cooked",
-    "protein": 11.3,
-    "carbs": 0.5,
-    "fat": 2.8,
-    "calories": 76
-  },
-  {
-    "food_name": "boston butt steak raw",
-    "protein": 79.0,
-    "carbs": 0.0,
-    "fat": 56.1,
-    "calories": 844
-  },
-  {
-    "food_name": "pork leg cap steak cooked",
-    "protein": 53.5,
-    "carbs": 0.0,
-    "fat": 8.6,
-    "calories": 307
-  },
-  {
-    "food_name": "pork leg cap steak raw",
-    "protein": 50.0,
-    "carbs": 0.0,
-    "fat": 7.8,
-    "calories": 284
-  },
-  {
-    "food_name": "boston butt steak cooked",
-    "protein": 46.4,
-    "carbs": 0.0,
-    "fat": 32.7,
-    "calories": 494
-  },
-  {
-    "food_name": "pork blade steak braised",
-    "protein": 68.2,
-    "carbs": 0.087,
-    "fat": 44.7,
-    "calories": 694
-  },
-  {
-    "food_name": "pork boston steaks cooked",
-    "protein": 43.2,
-    "carbs": 0.0,
-    "fat": 28.1,
-    "calories": 438
-  },
-  {
-    "food_name": "ham steak",
-    "protein": 11.1,
-    "carbs": 0.0,
-    "fat": 2.4,
-    "calories": 70
-  },
-  {
-    "food_name": "pork blade steak raw",
-    "protein": 67.6,
-    "carbs": 0.6,
-    "fat": 43.7,
-    "calories": 664
-  },
-  {
-    "food_name": "chicken skin roasted",
-    "protein": 22.8,
-    "carbs": 0.0,
-    "fat": 45.6,
-    "calories": 508
-  },
-  {
-    "food_name": "chicken wing cooked",
-    "protein": 4.8,
-    "carbs": 0.0,
-    "fat": 3.5,
-    "calories": 52
-  },
-  {
-    "food_name": "chicken back raw",
-    "protein": 8.3,
-    "carbs": 0.0,
-    "fat": 17.0,
-    "calories": 188
-  },
-  {
-    "food_name": "chicken back cooked",
-    "protein": 8.0,
-    "carbs": 0.0,
-    "fat": 6.5,
-    "calories": 93
-  },
-  {
-    "food_name": "chicken leg fried",
-    "protein": 34.4,
-    "carbs": 13.8,
-    "fat": 25.5,
-    "calories": 431
-  },
-  {
-    "food_name": "chicken feet cooked",
-    "protein": 88.0,
-    "carbs": 0.9,
-    "fat": 66.2,
-    "calories": 975
-  },
-  {
-    "food_name": "turkey steak fried",
-    "protein": 9.1,
-    "carbs": 10.9,
-    "fat": 10.8,
-    "calories": 179
-  },
-  {
-    "food_name": "chicken leg raw",
-    "protein": 56.3,
-    "carbs": 0.6,
-    "fat": 54.9,
-    "calories": 736
-  },
-  {
-    "food_name": "chicken meat raw",
-    "protein": 171.1,
-    "carbs": 0.0,
-    "fat": 138.6,
-    "calories": 1978
-  },
-  {
-    "food_name": "chicken neck cooked",
-    "protein": 7.5,
-    "carbs": 0.0,
-    "fat": 6.9,
-    "calories": 94
-  },
-  {
-    "food_name": "chicken drumstick fried",
-    "protein": 15.8,
-    "carbs": 6.0,
-    "fat": 11.3,
-    "calories": 193
-  },
-  {
-    "food_name": "chicken wing roasted",
-    "protein": 20.2,
-    "carbs": 0.0,
-    "fat": 14.3,
-    "calories": 216
-  },
-  {
-    "food_name": "chicken breast cooked",
-    "protein": 17.3,
-    "carbs": 0.0,
-    "fat": 4.5,
-    "calories": 114
-  },
-  {
-    "food_name": "chicken neck raw",
-    "protein": 7.0,
-    "carbs": 0.0,
-    "fat": 13.1,
-    "calories": 149
-  },
-  {
-    "food_name": "chicken drumstick raw",
-    "protein": 23.4,
-    "carbs": 0.1,
-    "fat": 12.4,
-    "calories": 211
-  },
-  {
-    "food_name": "chicken breast raw",
-    "protein": 36.3,
-    "carbs": 0.0,
-    "fat": 16.1,
-    "calories": 299
-  },
-  {
-    "food_name": "ground chicken cooked",
-    "protein": 58.4,
-    "carbs": 0.0,
-    "fat": 27.4,
-    "calories": 474
-  },
-  {
-    "food_name": "chicken fajita strips",
-    "protein": 1.7,
-    "carbs": 0.2,
-    "fat": 0.5,
-    "calories": 13
-  },
-  {
-    "food_name": "crispy chicken strips tyson",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 6.0,
-    "calories": 145
-  },
-  {
-    "food_name": "chocolate pudding fat free",
-    "protein": 2.2,
-    "carbs": 23.6,
-    "fat": 0.3,
-    "calories": 105
-  },
-  {
-    "food_name": "tapioca pudding",
-    "protein": 2.1,
-    "carbs": 23.9,
-    "fat": 4.3,
-    "calories": 143
-  },
-  {
-    "food_name": "tapioca pudding fat free",
-    "protein": 1.6,
-    "carbs": 23.9,
-    "fat": 0.4,
-    "calories": 105
-  },
-  {
-    "food_name": "rice pudding",
-    "protein": 3.6,
-    "carbs": 20.8,
-    "fat": 2.4,
-    "calories": 122
-  },
-  {
-    "food_name": "corn pudding",
-    "protein": 11.1,
-    "carbs": 42.4,
-    "fat": 12.6,
-    "calories": 328
-  },
-  {
-    "food_name": "chocolate pudding",
-    "protein": 3.1,
-    "carbs": 34.5,
-    "fat": 6.9,
-    "calories": 213
-  },
-  {
-    "food_name": "lemon pudding",
-    "protein": 4.1,
-    "carbs": 30.2,
-    "fat": 4.4,
-    "calories": 173
-  },
-  {
-    "food_name": "vanilla pudding",
-    "protein": 2.2,
-    "carbs": 33.9,
-    "fat": 5.7,
-    "calories": 195
-  },
-  {
-    "food_name": "cottage cheese creamed",
-    "protein": 2.2,
-    "carbs": 0.7,
-    "fat": 0.9,
-    "calories": 20
-  },
-  {
-    "food_name": "cottage cheese low fat",
-    "protein": 28.0,
-    "carbs": 6.1,
-    "fat": 2.3,
-    "calories": 163
-  },
-  {
-    "food_name": "cottage cheese nonfat",
-    "protein": 15.0,
-    "carbs": 9.7,
-    "fat": 0.4,
-    "calories": 104
-  },
-  {
-    "food_name": "vanilla yogurt low fat",
-    "protein": 12.1,
-    "carbs": 33.8,
-    "fat": 3.1,
-    "calories": 208
-  },
-  {
-    "food_name": "classique yogurt plain 2 liberte",
-    "protein": 3.3,
-    "carbs": 1.7,
-    "fat": 1.2,
-    "calories": 30
-  },
-  {
-    "food_name": "yoplait light strawberry yogurt yoplait",
-    "protein": 0.0,
-    "carbs": 0.074,
-    "fat": 0.0,
-    "calories": 79
-  },
-  {
-    "food_name": "vanilla yogurt",
-    "protein": 8.4,
-    "carbs": 23.5,
-    "fat": 2.1,
-    "calories": 145
-  },
-  {
-    "food_name": "chocolate yogurt",
-    "protein": 5.3,
-    "carbs": 35.3,
-    "fat": 0.0,
-    "calories": 168
-  },
-  {
-    "food_name": "yogurt parfait",
-    "protein": 5.0,
-    "carbs": 23.6,
-    "fat": 1.5,
-    "calories": 125
-  },
-  {
-    "food_name": "yogurt",
-    "protein": 5.2,
-    "carbs": 7.0,
-    "fat": 4.9,
-    "calories": 92
-  },
-  {
-    "food_name": "chocolate frozen yogurt",
-    "protein": 5.2,
-    "carbs": 37.6,
-    "fat": 6.3,
-    "calories": 221
-  },
-  {
-    "food_name": "frozen yogurt",
-    "protein": 5.2,
-    "carbs": 37.6,
-    "fat": 6.3,
-    "calories": 221
-  },
-  {
-    "food_name": "yogurt low fat",
-    "protein": 12.9,
-    "carbs": 17.2,
-    "fat": 3.8,
-    "calories": 154
-  },
-  {
-    "food_name": "fruit yogurt",
-    "protein": 6.0,
-    "carbs": 28.0,
-    "fat": 1.7,
-    "calories": 149
-  },
-  {
-    "food_name": "fruit n yogurt parfait mcdonalds",
-    "protein": 4.1,
-    "carbs": 30.9,
-    "fat": 1.9,
-    "calories": 156
-  },
-  {
-    "food_name": "triple zero greek yogurt dannon oikos",
-    "protein": 0.038,
-    "carbs": 22.5,
-    "fat": 0.0,
-    "calories": 120
-  },
-  {
-    "food_name": "greek yogurt",
-    "protein": 17.3,
-    "carbs": 6.1,
-    "fat": 0.7,
-    "calories": 100
-  },
-  {
-    "food_name": "chocolate rasberry protein mini proteinfx",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 2.9,
-    "calories": 102
-  },
-  {
-    "food_name": "peanut butter cookie protein syntha 6",
-    "protein": 0.0,
-    "carbs": 5.0,
-    "fat": 6.0,
-    "calories": 200
-  },
-  {
-    "food_name": "smoothie high protein creamy chocolate slimfast",
-    "protein": 12.0,
-    "carbs": 2.1,
-    "fat": 3.5,
-    "calories": 110
-  },
-  {
-    "food_name": "chocolate powder for milk",
-    "protein": 1.0,
-    "carbs": 19.9,
-    "fat": 0.5,
-    "calories": 88
-  },
-  {
-    "food_name": "vegetable fruit juice",
-    "protein": 0.071,
-    "carbs": 2.2,
-    "fat": 0.017,
-    "calories": 9
-  },
-  {
-    "food_name": "coconut milk",
-    "protein": 0.3,
-    "carbs": 0.8,
-    "fat": 3.6,
-    "calories": 35
-  },
-  {
-    "food_name": "rice drink",
-    "protein": 0.7,
-    "carbs": 22.0,
-    "fat": 2.3,
-    "calories": 113
-  },
-  {
-    "food_name": "caramel med iced coffee dunkin donuts",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 9.0,
-    "calories": 268
-  },
-  {
-    "food_name": "instant coffee with water decaffeinated",
-    "protein": 0.2,
-    "carbs": 0.8,
-    "fat": 0.0,
-    "calories": 4
-  },
-  {
-    "food_name": "instant coffee powder",
-    "protein": 12.2,
-    "carbs": 75.4,
-    "fat": 0.5,
-    "calories": 353
-  },
-  {
-    "food_name": "instant coffee powder decaffeinated",
-    "protein": 0.2,
-    "carbs": 1.4,
-    "fat": 0.069,
-    "calories": 6
-  },
-  {
-    "food_name": "coffee decaffeinated",
-    "protein": 0.2,
-    "carbs": 0.0,
-    "fat": 0.0,
-    "calories": 0
-  },
-  {
-    "food_name": "instant coffee with water",
-    "protein": 0.2,
-    "carbs": 0.6,
-    "fat": 0.0,
-    "calories": 4
-  },
-  {
-    "food_name": "coffee",
-    "protein": 0.3,
-    "carbs": 0.0,
-    "fat": 0.069,
-    "calories": 2
-  },
-  {
-    "food_name": "passion fruit juice purple",
-    "protein": 1.7,
-    "carbs": 35.7,
-    "fat": 0.4,
-    "calories": 148
-  },
-  {
-    "food_name": "pomegranate juice",
-    "protein": 0.4,
-    "carbs": 32.7,
-    "fat": 0.7,
-    "calories": 134
-  },
-  {
-    "food_name": "cranberry apricot juice",
-    "protein": 0.5,
-    "carbs": 39.7,
-    "fat": 0.0,
-    "calories": 157
-  },
-  {
-    "food_name": "pineapple juice",
-    "protein": 0.9,
-    "carbs": 32.2,
-    "fat": 0.3,
-    "calories": 133
-  },
-  {
-    "food_name": "passion fruit juice yellow",
-    "protein": 1.0,
-    "carbs": 33.6,
-    "fat": 0.1,
-    "calories": 126
-  },
-  {
-    "food_name": "orange apricot juice",
-    "protein": 0.8,
-    "carbs": 31.8,
-    "fat": 0.3,
-    "calories": 128
-  },
-  {
-    "food_name": "tangerine juice",
-    "protein": 1.2,
-    "carbs": 24.9,
-    "fat": 0.5,
-    "calories": 106
-  },
-  {
-    "food_name": "orange juice",
-    "protein": 1.4,
-    "carbs": 20.8,
-    "fat": 0.4,
-    "calories": 90
-  },
-  {
-    "food_name": "grapefruit juice",
-    "protein": 1.2,
-    "carbs": 22.7,
-    "fat": 0.2,
-    "calories": 96
-  },
-  {
-    "food_name": "pineapple grapefruit juice",
-    "protein": 0.5,
-    "carbs": 29.0,
-    "fat": 0.3,
-    "calories": 118
-  },
-  {
-    "food_name": "apple juice",
-    "protein": 0.2,
-    "carbs": 28.0,
-    "fat": 0.3,
-    "calories": 114
-  },
-  {
-    "food_name": "orange grapefruit juice",
-    "protein": 1.5,
-    "carbs": 25.4,
-    "fat": 0.2,
-    "calories": 106
-  },
-  {
-    "food_name": "orange juice sainsburys",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 0.088,
-    "calories": 14
-  },
-  {
-    "food_name": "cranberry apple juice",
-    "protein": 0.0,
-    "carbs": 38.8,
-    "fat": 0.3,
-    "calories": 154
-  },
-  {
-    "food_name": "pineapple orange juice",
-    "protein": 3.3,
-    "carbs": 29.5,
-    "fat": 0.0,
-    "calories": 125
-  },
-  {
-    "food_name": "pear nectar",
-    "protein": 0.3,
-    "carbs": 39.4,
-    "fat": 0.062,
-    "calories": 150
-  },
-  {
-    "food_name": "blackberry juice",
-    "protein": 0.8,
-    "carbs": 19.5,
-    "fat": 1.5,
-    "calories": 95
-  },
-  {
-    "food_name": "lemon juice",
-    "protein": 0.9,
-    "carbs": 16.6,
-    "fat": 0.6,
-    "calories": 54
-  },
-  {
-    "food_name": "cranberry grape juice",
-    "protein": 0.5,
-    "carbs": 34.3,
-    "fat": 0.2,
-    "calories": 137
-  },
-  {
-    "food_name": "citrus fruit juice",
-    "protein": 0.8,
-    "carbs": 28.3,
-    "fat": 0.057,
-    "calories": 114
-  },
-  {
-    "food_name": "prune juice",
-    "protein": 1.6,
-    "carbs": 44.7,
-    "fat": 0.006,
-    "calories": 182
-  },
-  {
-    "food_name": "fruit juice",
-    "protein": 0.3,
-    "carbs": 26.3,
-    "fat": 0.1,
-    "calories": 108
-  },
-  {
-    "food_name": "orangensaft ja",
-    "protein": 0.0,
-    "carbs": 1.4,
-    "fat": 0.0,
-    "calories": 86
-  },
-  {
-    "food_name": "peach nectar",
-    "protein": 0.5,
-    "carbs": 29.7,
-    "fat": 1.3,
-    "calories": 125
-  },
-  {
-    "food_name": "orange pineapple juice",
-    "protein": 0.1,
-    "carbs": 3.6,
-    "fat": 0.08,
-    "calories": 15
-  },
-  {
-    "food_name": "cranberry juice",
-    "protein": 0.8,
-    "carbs": 24.4,
-    "fat": 0.3,
-    "calories": 92
-  },
-  {
-    "food_name": "white grapefruit juice",
-    "protein": 1.2,
-    "carbs": 22.7,
-    "fat": 0.2,
-    "calories": 96
-  },
-  {
-    "food_name": "mango nectar",
-    "protein": 0.3,
-    "carbs": 32.9,
-    "fat": 0.2,
-    "calories": 128
-  },
-  {
-    "food_name": "acerola cherry juice",
-    "protein": 1.0,
-    "carbs": 11.6,
-    "fat": 0.7,
-    "calories": 56
-  },
-  {
-    "food_name": "apple juice concentrate",
-    "protein": 1.1,
-    "carbs": 86.5,
-    "fat": 0.8,
-    "calories": 350
-  },
-  {
-    "food_name": "papaya nectar",
-    "protein": 0.4,
-    "carbs": 36.3,
-    "fat": 0.4,
-    "calories": 143
-  },
-  {
-    "food_name": "apple juice martinellis",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 0.0,
-    "calories": 122
-  },
-  {
-    "food_name": "lime juice",
-    "protein": 1.0,
-    "carbs": 20.4,
-    "fat": 0.2,
-    "calories": 61
-  },
-  {
-    "food_name": "grape juice",
-    "protein": 0.9,
-    "carbs": 37.4,
-    "fat": 0.3,
-    "calories": 152
-  },
-  {
-    "food_name": "ice tea lemon flavor nestle",
-    "protein": 0.0,
-    "carbs": 22.3,
-    "fat": 0.0,
-    "calories": 88
-  },
-  {
-    "food_name": "cream soda",
-    "protein": 0.0,
-    "carbs": 65.7,
-    "fat": 0.0,
-    "calories": 252
-  },
-  {
-    "food_name": "grape soda",
-    "protein": 0.0,
-    "carbs": 41.7,
-    "fat": 0.0,
-    "calories": 160
-  },
-  {
-    "food_name": "chocolate soda",
-    "protein": 0.0,
-    "carbs": 52.6,
-    "fat": 0.0,
-    "calories": 207
-  },
-  {
-    "food_name": "sweet tea lipton",
-    "protein": 0.0,
-    "carbs": 35.0,
-    "fat": 0.0,
-    "calories": 130
-  },
-  {
-    "food_name": "hibiscus tea",
-    "protein": 0.9,
-    "carbs": 14.8,
-    "fat": 1.3,
-    "calories": 74
-  },
-  {
-    "food_name": "instant lemon tea",
-    "protein": 0.1,
-    "carbs": 0.3,
-    "fat": 0.0,
-    "calories": 2
-  },
-  {
-    "food_name": "pesca tea santal",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 0.0,
-    "calories": 116
-  },
-  {
-    "food_name": "instant lemon tea sweetened",
-    "protein": 0.071,
-    "carbs": 22.3,
-    "fat": 0.2,
-    "calories": 91
-  },
-  {
-    "food_name": "tea with milk and sugar yorkshire",
-    "protein": 0.0,
-    "carbs": 0.4,
-    "fat": 0.5,
-    "calories": 15
-  },
-  {
-    "food_name": "tea blueberry muffin tekanne",
-    "protein": 0.0,
-    "carbs": 0.4,
-    "fat": 0.2,
-    "calories": 4
-  },
-  {
-    "food_name": "chamomile tea",
-    "protein": 0.0,
-    "carbs": 0.4,
-    "fat": 0.0,
-    "calories": 2
-  },
-  {
-    "food_name": "black tea",
-    "protein": 0.0,
-    "carbs": 0.7,
-    "fat": 0.0,
-    "calories": 2
-  },
-  {
-    "food_name": "herb tea",
-    "protein": 0.0,
-    "carbs": 0.4,
-    "fat": 0.0,
-    "calories": 2
-  },
-  {
-    "food_name": "clam tomato juice",
-    "protein": 1.0,
-    "carbs": 18.2,
-    "fat": 0.3,
-    "calories": 80
-  },
-  {
-    "food_name": "tomato juice",
-    "protein": 2.1,
-    "carbs": 8.6,
-    "fat": 0.7,
-    "calories": 41
-  },
-  {
-    "food_name": "vegetable juice",
-    "protein": 1.5,
-    "carbs": 11.1,
-    "fat": 0.2,
-    "calories": 53
-  },
-  {
-    "food_name": "tomato vegetable juice",
-    "protein": 1.5,
-    "carbs": 11.1,
-    "fat": 0.2,
-    "calories": 53
-  },
-  {
-    "food_name": "carrot juice",
-    "protein": 1.9,
-    "carbs": 18.6,
-    "fat": 0.3,
-    "calories": 80
-  },
-  {
-    "food_name": "acorn dried",
-    "protein": 2.3,
-    "carbs": 15.2,
-    "fat": 8.9,
-    "calories": 144
-  },
-  {
-    "food_name": "peanut topping mcdonalds",
-    "protein": 7.9,
-    "carbs": 4.6,
-    "fat": 15.0,
-    "calories": 181
-  },
-  {
-    "food_name": "breadnut tree seeds raw",
-    "protein": 1.7,
-    "carbs": 13.1,
-    "fat": 0.3,
-    "calories": 61
-  },
-  {
-    "food_name": "hazelnuts roasted",
-    "protein": 4.5,
-    "carbs": 5.3,
-    "fat": 18.7,
-    "calories": 194
-  },
-  {
-    "food_name": "hazelnuts blanched",
-    "protein": 3.9,
-    "carbs": 4.8,
-    "fat": 17.3,
-    "calories": 178
-  },
-  {
-    "food_name": "peanuts cooked",
-    "protein": 24.3,
-    "carbs": 38.3,
-    "fat": 39.6,
-    "calories": 572
-  },
-  {
-    "food_name": "cashew nuts raw",
-    "protein": 5.2,
-    "carbs": 8.5,
-    "fat": 12.4,
-    "calories": 156
-  },
-  {
-    "food_name": "butternuts dried",
-    "protein": 29.9,
-    "carbs": 14.5,
-    "fat": 68.4,
-    "calories": 734
-  },
-  {
-    "food_name": "breadfruit seeds",
-    "protein": 2.2,
-    "carbs": 8.8,
-    "fat": 1.7,
-    "calories": 57
-  },
-  {
-    "food_name": "pistachio nuts raw",
-    "protein": 24.9,
-    "carbs": 33.8,
-    "fat": 55.8,
-    "calories": 691
-  },
-  {
-    "food_name": "peanuts raw",
-    "protein": 37.7,
-    "carbs": 23.5,
-    "fat": 71.9,
-    "calories": 828
-  },
-  {
-    "food_name": "valencia peanuts raw",
-    "protein": 36.6,
-    "carbs": 30.5,
-    "fat": 69.5,
-    "calories": 832
-  },
-  {
-    "food_name": "spanish peanuts",
-    "protein": 38.2,
-    "carbs": 23.1,
-    "fat": 72.4,
-    "calories": 832
-  },
-  {
-    "food_name": "acorn raw",
-    "protein": 1.7,
-    "carbs": 11.5,
-    "fat": 6.8,
-    "calories": 110
-  },
-  {
-    "food_name": "almonds roasted",
-    "protein": 6.4,
-    "carbs": 5.3,
-    "fat": 16.6,
-    "calories": 182
-  },
-  {
-    "food_name": "virginia peanuts roasted",
-    "protein": 7.8,
-    "carbs": 6.0,
-    "fat": 14.6,
-    "calories": 173
-  },
-  {
-    "food_name": "hazelnuts raw",
-    "protein": 11.2,
-    "carbs": 12.5,
-    "fat": 45.6,
-    "calories": 471
-  },
-  {
-    "food_name": "almonds raw",
-    "protein": 0.3,
-    "carbs": 0.3,
-    "fat": 0.7,
-    "calories": 9
-  },
-  {
-    "food_name": "peanuts roasted",
-    "protein": 8.4,
-    "carbs": 4.6,
-    "fat": 15.8,
-    "calories": 180
-  },
-  {
-    "food_name": "breadnut tree seeds dried",
-    "protein": 13.8,
-    "carbs": 127.0,
-    "fat": 2.7,
-    "calories": 587
-  },
-  {
-    "food_name": "pecans raw",
-    "protein": 10.0,
-    "carbs": 15.1,
-    "fat": 78.4,
-    "calories": 753
-  },
-  {
-    "food_name": "cashew nuts roasted",
-    "protein": 5.1,
-    "carbs": 9.0,
-    "fat": 14.3,
-    "calories": 174
-  },
-  {
-    "food_name": "pistachio nuts roasted",
-    "protein": 6.3,
-    "carbs": 8.5,
-    "fat": 13.7,
-    "calories": 172
-  },
-  {
-    "food_name": "walnut",
-    "protein": 0.8,
-    "carbs": 0.7,
-    "fat": 3.3,
-    "calories": 33
-  },
-  {
-    "food_name": "spanish peanuts roasted",
-    "protein": 41.2,
-    "carbs": 25.7,
-    "fat": 72.1,
-    "calories": 851
-  },
-  {
-    "food_name": "pecans roasted",
-    "protein": 2.8,
-    "carbs": 3.9,
-    "fat": 22.6,
-    "calories": 215
-  },
-  {
-    "food_name": "black walnut dried",
-    "protein": 1.2,
-    "carbs": 0.5,
-    "fat": 3.0,
-    "calories": 31
-  },
-  {
-    "food_name": "virginia peanuts raw",
-    "protein": 36.8,
-    "carbs": 24.1,
-    "fat": 71.2,
-    "calories": 822
-  },
-  {
-    "food_name": "valencia peanuts roasted",
-    "protein": 8.1,
-    "carbs": 4.9,
-    "fat": 15.4,
-    "calories": 177
-  },
-  {
-    "food_name": "corn grits cooked",
-    "protein": 4.4,
-    "carbs": 37.9,
-    "fat": 1.2,
-    "calories": 182
-  },
-  {
-    "food_name": "corn flakes",
-    "protein": 1.7,
-    "carbs": 24.6,
-    "fat": 0.3,
-    "calories": 108
-  },
-  {
-    "food_name": "corn grits dry",
-    "protein": 0.7,
-    "carbs": 7.7,
-    "fat": 0.2,
-    "calories": 36
-  },
-  {
-    "food_name": "sunflower seed butter",
-    "protein": 2.8,
-    "carbs": 3.7,
-    "fat": 8.8,
-    "calories": 99
-  },
-  {
-    "food_name": "hazelnut oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "menhaden fish oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 218.0,
-    "calories": 1966
-  },
-  {
-    "food_name": "cod liver fish oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 123
-  },
-  {
-    "food_name": "sesame butter",
-    "protein": 2.9,
-    "carbs": 3.8,
-    "fat": 8.1,
-    "calories": 94
-  },
-  {
-    "food_name": "salmon fish oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 123
-  },
-  {
-    "food_name": "nutmeg butter oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 218.0,
-    "calories": 1927
-  },
-  {
-    "food_name": "almond butter",
-    "protein": 3.4,
-    "carbs": 3.0,
-    "fat": 8.9,
-    "calories": 98
-  },
-  {
-    "food_name": "sour cream shoprite",
-    "protein": 0.0,
-    "carbs": 1.0,
-    "fat": 5.0,
-    "calories": 60
-  },
-  {
-    "food_name": "ucuhuba butter oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "chicken fat",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 12.8,
-    "calories": 115
-  },
-  {
-    "food_name": "herring fish oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 123
-  },
-  {
-    "food_name": "grapeseed oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "almond oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "cashew butter",
-    "protein": 2.8,
-    "carbs": 4.4,
-    "fat": 7.9,
-    "calories": 94
-  },
-  {
-    "food_name": "teaseed oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "peanut oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.5,
-    "calories": 119
-  },
-  {
-    "food_name": "tomatoseed oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 218.0,
-    "calories": 1927
-  },
-  {
-    "food_name": "wheat germ oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "corn granola oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 14.0,
-    "calories": 124
-  },
-  {
-    "food_name": "cocoa butter oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "rice bran oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "corn pasta dry",
-    "protein": 7.8,
-    "carbs": 83.2,
-    "fat": 2.2,
-    "calories": 375
-  },
-  {
-    "food_name": "whole wheat spaghetti dry",
-    "protein": 4.1,
-    "carbs": 21.2,
-    "fat": 0.4,
-    "calories": 98
-  },
-  {
-    "food_name": "rice noodles dry",
-    "protein": 1.0,
-    "carbs": 23.6,
-    "fat": 0.2,
-    "calories": 103
-  },
-  {
-    "food_name": "spinach spaghetti dry",
-    "protein": 3.8,
-    "carbs": 21.2,
-    "fat": 0.4,
-    "calories": 105
-  },
-  {
-    "food_name": "whole wheat macaroni dry",
-    "protein": 15.4,
-    "carbs": 78.8,
-    "fat": 1.5,
-    "calories": 365
-  },
-  {
-    "food_name": "spinach egg noodles dry",
-    "protein": 5.6,
-    "carbs": 26.7,
-    "fat": 1.7,
-    "calories": 145
-  },
-  {
-    "food_name": "rice noodles cooked",
-    "protein": 3.2,
-    "carbs": 42.3,
-    "fat": 0.4,
-    "calories": 190
-  },
-  {
-    "food_name": "whole wheat macaroni cooked",
-    "protein": 7.5,
-    "carbs": 37.2,
-    "fat": 0.8,
-    "calories": 174
-  },
-  {
-    "food_name": "whole wheat spaghetti cooked",
-    "protein": 7.5,
-    "carbs": 37.2,
-    "fat": 0.8,
-    "calories": 174
-  },
-  {
-    "food_name": "bread crumbs",
-    "protein": 14.4,
-    "carbs": 77.7,
-    "fat": 5.7,
-    "calories": 427
-  },
-  {
-    "food_name": "corn muffin",
-    "protein": 3.9,
-    "carbs": 33.7,
-    "fat": 5.5,
-    "calories": 201
-  },
-  {
-    "food_name": "buttermilk waffle",
-    "protein": 2.4,
-    "carbs": 16.0,
-    "fat": 3.1,
-    "calories": 102
-  },
-  {
-    "food_name": "flour tortilla",
-    "protein": 3.9,
-    "carbs": 24.1,
-    "fat": 3.7,
-    "calories": 146
-  },
-  {
-    "food_name": "glazed donut",
-    "protein": 0.8,
-    "carbs": 6.2,
-    "fat": 3.0,
-    "calories": 55
-  },
-  {
-    "food_name": "corn tortilla",
-    "protein": 1.4,
-    "carbs": 10.7,
-    "fat": 0.7,
-    "calories": 52
-  },
-  {
-    "food_name": "donut with jelly filling",
-    "protein": 5.0,
-    "carbs": 33.2,
-    "fat": 15.9,
-    "calories": 289
-  },
-  {
-    "food_name": "french cruller donut",
-    "protein": 1.3,
-    "carbs": 24.4,
-    "fat": 7.5,
-    "calories": 169
-  },
-  {
-    "food_name": "pancakes",
-    "protein": 2.4,
-    "carbs": 10.8,
-    "fat": 3.7,
-    "calories": 86
-  },
-  {
-    "food_name": "chocolate donut",
-    "protein": 2.7,
-    "carbs": 34.4,
-    "fat": 11.9,
-    "calories": 250
-  },
-  {
-    "food_name": "sweet cheese rolls",
-    "protein": 4.7,
-    "carbs": 28.8,
-    "fat": 12.1,
-    "calories": 238
-  },
-  {
-    "food_name": "donut with cream filling",
-    "protein": 5.4,
-    "carbs": 25.5,
-    "fat": 20.8,
-    "calories": 307
-  },
-  {
-    "food_name": "donut",
-    "protein": 2.3,
-    "carbs": 22.9,
-    "fat": 10.3,
-    "calories": 192
-  },
-  {
-    "food_name": "pancakes whole wheat",
-    "protein": 3.7,
-    "carbs": 12.9,
-    "fat": 2.9,
-    "calories": 92
-  },
-  {
-    "food_name": "chocolate coated donut",
-    "protein": 0.9,
-    "carbs": 9.2,
-    "fat": 4.5,
-    "calories": 81
-  },
-  {
-    "food_name": "wheat bran bread",
-    "protein": 3.2,
-    "carbs": 17.2,
-    "fat": 1.2,
-    "calories": 89
-  },
-  {
-    "food_name": "white bread",
-    "protein": 2.6,
-    "carbs": 14.3,
-    "fat": 1.0,
-    "calories": 77
-  },
-  {
-    "food_name": "oat bran bread",
-    "protein": 3.1,
-    "carbs": 11.9,
-    "fat": 1.3,
-    "calories": 71
-  },
-  {
-    "food_name": "whole wheat bread natures own",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 1.0,
-    "calories": 50
-  },
-  {
-    "food_name": "high protein bread dr zaks",
-    "protein": 0.0,
-    "carbs": 15.3,
-    "fat": 3.0,
-    "calories": 152
-  },
-  {
-    "food_name": "wheat bread",
-    "protein": 3.1,
-    "carbs": 13.8,
-    "fat": 1.3,
-    "calories": 79
-  },
-  {
-    "food_name": "egg bread toasted",
-    "protein": 3.9,
-    "carbs": 19.5,
-    "fat": 2.4,
-    "calories": 117
-  },
-  {
-    "food_name": "butter toastbrot ja",
-    "protein": 0.0,
-    "carbs": 2.0,
-    "fat": 0.9,
-    "calories": 66
-  },
-  {
-    "food_name": "vienna bread toasted",
-    "protein": 3.8,
-    "carbs": 18.0,
-    "fat": 0.6,
-    "calories": 93
-  },
-  {
-    "food_name": "vienna bread",
-    "protein": 3.8,
-    "carbs": 18.1,
-    "fat": 0.6,
-    "calories": 92
-  },
-  {
-    "food_name": "protein bread",
-    "protein": 2.3,
-    "carbs": 8.3,
-    "fat": 0.4,
-    "calories": 47
-  },
-  {
-    "food_name": "banana bread",
-    "protein": 2.5,
-    "carbs": 31.1,
-    "fat": 6.0,
-    "calories": 186
-  },
-  {
-    "food_name": "rice bran bread",
-    "protein": 2.4,
-    "carbs": 11.7,
-    "fat": 1.2,
-    "calories": 66
-  },
-  {
-    "food_name": "white fibre wonder bread",
-    "protein": 3.5,
-    "carbs": 18.0,
-    "fat": 1.0,
-    "calories": 95
-  },
-  {
-    "food_name": "oat bran bread toasted",
-    "protein": 3.1,
-    "carbs": 11.8,
-    "fat": 1.3,
-    "calories": 70
-  },
-  {
-    "food_name": "rye bread",
-    "protein": 2.7,
-    "carbs": 15.5,
-    "fat": 1.1,
-    "calories": 83
-  },
-  {
-    "food_name": "wheat germ bread",
-    "protein": 2.7,
-    "carbs": 13.5,
-    "fat": 0.8,
-    "calories": 73
-  },
-  {
-    "food_name": "protein bread toasted",
-    "protein": 2.2,
-    "carbs": 8.2,
-    "fat": 0.4,
-    "calories": 46
-  },
-  {
-    "food_name": "oatmeal bread",
-    "protein": 2.3,
-    "carbs": 13.1,
-    "fat": 1.2,
-    "calories": 73
-  },
-  {
-    "food_name": "raisin bread toasted",
-    "protein": 2.5,
-    "carbs": 16.5,
-    "fat": 1.4,
-    "calories": 86
-  },
-  {
-    "food_name": "cracked wheat bread",
-    "protein": 2.5,
-    "carbs": 14.0,
-    "fat": 1.1,
-    "calories": 74
-  },
-  {
-    "food_name": "garlic bread",
-    "protein": 3.6,
-    "carbs": 17.9,
-    "fat": 7.1,
-    "calories": 151
-  },
-  {
-    "food_name": "rye bread toasted",
-    "protein": 2.7,
-    "carbs": 15.4,
-    "fat": 1.0,
-    "calories": 82
-  },
-  {
-    "food_name": "whole wheat bread",
-    "protein": 3.9,
-    "carbs": 23.6,
-    "fat": 2.5,
-    "calories": 128
-  },
-  {
-    "food_name": "whole wheat bread toasted",
-    "protein": 3.9,
-    "carbs": 23.7,
-    "fat": 2.5,
-    "calories": 128
-  },
-  {
-    "food_name": "pan dulce bread",
-    "protein": 5.9,
-    "carbs": 35.5,
-    "fat": 7.3,
-    "calories": 231
-  },
-  {
-    "food_name": "rice bran bread toasted",
-    "protein": 2.4,
-    "carbs": 11.8,
-    "fat": 1.3,
-    "calories": 66
-  },
-  {
-    "food_name": "pita bread whole wheat",
-    "protein": 2.7,
-    "carbs": 15.4,
-    "fat": 0.7,
-    "calories": 74
-  },
-  {
-    "food_name": "wheat germ bread toasted",
-    "protein": 2.7,
-    "carbs": 13.6,
-    "fat": 0.8,
-    "calories": 73
-  },
-  {
-    "food_name": "pumpernickel bread",
-    "protein": 2.3,
-    "carbs": 12.4,
-    "fat": 0.8,
-    "calories": 65
-  },
-  {
-    "food_name": "frybread",
-    "protein": 10.2,
-    "carbs": 73.4,
-    "fat": 18.6,
-    "calories": 502
-  },
-  {
-    "food_name": "white bread toasted",
-    "protein": 2.5,
-    "carbs": 15.4,
-    "fat": 1.1,
-    "calories": 83
-  },
-  {
-    "food_name": "piki bread",
-    "protein": 2.5,
-    "carbs": 20.2,
-    "fat": 2.0,
-    "calories": 109
-  },
-  {
-    "food_name": "wheat bread toasted",
-    "protein": 3.1,
-    "carbs": 13.4,
-    "fat": 1.0,
-    "calories": 75
-  },
-  {
-    "food_name": "pita bread",
-    "protein": 5.5,
-    "carbs": 33.4,
-    "fat": 0.7,
-    "calories": 165
-  },
-  {
-    "food_name": "potato bread",
-    "protein": 4.0,
-    "carbs": 15.1,
-    "fat": 1.0,
-    "calories": 85
-  },
-  {
-    "food_name": "egg bread",
-    "protein": 3.8,
-    "carbs": 19.1,
-    "fat": 2.4,
-    "calories": 115
-  },
-  {
-    "food_name": "oatmeal bread toasted",
-    "protein": 2.3,
-    "carbs": 13.2,
-    "fat": 1.2,
-    "calories": 73
-  },
-  {
-    "food_name": "cheese bread",
-    "protein": 5.0,
-    "carbs": 21.5,
-    "fat": 10.0,
-    "calories": 196
-  },
-  {
-    "food_name": "pumpernickel bread toasted",
-    "protein": 2.8,
-    "carbs": 15.1,
-    "fat": 1.0,
-    "calories": 80
-  },
-  {
-    "food_name": "raisin bread",
-    "protein": 2.5,
-    "carbs": 16.7,
-    "fat": 1.4,
-    "calories": 88
-  },
-  {
-    "food_name": "english muffin whole wheat",
-    "protein": 5.8,
-    "carbs": 26.7,
-    "fat": 1.4,
-    "calories": 134
-  },
-  {
-    "food_name": "dinner roll whole wheat",
-    "protein": 2.4,
-    "carbs": 14.3,
-    "fat": 1.3,
-    "calories": 74
-  },
-  {
-    "food_name": "english muffin whole wheat toasted",
-    "protein": 5.9,
-    "carbs": 26.9,
-    "fat": 1.4,
-    "calories": 135
-  },
-  {
-    "food_name": "pecan shortbread cookies",
-    "protein": 0.7,
-    "carbs": 8.2,
-    "fat": 4.6,
-    "calories": 76
-  },
-  {
-    "food_name": "oatmeal cookies",
-    "protein": 1.6,
-    "carbs": 17.2,
-    "fat": 4.5,
-    "calories": 113
-  },
-  {
-    "food_name": "chocolate wafers",
-    "protein": 7.4,
-    "carbs": 81.1,
-    "fat": 15.9,
-    "calories": 485
-  },
-  {
-    "food_name": "chocolate chip cookies mcdonalds",
-    "protein": 1.6,
-    "carbs": 18.7,
-    "fat": 6.4,
-    "calories": 136
-  },
-  {
-    "food_name": "gingersnap cookies",
-    "protein": 0.4,
-    "carbs": 5.4,
-    "fat": 0.7,
-    "calories": 29
-  },
-  {
-    "food_name": "chocolate chip cookie",
-    "protein": 0.5,
-    "carbs": 9.3,
-    "fat": 2.8,
-    "calories": 63
-  },
-  {
-    "food_name": "shortbread cookies",
-    "protein": 0.5,
-    "carbs": 5.2,
-    "fat": 1.9,
-    "calories": 40
-  },
-  {
-    "food_name": "oatmeal cookies with raisins",
-    "protein": 1.0,
-    "carbs": 10.3,
-    "fat": 2.4,
-    "calories": 65
-  },
-  {
-    "food_name": "peanut butter sandwich cookies",
-    "protein": 1.2,
-    "carbs": 9.2,
-    "fat": 3.0,
-    "calories": 67
-  },
-  {
-    "food_name": "sugar cookies",
-    "protein": 0.8,
-    "carbs": 10.2,
-    "fat": 3.2,
-    "calories": 72
-  },
-  {
-    "food_name": "chocolate covered graham crackers",
-    "protein": 0.8,
-    "carbs": 9.3,
-    "fat": 3.2,
-    "calories": 68
-  },
-  {
-    "food_name": "raisin cookies",
-    "protein": 0.6,
-    "carbs": 10.2,
-    "fat": 2.0,
-    "calories": 60
-  },
-  {
-    "food_name": "peanut butter cookies",
-    "protein": 1.8,
-    "carbs": 11.8,
-    "fat": 4.8,
-    "calories": 95
-  },
-  {
-    "food_name": "vanilla sandwich cookie",
-    "protein": 0.7,
-    "carbs": 10.8,
-    "fat": 3.0,
-    "calories": 72
-  },
-  {
-    "food_name": "cheese puffs",
-    "protein": 2.1,
-    "carbs": 18.6,
-    "fat": 12.8,
-    "calories": 197
-  },
-  {
-    "food_name": "corn cones",
-    "protein": 1.6,
-    "carbs": 17.8,
-    "fat": 7.6,
-    "calories": 144
-  },
-  {
-    "food_name": "chocolate pretzels",
-    "protein": 0.8,
-    "carbs": 7.8,
-    "fat": 1.8,
-    "calories": 50
-  },
-  {
-    "food_name": "cheese crackers",
-    "protein": 0.8,
-    "carbs": 4.2,
-    "fat": 1.6,
-    "calories": 34
-  },
-  {
-    "food_name": "oriental rice cracker mix",
-    "protein": 4.9,
-    "carbs": 14.6,
-    "fat": 7.2,
-    "calories": 143
-  },
-  {
-    "food_name": "breadsticks",
-    "protein": 3.0,
-    "carbs": 17.1,
-    "fat": 2.4,
-    "calories": 103
-  },
-  {
-    "food_name": "milk crackers",
-    "protein": 0.8,
-    "carbs": 7.7,
-    "fat": 1.7,
-    "calories": 50
-  },
-  {
-    "food_name": "matzo crackers whole wheat",
-    "protein": 3.7,
-    "carbs": 22.1,
-    "fat": 0.4,
-    "calories": 98
-  },
-  {
-    "food_name": "crackers whole wheat",
-    "protein": 3.0,
-    "carbs": 19.5,
-    "fat": 4.0,
-    "calories": 120
-  },
-  {
-    "food_name": "corn tostada shell",
-    "protein": 0.8,
-    "carbs": 7.9,
-    "fat": 2.9,
-    "calories": 58
-  },
-  {
-    "food_name": "trail mix with chocolate chips",
-    "protein": 20.7,
-    "carbs": 65.6,
-    "fat": 46.6,
-    "calories": 707
-  },
-  {
-    "food_name": "puffed rice",
-    "protein": 2.4,
-    "carbs": 34.1,
-    "fat": 0.2,
-    "calories": 153
-  },
-  {
-    "food_name": "matzo crackers with egg onion",
-    "protein": 2.8,
-    "carbs": 21.6,
-    "fat": 1.1,
-    "calories": 109
-  },
-  {
-    "food_name": "cornnuts",
-    "protein": 2.4,
-    "carbs": 20.3,
-    "fat": 4.4,
-    "calories": 126
-  },
-  {
-    "food_name": "potato raw",
-    "protein": 4.3,
-    "carbs": 37.2,
-    "fat": 0.2,
-    "calories": 164
-  },
-  {
-    "food_name": "baked potato",
-    "protein": 4.3,
-    "carbs": 36.6,
-    "fat": 0.2,
-    "calories": 161
-  },
-  {
-    "food_name": "potato sticks",
-    "protein": 2.4,
-    "carbs": 19.2,
-    "fat": 12.4,
-    "calories": 188
-  },
-  {
-    "food_name": "potato cooked",
-    "protein": 1.1,
-    "carbs": 12.1,
-    "fat": 0.006,
-    "calories": 52
-  },
-  {
-    "food_name": "vivaldi potatoes sainsburys",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 0.1,
-    "calories": 23
-  },
-  {
-    "food_name": "potato ham chowder soup",
-    "protein": 6.5,
-    "carbs": 13.4,
-    "fat": 12.5,
-    "calories": 192
-  },
-  {
-    "food_name": "russet potato raw",
-    "protein": 7.9,
-    "carbs": 66.7,
-    "fat": 0.3,
-    "calories": 292
-  },
-  {
-    "food_name": "russet potato baked",
-    "protein": 7.9,
-    "carbs": 64.1,
-    "fat": 0.4,
-    "calories": 290
-  },
-  {
-    "food_name": "potato scalloped",
-    "protein": 7.0,
-    "carbs": 26.4,
-    "fat": 9.0,
-    "calories": 216
-  },
-  {
-    "food_name": "mashed potatoes",
-    "protein": 4.0,
-    "carbs": 35.5,
-    "fat": 6.8,
-    "calories": 215
-  },
-  {
-    "food_name": "mashed potato with milk and butter",
-    "protein": 3.9,
-    "carbs": 35.3,
-    "fat": 8.9,
-    "calories": 237
-  },
-  {
-    "food_name": "red potato raw",
-    "protein": 4.0,
-    "carbs": 33.9,
-    "fat": 0.3,
-    "calories": 149
-  },
-  {
-    "food_name": "potato pancake",
-    "protein": 1.3,
-    "carbs": 6.1,
-    "fat": 3.2,
-    "calories": 59
-  },
-  {
-    "food_name": "potato puffs",
-    "protein": 2.6,
-    "carbs": 35.5,
-    "fat": 11.0,
-    "calories": 243
-  },
-  {
-    "food_name": "red potato baked",
-    "protein": 2.0,
-    "carbs": 16.7,
-    "fat": 0.1,
-    "calories": 74
-  },
-  {
-    "food_name": "potatoes canned",
-    "protein": 3.6,
-    "carbs": 29.7,
-    "fat": 0.3,
-    "calories": 132
-  },
-  {
-    "food_name": "potato skin raw",
-    "protein": 1.0,
-    "carbs": 4.7,
-    "fat": 0.099,
-    "calories": 22
-  },
-  {
-    "food_name": "hash brown potato",
-    "protein": 1.4,
-    "carbs": 15.3,
-    "fat": 9.0,
-    "calories": 144
-  },
-  {
-    "food_name": "corn chips",
-    "protein": 1.9,
-    "carbs": 17.2,
-    "fat": 10.0,
-    "calories": 162
-  },
-  {
-    "food_name": "nacho cheese tortilla chips low fat",
-    "protein": 2.4,
-    "carbs": 18.5,
-    "fat": 1.0,
-    "calories": 90
-  },
-  {
-    "food_name": "corn chips barbecue",
-    "protein": 13.9,
-    "carbs": 111.3,
-    "fat": 64.7,
-    "calories": 1036
-  },
-  {
-    "food_name": "corn chips unsalted",
-    "protein": 5.8,
-    "carbs": 50.5,
-    "fat": 29.4,
-    "calories": 490
-  },
-  {
-    "food_name": "potato chips fat free",
-    "protein": 21.9,
-    "carbs": 190.1,
-    "fat": 1.4,
-    "calories": 860
-  },
-  {
-    "food_name": "potato chips reduced fat",
-    "protein": 12.1,
-    "carbs": 113.7,
-    "fat": 35.4,
-    "calories": 801
-  },
-  {
-    "food_name": "onion snacks",
-    "protein": 2.3,
-    "carbs": 19.5,
-    "fat": 6.8,
-    "calories": 150
-  },
-  {
-    "food_name": "potato chips cheese",
-    "protein": 14.5,
-    "carbs": 98.1,
-    "fat": 46.2,
-    "calories": 843
-  },
-  {
-    "food_name": "potato chips",
-    "protein": 2.1,
-    "carbs": 15.9,
-    "fat": 10.4,
-    "calories": 161
-  },
-  {
-    "food_name": "sweet potato chips",
-    "protein": 0.8,
-    "carbs": 15.9,
-    "fat": 9.1,
-    "calories": 149
-  },
-  {
-    "food_name": "nacho cheese tortilla chips",
-    "protein": 2.2,
-    "carbs": 18.2,
-    "fat": 8.2,
-    "calories": 156
-  },
-  {
-    "food_name": "potato chips barbecue",
-    "protein": 15.2,
-    "carbs": 104.5,
-    "fat": 64.2,
-    "calories": 970
-  },
-  {
-    "food_name": "potato chips sour cream and onion",
-    "protein": 16.0,
-    "carbs": 102.0,
-    "fat": 67.1,
-    "calories": 1051
-  },
-  {
-    "food_name": "chili pepper sauce red",
-    "protein": 0.1,
-    "carbs": 0.6,
-    "fat": 0.089,
-    "calories": 3
-  },
-  {
-    "food_name": "creamy ranch sauce mcdonalds",
-    "protein": 0.3,
-    "carbs": 1.0,
-    "fat": 14.7,
-    "calories": 132
-  },
-  {
-    "food_name": "chili pepper sauce green",
-    "protein": 0.1,
-    "carbs": 0.8,
-    "fat": 0.032,
-    "calories": 3
-  },
-  {
-    "food_name": "fish sauce",
-    "protein": 0.9,
-    "carbs": 0.7,
-    "fat": 0.013,
-    "calories": 6
-  },
-  {
-    "food_name": "peppercorn dressing",
-    "protein": 0.2,
-    "carbs": 0.5,
-    "fat": 8.2,
-    "calories": 76
-  },
-  {
-    "food_name": "tomato sauce",
-    "protein": 2.9,
-    "carbs": 13.0,
-    "fat": 0.7,
-    "calories": 59
-  },
-  {
-    "food_name": "onion gravy dry",
-    "protein": 2.2,
-    "carbs": 16.2,
-    "fat": 0.7,
-    "calories": 77
-  },
-  {
-    "food_name": "corn syrup light",
-    "protein": 0.0,
-    "carbs": 16.9,
-    "fat": 0.09,
-    "calories": 62
-  },
-  {
-    "food_name": "bacon tomato dressing",
-    "protein": 0.3,
-    "carbs": 0.3,
-    "fat": 5.3,
-    "calories": 49
-  },
-  {
-    "food_name": "pancake syrup",
-    "protein": 0.0,
-    "carbs": 13.9,
-    "fat": 0.075,
-    "calories": 53
-  },
-  {
-    "food_name": "tomato sauce with mushrooms",
-    "protein": 3.6,
-    "carbs": 20.7,
-    "fat": 0.3,
-    "calories": 86
-  },
-  {
-    "food_name": "tomato sauce with onions",
-    "protein": 3.8,
-    "carbs": 24.4,
-    "fat": 0.5,
-    "calories": 103
-  },
-  {
-    "food_name": "blue cheese dressing light",
-    "protein": 0.3,
-    "carbs": 2.1,
-    "fat": 0.4,
-    "calories": 14
-  },
-  {
-    "food_name": "spanish tomato sauce",
-    "protein": 3.5,
-    "carbs": 17.7,
-    "fat": 0.7,
-    "calories": 81
-  },
-  {
-    "food_name": "oyster sauce",
-    "protein": 0.2,
-    "carbs": 2.0,
-    "fat": 0.066,
-    "calories": 9
-  },
-  {
-    "food_name": "cheese sauce",
-    "protein": 1.5,
-    "carbs": 0.8,
-    "fat": 2.2,
-    "calories": 30
-  },
-  {
-    "food_name": "tomato sauce with herbs cheese",
-    "protein": 5.2,
-    "carbs": 25.0,
-    "fat": 4.7,
-    "calories": 144
-  },
-  {
-    "food_name": "tomato ketchup mp",
-    "protein": 0.0,
-    "carbs": 0.2,
-    "fat": 0.0,
-    "calories": 15
-  },
-  {
-    "food_name": "cranberry orange relish",
-    "protein": 0.8,
-    "carbs": 127.1,
-    "fat": 0.3,
-    "calories": 490
-  },
-  {
-    "food_name": "roquefort cheese dressing",
-    "protein": 0.8,
-    "carbs": 0.4,
-    "fat": 1.1,
-    "calories": 15
-  },
-  {
-    "food_name": "blue cheese dressing",
-    "protein": 0.2,
-    "carbs": 0.7,
-    "fat": 7.7,
-    "calories": 71
-  },
-  {
-    "food_name": "corn syrup dark",
-    "protein": 0.0,
-    "carbs": 15.5,
-    "fat": 0.0,
-    "calories": 57
-  },
-  {
-    "food_name": "buttermilk dressing light",
-    "protein": 0.2,
-    "carbs": 3.2,
-    "fat": 1.9,
-    "calories": 30
-  },
-  {
-    "food_name": "pepper hot sauce",
-    "protein": 0.024,
-    "carbs": 0.031,
-    "fat": 0.018,
-    "calories": 1
-  },
-  {
-    "food_name": "tomato chili sauce",
-    "protein": 0.2,
-    "carbs": 1.2,
-    "fat": 0.095,
-    "calories": 6
-  },
-  {
-    "food_name": "steak sauce",
-    "protein": 0.2,
-    "carbs": 3.7,
-    "fat": 0.004,
-    "calories": 16
-  },
-  {
-    "food_name": "sprouted soybean cooked",
-    "protein": 8.0,
-    "carbs": 6.1,
-    "fat": 4.2,
-    "calories": 76
-  },
-  {
-    "food_name": "soy flour roasted",
-    "protein": 29.6,
-    "carbs": 28.6,
-    "fat": 18.6,
-    "calories": 375
-  },
-  {
-    "food_name": "soy flour low fat",
-    "protein": 40.0,
-    "carbs": 30.7,
-    "fat": 7.8,
-    "calories": 330
-  },
-  {
-    "food_name": "green soybean cooked",
-    "protein": 11.1,
-    "carbs": 9.9,
-    "fat": 5.8,
-    "calories": 127
-  },
-  {
-    "food_name": "tofu yogurt",
-    "protein": 9.2,
-    "carbs": 41.8,
-    "fat": 4.7,
-    "calories": 246
-  },
-  {
-    "food_name": "meatless chicken fried",
-    "protein": 27.7,
-    "carbs": 11.1,
-    "fat": 16.6,
-    "calories": 304
-  },
-  {
-    "food_name": "soymilk",
-    "protein": 7.1,
-    "carbs": 8.4,
-    "fat": 4.8,
-    "calories": 109
-  },
-  {
-    "food_name": "soybean curd cheese",
-    "protein": 28.1,
-    "carbs": 15.5,
-    "fat": 18.2,
-    "calories": 340
-  },
-  {
-    "food_name": "soybean dry roasted",
-    "protein": 36.8,
-    "carbs": 30.4,
-    "fat": 20.1,
-    "calories": 419
-  },
-  {
-    "food_name": "soybean oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 120
-  },
-  {
-    "food_name": "meatless chicken",
-    "protein": 39.7,
-    "carbs": 6.1,
-    "fat": 21.4,
-    "calories": 376
-  },
-  {
-    "food_name": "soybean cooked",
-    "protein": 28.6,
-    "carbs": 17.1,
-    "fat": 15.4,
-    "calories": 296
-  },
-  {
-    "food_name": "soymilk nonfat",
-    "protein": 6.0,
-    "carbs": 10.1,
-    "fat": 0.046,
-    "calories": 68
-  },
-  {
-    "food_name": "soy flour",
-    "protein": 1.8,
-    "carbs": 1.8,
-    "fat": 1.1,
-    "calories": 23
-  },
-  {
-    "food_name": "soybean lecithin oil",
-    "protein": 0.0,
-    "carbs": 0.0,
-    "fat": 13.6,
-    "calories": 104
-  },
-  {
-    "food_name": "green soybean raw",
-    "protein": 33.2,
-    "carbs": 28.3,
-    "fat": 17.4,
-    "calories": 376
-  },
-  {
-    "food_name": "soybean margarine",
-    "protein": 0.052,
-    "carbs": 0.043,
-    "fat": 3.8,
-    "calories": 34
-  },
-  {
-    "food_name": "chocolate soymilk nonfat",
-    "protein": 6.0,
-    "carbs": 20.7,
-    "fat": 0.046,
-    "calories": 107
-  },
-  {
-    "food_name": "vanilla soymilk",
-    "protein": 7.9,
-    "carbs": 15.3,
-    "fat": 4.3,
-    "calories": 131
-  },
-  {
-    "food_name": "soymilk low fat",
-    "protein": 4.0,
-    "carbs": 17.5,
-    "fat": 1.5,
-    "calories": 104
-  },
-  {
-    "food_name": "sprouted soybean raw",
-    "protein": 9.2,
-    "carbs": 6.7,
-    "fat": 4.7,
-    "calories": 85
-  },
-  {
-    "food_name": "soybean raw",
-    "protein": 67.9,
-    "carbs": 56.1,
-    "fat": 37.1,
-    "calories": 830
-  },
-  {
-    "food_name": "vanilla soymilk light",
-    "protein": 6.4,
-    "carbs": 9.4,
-    "fat": 2.1,
-    "calories": 83
-  },
-  {
-    "food_name": "chocolate soymilk",
-    "protein": 5.5,
-    "carbs": 24.2,
-    "fat": 3.7,
-    "calories": 153
-  },
-  {
-    "food_name": "red cabbage raw",
-    "protein": 2.4,
-    "carbs": 12.5,
-    "fat": 0.3,
-    "calories": 53
-  },
-  {
-    "food_name": "broccoli raab raw",
-    "protein": 1.3,
-    "carbs": 1.1,
-    "fat": 0.2,
-    "calories": 9
-  },
-  {
-    "food_name": "napa cabbage cooked",
-    "protein": 1.2,
-    "carbs": 2.4,
-    "fat": 0.2,
-    "calories": 13
-  },
-  {
-    "food_name": "broccoli cooked",
-    "protein": 6.7,
-    "carbs": 20.1,
-    "fat": 1.1,
-    "calories": 98
-  },
-  {
-    "food_name": "serrano pepper",
-    "protein": 0.1,
-    "carbs": 0.4,
-    "fat": 0.075,
-    "calories": 2
-  },
-  {
-    "food_name": "sweet potato leaves cooked",
-    "protein": 1.4,
-    "carbs": 4.7,
-    "fat": 0.2,
-    "calories": 22
-  },
-  {
-    "food_name": "acorn squash raw",
-    "protein": 3.4,
-    "carbs": 44.9,
-    "fat": 0.4,
-    "calories": 172
-  },
-  {
-    "food_name": "cabbage raw",
-    "protein": 3.6,
-    "carbs": 16.2,
-    "fat": 0.3,
-    "calories": 70
-  },
-  {
-    "food_name": "sweet red peppers cooked",
-    "protein": 0.7,
-    "carbs": 4.5,
-    "fat": 0.1,
-    "calories": 19
-  },
-  {
-    "food_name": "sweet red peppers raw",
-    "protein": 1.5,
-    "carbs": 9.0,
-    "fat": 0.4,
-    "calories": 46
-  },
-  {
-    "food_name": "peas onions cooked",
-    "protein": 4.6,
-    "carbs": 15.5,
-    "fat": 0.4,
-    "calories": 81
-  },
-  {
-    "food_name": "tomato cooked",
-    "protein": 1.2,
-    "carbs": 4.9,
-    "fat": 0.1,
-    "calories": 22
-  },
-  {
-    "food_name": "navy bean sprouts raw",
-    "protein": 6.4,
-    "carbs": 13.6,
-    "fat": 0.7,
-    "calories": 70
-  },
-  {
-    "food_name": "sweet potato leaves raw",
-    "protein": 0.9,
-    "carbs": 3.1,
-    "fat": 0.2,
-    "calories": 15
-  },
-  {
-    "food_name": "spinach cooked",
-    "protein": 5.3,
-    "carbs": 6.8,
-    "fat": 0.5,
-    "calories": 41
-  },
-  {
-    "food_name": "sweet onion",
-    "protein": 2.6,
-    "carbs": 25.0,
-    "fat": 0.3,
-    "calories": 106
-  },
-  {
-    "food_name": "red cabbage cooked",
-    "protein": 2.6,
-    "carbs": 11.8,
-    "fat": 0.2,
-    "calories": 49
-  },
-  {
-    "food_name": "hot chile pepper dried",
-    "protein": 0.054,
-    "carbs": 0.3,
-    "fat": 0.054,
-    "calories": 2
-  },
-  {
-    "food_name": "acorn squash cooked",
-    "protein": 2.3,
-    "carbs": 29.9,
-    "fat": 0.3,
-    "calories": 115
-  },
-  {
-    "food_name": "japanese cabbage",
-    "protein": 2.4,
-    "carbs": 8.5,
-    "fat": 0.2,
-    "calories": 45
-  },
-  {
-    "food_name": "mung bean sprouts cooked",
-    "protein": 2.5,
-    "carbs": 4.5,
-    "fat": 0.1,
-    "calories": 24
-  },
-  {
-    "food_name": "hungarian pepper",
-    "protein": 0.2,
-    "carbs": 1.8,
-    "fat": 0.1,
-    "calories": 8
-  },
-  {
-    "food_name": "sweet potato baked",
-    "protein": 2.3,
-    "carbs": 23.6,
-    "fat": 0.2,
-    "calories": 103
-  },
-  {
-    "food_name": "chinese cabbage pe tsai raw",
-    "protein": 0.9,
-    "carbs": 2.5,
-    "fat": 0.2,
-    "calories": 12
-  },
-  {
-    "food_name": "yam bean jicama",
-    "protein": 0.9,
-    "carbs": 11.5,
-    "fat": 0.1,
-    "calories": 49
-  },
-  {
-    "food_name": "yellow corn raw",
-    "protein": 15.6,
-    "carbs": 123.3,
-    "fat": 7.9,
-    "calories": 606
-  },
-  {
-    "food_name": "broccoli raw",
-    "protein": 2.6,
-    "carbs": 6.0,
-    "fat": 0.3,
-    "calories": 31
-  },
-  {
-    "food_name": "sweet green peppers raw",
-    "protein": 1.3,
-    "carbs": 6.9,
-    "fat": 0.3,
-    "calories": 30
-  },
-  {
-    "food_name": "chinese cabbage pak choi cooked",
-    "protein": 2.7,
-    "carbs": 3.0,
-    "fat": 0.3,
-    "calories": 20
-  },
-  {
-    "food_name": "new zealand spinach raw",
-    "protein": 0.8,
-    "carbs": 1.4,
-    "fat": 0.1,
-    "calories": 8
-  },
-  {
-    "food_name": "mustard spinach cooked",
-    "protein": 3.1,
-    "carbs": 5.0,
-    "fat": 0.4,
-    "calories": 29
-  },
-  {
-    "food_name": "onion raw",
-    "protein": 0.4,
-    "carbs": 3.7,
-    "fat": 0.048,
-    "calories": 16
-  },
-  {
-    "food_name": "butternut squash raw",
-    "protein": 2.0,
-    "carbs": 23.4,
-    "fat": 0.2,
-    "calories": 90
-  },
-  {
-    "food_name": "corn dried",
-    "protein": 4.1,
-    "carbs": 18.8,
-    "fat": 3.0,
-    "calories": 119
-  },
-  {
-    "food_name": "sweet potato raw",
-    "protein": 2.0,
-    "carbs": 26.2,
-    "fat": 0.002,
-    "calories": 112
-  },
-  {
-    "food_name": "green tomato",
-    "protein": 2.2,
-    "carbs": 9.3,
-    "fat": 0.4,
-    "calories": 42
-  },
-  {
-    "food_name": "savoy cabbage cooked",
-    "protein": 3.1,
-    "carbs": 9.2,
-    "fat": 0.2,
-    "calories": 41
-  },
-  {
-    "food_name": "dried tomatoes",
-    "protein": 0.3,
-    "carbs": 1.1,
-    "fat": 0.053,
-    "calories": 5
-  },
-  {
-    "food_name": "yellow tomato",
-    "protein": 2.1,
-    "carbs": 6.3,
-    "fat": 0.6,
-    "calories": 32
-  },
-  {
-    "food_name": "spinach raw",
-    "protein": 0.9,
-    "carbs": 1.1,
-    "fat": 0.1,
-    "calories": 7
-  },
-  {
-    "food_name": "lentil sprouts",
-    "protein": 6.9,
-    "carbs": 17.0,
-    "fat": 0.4,
-    "calories": 82
-  },
-  {
-    "food_name": "carrots raw",
-    "protein": 0.6,
-    "carbs": 5.8,
-    "fat": 0.1,
-    "calories": 25
-  },
-  {
-    "food_name": "red chili peppers",
-    "protein": 0.8,
-    "carbs": 4.0,
-    "fat": 0.2,
-    "calories": 18
-  },
-  {
-    "food_name": "sweet corn white",
-    "protein": 2.4,
-    "carbs": 13.9,
-    "fat": 0.9,
-    "calories": 63
-  },
-  {
-    "food_name": "carrots cooked",
-    "protein": 0.3,
-    "carbs": 3.8,
-    "fat": 0.092,
-    "calories": 16
-  },
-  {
-    "food_name": "split peas raw",
-    "protein": 48.4,
-    "carbs": 118.9,
-    "fat": 2.3,
-    "calories": 672
-  },
-  {
-    "food_name": "corn cooked",
-    "protein": 3.5,
-    "carbs": 21.6,
-    "fat": 1.5,
-    "calories": 99
-  },
-  {
-    "food_name": "baby carrots",
-    "protein": 0.031,
-    "carbs": 1.2,
-    "fat": 0.053,
-    "calories": 5
-  },
-  {
-    "food_name": "sweet yellow peppers",
-    "protein": 1.9,
-    "carbs": 11.8,
-    "fat": 0.4,
-    "calories": 50
-  },
-  {
-    "food_name": "corn raw",
-    "protein": 4.7,
-    "carbs": 26.7,
-    "fat": 1.9,
-    "calories": 123
-  },
-  {
-    "food_name": "mustard cabbage",
-    "protein": 1.4,
-    "carbs": 7.2,
-    "fat": 0.1,
-    "calories": 36
-  },
-  {
-    "food_name": "butternut squash cooked",
-    "protein": 1.8,
-    "carbs": 21.0,
-    "fat": 0.2,
-    "calories": 80
-  },
-  {
-    "food_name": "peas carrots cooked",
-    "protein": 4.9,
-    "carbs": 16.2,
-    "fat": 0.7,
-    "calories": 77
-  },
-  {
-    "food_name": "savoy cabbage raw",
-    "protein": 1.4,
-    "carbs": 4.3,
-    "fat": 0.017,
-    "calories": 19
-  },
-  {
-    "food_name": "mustard spinach raw",
-    "protein": 3.3,
-    "carbs": 5.9,
-    "fat": 0.5,
-    "calories": 33
-  },
-  {
-    "food_name": "orange tomato",
-    "protein": 1.3,
-    "carbs": 3.5,
-    "fat": 0.2,
-    "calories": 18
-  },
-  {
-    "food_name": "white corn cooked",
-    "protein": 3.4,
-    "carbs": 22.4,
-    "fat": 1.5,
-    "calories": 100
-  },
-  {
-    "food_name": "string beans wellsley farms",
-    "protein": 0.3,
-    "carbs": 1.7,
-    "fat": 0.0,
-    "calories": 8
-  },
-  {
-    "food_name": "peas cooked",
-    "protein": 8.6,
-    "carbs": 25.0,
-    "fat": 0.4,
-    "calories": 134
-  },
-  {
-    "food_name": "broccoli raab cooked",
-    "protein": 3.3,
-    "carbs": 2.7,
-    "fat": 0.4,
-    "calories": 21
-  },
-  {
-    "food_name": "spring onion scallions",
-    "protein": 0.4,
-    "carbs": 1.5,
-    "fat": 0.077,
-    "calories": 6
-  },
-  {
-    "food_name": "jalapeno pepper",
-    "protein": 0.1,
-    "carbs": 0.9,
-    "fat": 0.002,
-    "calories": 4
-  },
-  {
-    "food_name": "new zealand spinach cooked",
-    "protein": 2.3,
-    "carbs": 3.8,
-    "fat": 0.3,
-    "calories": 22
-  },
-  {
-    "food_name": "chinese cabbage pe tsai cooked",
-    "protein": 1.8,
-    "carbs": 2.9,
-    "fat": 0.2,
-    "calories": 17
-  },
-  {
-    "food_name": "grape leaves",
-    "protein": 0.8,
-    "carbs": 2.4,
-    "fat": 0.3,
-    "calories": 13
-  },
-  {
-    "food_name": "skunk cabbage",
-    "protein": 1.5,
-    "carbs": 1.8,
-    "fat": 0.1,
-    "calories": 11
-  },
-  {
-    "food_name": "banana pepper",
-    "protein": 0.5,
-    "carbs": 1.8,
-    "fat": 0.1,
-    "calories": 9
-  },
-  {
-    "food_name": "swamp cabbage",
-    "protein": 2.0,
-    "carbs": 3.6,
-    "fat": 0.2,
-    "calories": 20
-  },
-  {
-    "food_name": "mung bean sprouts raw",
-    "protein": 0.6,
-    "carbs": 1.2,
-    "fat": 0.044,
-    "calories": 6
-  },
-  {
-    "food_name": "onion cooked",
-    "protein": 0.2,
-    "carbs": 1.5,
-    "fat": 0.034,
-    "calories": 7
-  },
-  {
-    "food_name": "peas raw",
-    "protein": 7.9,
-    "carbs": 21.0,
-    "fat": 0.6,
-    "calories": 117
-  },
-  {
-    "food_name": "cabbage cooked",
-    "protein": 1.9,
-    "carbs": 8.3,
-    "fat": 0.019,
-    "calories": 35
-  },
-  {
-    "food_name": "split peas cooked",
-    "protein": 16.3,
-    "carbs": 40.2,
-    "fat": 0.8,
-    "calories": 227
-  },
-  {
-    "food_name": "sweet corn yellow",
-    "protein": 4.1,
-    "carbs": 14.2,
-    "fat": 0.4,
-    "calories": 58
-  },
-  {
-    "food_name": "chinese cabbage pak choi raw",
-    "protein": 1.1,
-    "carbs": 1.5,
-    "fat": 0.1,
-    "calories": 9
-  },
-  {
-    "food_name": "green chili pepper",
-    "protein": 0.9,
-    "carbs": 4.3,
-    "fat": 0.097,
-    "calories": 18
-  },
-  {
-    "food_name": "tomato stewed",
-    "protein": 2.4,
-    "carbs": 16.1,
-    "fat": 3.3,
-    "calories": 97
-  },
-  {
-    "food_name": "sweet green peppers cooked",
-    "protein": 0.7,
-    "carbs": 4.5,
-    "fat": 0.1,
-    "calories": 19
-  },
-  {
-    "food_name": "white corn raw",
-    "protein": 5.3,
-    "carbs": 31.6,
-    "fat": 2.0,
-    "calories": 143
-  },
-  {
-    "food_name": "jalapeno peppers canned",
-    "protein": 1.3,
-    "carbs": 6.4,
-    "fat": 1.3,
-    "calories": 37
-  },
-  {
-    "food_name": "peas onions canned",
-    "protein": 3.9,
-    "carbs": 10.3,
-    "fat": 0.5,
-    "calories": 61
-  },
-  {
-    "food_name": "sweet mashed potato canned",
-    "protein": 5.0,
-    "carbs": 59.1,
-    "fat": 0.5,
-    "calories": 258
-  },
-  {
-    "food_name": "tomato puree canned",
-    "protein": 4.1,
-    "carbs": 22.5,
-    "fat": 0.5,
-    "calories": 95
-  },
-  {
-    "food_name": "dried tomatoes canned in oil",
-    "protein": 0.2,
-    "carbs": 0.7,
-    "fat": 0.4,
-    "calories": 6
-  },
-  {
-    "food_name": "red peppers canned",
-    "protein": 0.7,
-    "carbs": 3.7,
-    "fat": 0.058,
-    "calories": 15
-  },
-  {
-    "food_name": "carrots canned",
-    "protein": 2.6,
-    "carbs": 24.4,
-    "fat": 0.6,
-    "calories": 104
-  },
-  {
-    "food_name": "tomatoes in tomato juice canned",
-    "protein": 1.9,
-    "carbs": 9.6,
-    "fat": 0.3,
-    "calories": 41
-  },
-  {
-    "food_name": "sweet red peppers canned",
-    "protein": 1.1,
-    "carbs": 5.5,
-    "fat": 0.4,
-    "calories": 25
-  },
-  {
-    "food_name": "onions canned",
-    "protein": 0.5,
-    "carbs": 2.5,
-    "fat": 0.084,
-    "calories": 12
-  },
-  {
-    "food_name": "spinach canned",
-    "protein": 4.9,
-    "carbs": 6.8,
-    "fat": 0.9,
-    "calories": 44
-  },
-  {
-    "food_name": "sweet potato canned",
-    "protein": 6.3,
-    "carbs": 133.5,
-    "fat": 1.3,
-    "calories": 568
-  },
-  {
-    "food_name": "corn canned",
-    "protein": 1.6,
-    "carbs": 11.1,
-    "fat": 0.6,
-    "calories": 49
-  },
-  {
-    "food_name": "peas carrots canned",
-    "protein": 5.5,
-    "carbs": 21.6,
-    "fat": 0.7,
-    "calories": 97
-  },
-  {
-    "food_name": "tomatoes canned",
-    "protein": 4.0,
-    "carbs": 17.6,
-    "fat": 0.7,
-    "calories": 77
-  },
-  {
-    "food_name": "sweet green peppers canned",
-    "protein": 1.1,
-    "carbs": 5.5,
-    "fat": 0.4,
-    "calories": 25
-  },
-  {
-    "food_name": "peas canned",
-    "protein": 3.5,
-    "carbs": 9.5,
-    "fat": 0.8,
-    "calories": 57
-  },
-  {
-    "food_name": "chili peppers canned",
-    "protein": 1.0,
-    "carbs": 6.4,
-    "fat": 0.4,
-    "calories": 29
-  },
-  {
-    "food_name": "green peppers canned",
-    "protein": 0.7,
-    "carbs": 3.7,
-    "fat": 0.074,
-    "calories": 15
-  },
-  {
-    "food_name": "grape leaves canned",
-    "protein": 1.2,
-    "carbs": 3.3,
-    "fat": 0.6,
-    "calories": 20
-  },
-  {
-    "food_name": "stewed tomatoes canned",
-    "protein": 2.3,
-    "carbs": 15.8,
-    "fat": 0.5,
-    "calories": 66
-  },
-  {
-    "food_name": "tomato paste canned",
-    "protein": 11.3,
-    "carbs": 49.5,
-    "fat": 1.2,
-    "calories": 215
-  },
-  {
-    "food_name": "caesar salad with grilled chicken mcdonalds",
-    "protein": 29.1,
-    "carbs": 11.3,
-    "fat": 5.6,
-    "calories": 201
-  },
-  {
-    "food_name": "vegetable salad with chicken",
-    "protein": 11.6,
-    "carbs": 2.5,
-    "fat": 1.5,
-    "calories": 70
-  },
-  {
-    "food_name": "potato salad",
-    "protein": 6.7,
-    "carbs": 27.9,
-    "fat": 20.5,
-    "calories": 358
-  },
-  {
-    "food_name": "cornsalad",
-    "protein": 1.1,
-    "carbs": 2.0,
-    "fat": 0.2,
-    "calories": 12
-  },
-  {
-    "food_name": "potato salad with egg",
-    "protein": 4.9,
-    "carbs": 40.5,
-    "fat": 23.5,
-    "calories": 393
-  },
-  {
-    "food_name": "caesar salad with crispy chicken mcdonalds",
-    "protein": 25.7,
-    "carbs": 19.2,
-    "fat": 16.4,
-    "calories": 349
-  },
-  {
-    "food_name": "grape apple salad with walnuts",
-    "protein": 3.5,
-    "carbs": 25.6,
-    "fat": 8.2,
-    "calories": 191
-  },
-  {
-    "food_name": "vegetable salad with cheese egg",
-    "protein": 5.8,
-    "carbs": 3.2,
-    "fat": 3.9,
-    "calories": 68
-  },
-  {
-    "food_name": "vegetable salad with shrimp",
-    "protein": 9.7,
-    "carbs": 4.4,
-    "fat": 1.7,
-    "calories": 71
-  },
-  {
-    "food_name": "pepeao dried",
-    "protein": 1.2,
-    "carbs": 19.4,
-    "fat": 0.1,
-    "calories": 72
-  },
-  {
-    "food_name": "oyster mushroom",
-    "protein": 0.5,
-    "carbs": 0.9,
-    "fat": 0.035,
-    "calories": 5
+    "Category": "Legumes",
+    "Item": "Lentils (Masoor Dal)",
+    "Calories (kcal per 100g)": 353.0,
+    "Protein (g)": 25.0,
+    "Carbohydrates (g)": 60.0,
+    "Fat (g)": 1.1,
+    "Fiber (g)": 11.0,
+    "Price (INR per 100g)": 12.0
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Chickpeas (Chana)",
+    "Calories (kcal per 100g)": 364.0,
+    "Protein (g)": 19.0,
+    "Carbohydrates (g)": 61.0,
+    "Fat (g)": 6.0,
+    "Fiber (g)": 17.0,
+    "Price (INR per 100g)": 10.0
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Kidney Beans (Rajma)",
+    "Calories (kcal per 100g)": 333.0,
+    "Protein (g)": 24.0,
+    "Carbohydrates (g)": 60.0,
+    "Fat (g)": 0.8,
+    "Fiber (g)": 25.0,
+    "Price (INR per 100g)": 14.0
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Green Gram (Moong)",
+    "Calories (kcal per 100g)": 347.0,
+    "Protein (g)": 24.0,
+    "Carbohydrates (g)": 63.0,
+    "Fat (g)": 1.2,
+    "Fiber (g)": 16.0,
+    "Price (INR per 100g)": 13.0
+  },
+  {
+    "Category": "Grains",
+    "Item": "White Rice",
+    "Calories (kcal per 100g)": 365.0,
+    "Protein (g)": 7.0,
+    "Carbohydrates (g)": 80.0,
+    "Fat (g)": 0.6,
+    "Fiber (g)": 1.3,
+    "Price (INR per 100g)": 6.0
+  },
+  {
+    "Category": "Grains",
+    "Item": "Brown Rice",
+    "Calories (kcal per 100g)": 370.0,
+    "Protein (g)": 7.5,
+    "Carbohydrates (g)": 77.0,
+    "Fat (g)": 2.7,
+    "Fiber (g)": 3.5,
+    "Price (INR per 100g)": 8.0
+  },
+  {
+    "Category": "Grains",
+    "Item": "Whole Wheat",
+    "Calories (kcal per 100g)": 340.0,
+    "Protein (g)": 13.0,
+    "Carbohydrates (g)": 72.0,
+    "Fat (g)": 2.5,
+    "Fiber (g)": 12.0,
+    "Price (INR per 100g)": 5.0
+  },
+  {
+    "Category": "Grains",
+    "Item": "Oats",
+    "Calories (kcal per 100g)": 389.0,
+    "Protein (g)": 17.0,
+    "Carbohydrates (g)": 66.0,
+    "Fat (g)": 7.0,
+    "Fiber (g)": 10.0,
+    "Price (INR per 100g)": 15.0
+  },
+  {
+    "Category": "Millets",
+    "Item": "Ragi (Finger Millet)",
+    "Calories (kcal per 100g)": 336.0,
+    "Protein (g)": 7.3,
+    "Carbohydrates (g)": 72.0,
+    "Fat (g)": 1.5,
+    "Fiber (g)": 11.0,
+    "Price (INR per 100g)": 7.0
+  },
+  {
+    "Category": "Millets",
+    "Item": "Jowar (Sorghum)",
+    "Calories (kcal per 100g)": 329.0,
+    "Protein (g)": 10.0,
+    "Carbohydrates (g)": 72.0,
+    "Fat (g)": 3.0,
+    "Fiber (g)": 6.7,
+    "Price (INR per 100g)": 6.0
+  },
+  {
+    "Category": "Millets",
+    "Item": "Bajra (Pearl Millet)",
+    "Calories (kcal per 100g)": 361.0,
+    "Protein (g)": 11.0,
+    "Carbohydrates (g)": 67.0,
+    "Fat (g)": 5.0,
+    "Fiber (g)": 8.0,
+    "Price (INR per 100g)": 6.0
+  },
+  {
+    "Category": "Millets",
+    "Item": "Foxtail Millet",
+    "Calories (kcal per 100g)": 331.0,
+    "Protein (g)": 12.0,
+    "Carbohydrates (g)": 60.0,
+    "Fat (g)": 4.3,
+    "Fiber (g)": 8.0,
+    "Price (INR per 100g)": 9.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Spinach",
+    "Calories (kcal per 100g)": 23.0,
+    "Protein (g)": 2.9,
+    "Carbohydrates (g)": 3.6,
+    "Fat (g)": 0.4,
+    "Fiber (g)": 2.2,
+    "Price (INR per 100g)": 4.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Potato",
+    "Calories (kcal per 100g)": 77.0,
+    "Protein (g)": 2.0,
+    "Carbohydrates (g)": 17.0,
+    "Fat (g)": 0.1,
+    "Fiber (g)": 2.2,
+    "Price (INR per 100g)": 3.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Tomato",
+    "Calories (kcal per 100g)": 18.0,
+    "Protein (g)": 0.9,
+    "Carbohydrates (g)": 3.9,
+    "Fat (g)": 0.2,
+    "Fiber (g)": 1.2,
+    "Price (INR per 100g)": 4.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Carrot",
+    "Calories (kcal per 100g)": 41.0,
+    "Protein (g)": 0.9,
+    "Carbohydrates (g)": 10.0,
+    "Fat (g)": 0.2,
+    "Fiber (g)": 2.8,
+    "Price (INR per 100g)": 5.0
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Banana",
+    "Calories (kcal per 100g)": 89.0,
+    "Protein (g)": 1.1,
+    "Carbohydrates (g)": 23.0,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.6,
+    "Price (INR per 100g)": 6.0
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Apple",
+    "Calories (kcal per 100g)": 52.0,
+    "Protein (g)": 0.3,
+    "Carbohydrates (g)": 14.0,
+    "Fat (g)": 0.2,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 12.0
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Mango",
+    "Calories (kcal per 100g)": 60.0,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 15.0,
+    "Fat (g)": 0.4,
+    "Fiber (g)": 1.6,
+    "Price (INR per 100g)": 10.0
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Orange",
+    "Calories (kcal per 100g)": 47.0,
+    "Protein (g)": 0.9,
+    "Carbohydrates (g)": 12.0,
+    "Fat (g)": 0.1,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 8.0
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Chicken Breast (Skinless)",
+    "Calories (kcal per 100g)": 165.0,
+    "Protein (g)": 31.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 3.6,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 25.0
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Chicken Thigh",
+    "Calories (kcal per 100g)": 209.0,
+    "Protein (g)": 26.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 10.9,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 22.0
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Duck Meat",
+    "Calories (kcal per 100g)": 337.0,
+    "Protein (g)": 19.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 28.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 35.0
+  },
+  {
+    "Category": "Meat",
+    "Item": "Goat Meat (Mutton)",
+    "Calories (kcal per 100g)": 143.0,
+    "Protein (g)": 27.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 3.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 75.0
+  },
+  {
+    "Category": "Meat",
+    "Item": "Beef",
+    "Calories (kcal per 100g)": 250.0,
+    "Protein (g)": 26.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 15.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 40.0
+  },
+  {
+    "Category": "Meat",
+    "Item": "Pork",
+    "Calories (kcal per 100g)": 242.0,
+    "Protein (g)": 27.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 14.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 35.0
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Milk (Whole)",
+    "Calories (kcal per 100g)": 61.0,
+    "Protein (g)": 3.2,
+    "Carbohydrates (g)": 5.0,
+    "Fat (g)": 3.3,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 6.0
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Curd (Yogurt)",
+    "Calories (kcal per 100g)": 59.0,
+    "Protein (g)": 3.5,
+    "Carbohydrates (g)": 4.7,
+    "Fat (g)": 3.3,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 8.0
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Paneer",
+    "Calories (kcal per 100g)": 265.0,
+    "Protein (g)": 18.0,
+    "Carbohydrates (g)": 1.2,
+    "Fat (g)": 20.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 35.0
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Butter",
+    "Calories (kcal per 100g)": 717.0,
+    "Protein (g)": 0.9,
+    "Carbohydrates (g)": 0.1,
+    "Fat (g)": 81.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 55.0
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Black Gram (Urad)",
+    "Calories (kcal per 100g)": 346.5,
+    "Protein (g)": 20.0,
+    "Carbohydrates (g)": 54.4,
+    "Fat (g)": 1.9,
+    "Fiber (g)": 13.6,
+    "Price (INR per 100g)": 13.8
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Pigeon Pea (Toor Dal)",
+    "Calories (kcal per 100g)": 329.9,
+    "Protein (g)": 22.1,
+    "Carbohydrates (g)": 58.2,
+    "Fat (g)": 1.9,
+    "Fiber (g)": 13.9,
+    "Price (INR per 100g)": 11.3
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Horse Gram",
+    "Calories (kcal per 100g)": 329.6,
+    "Protein (g)": 22.6,
+    "Carbohydrates (g)": 54.8,
+    "Fat (g)": 1.9,
+    "Fiber (g)": 15.1,
+    "Price (INR per 100g)": 15.3
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Soybean",
+    "Calories (kcal per 100g)": 373.2,
+    "Protein (g)": 23.5,
+    "Carbohydrates (g)": 55.0,
+    "Fat (g)": 1.9,
+    "Fiber (g)": 14.7,
+    "Price (INR per 100g)": 12.6
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Lobia (Black Eyed Peas)",
+    "Calories (kcal per 100g)": 368.3,
+    "Protein (g)": 20.5,
+    "Carbohydrates (g)": 58.3,
+    "Fat (g)": 1.8,
+    "Fiber (g)": 13.9,
+    "Price (INR per 100g)": 11.5
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Moth Beans",
+    "Calories (kcal per 100g)": 372.3,
+    "Protein (g)": 23.8,
+    "Carbohydrates (g)": 57.3,
+    "Fat (g)": 2.0,
+    "Fiber (g)": 15.8,
+    "Price (INR per 100g)": 11.2
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Cowpeas",
+    "Calories (kcal per 100g)": 346.8,
+    "Protein (g)": 20.3,
+    "Carbohydrates (g)": 64.6,
+    "Fat (g)": 2.0,
+    "Fiber (g)": 14.5,
+    "Price (INR per 100g)": 11.1
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Dry Peas",
+    "Calories (kcal per 100g)": 320.0,
+    "Protein (g)": 23.1,
+    "Carbohydrates (g)": 57.8,
+    "Fat (g)": 2.2,
+    "Fiber (g)": 14.9,
+    "Price (INR per 100g)": 12.1
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Field Beans",
+    "Calories (kcal per 100g)": 366.8,
+    "Protein (g)": 20.3,
+    "Carbohydrates (g)": 58.3,
+    "Fat (g)": 1.9,
+    "Fiber (g)": 13.9,
+    "Price (INR per 100g)": 12.2
+  },
+  {
+    "Category": "Legumes",
+    "Item": "Chole Kabuli",
+    "Calories (kcal per 100g)": 351.8,
+    "Protein (g)": 20.2,
+    "Carbohydrates (g)": 62.7,
+    "Fat (g)": 1.9,
+    "Fiber (g)": 15.1,
+    "Price (INR per 100g)": 14.5
+  },
+  {
+    "Category": "Grains",
+    "Item": "Basmati Rice",
+    "Calories (kcal per 100g)": 385.2,
+    "Protein (g)": 10.1,
+    "Carbohydrates (g)": 74.2,
+    "Fat (g)": 3.1,
+    "Fiber (g)": 7.5,
+    "Price (INR per 100g)": 7.7
+  },
+  {
+    "Category": "Grains",
+    "Item": "Parboiled Rice",
+    "Calories (kcal per 100g)": 327.6,
+    "Protein (g)": 10.0,
+    "Carbohydrates (g)": 72.3,
+    "Fat (g)": 3.3,
+    "Fiber (g)": 7.6,
+    "Price (INR per 100g)": 5.3
+  },
+  {
+    "Category": "Grains",
+    "Item": "Maida",
+    "Calories (kcal per 100g)": 348.7,
+    "Protein (g)": 9.2,
+    "Carbohydrates (g)": 78.1,
+    "Fat (g)": 3.2,
+    "Fiber (g)": 7.2,
+    "Price (INR per 100g)": 6.4
+  },
+  {
+    "Category": "Grains",
+    "Item": "Semolina (Sooji)",
+    "Calories (kcal per 100g)": 380.5,
+    "Protein (g)": 9.3,
+    "Carbohydrates (g)": 70.8,
+    "Fat (g)": 2.8,
+    "Fiber (g)": 8.0,
+    "Price (INR per 100g)": 7.3
+  },
+  {
+    "Category": "Grains",
+    "Item": "Barley",
+    "Calories (kcal per 100g)": 384.9,
+    "Protein (g)": 10.2,
+    "Carbohydrates (g)": 69.9,
+    "Fat (g)": 3.0,
+    "Fiber (g)": 7.4,
+    "Price (INR per 100g)": 7.2
+  },
+  {
+    "Category": "Grains",
+    "Item": "Corn",
+    "Calories (kcal per 100g)": 391.9,
+    "Protein (g)": 10.0,
+    "Carbohydrates (g)": 73.7,
+    "Fat (g)": 2.8,
+    "Fiber (g)": 8.5,
+    "Price (INR per 100g)": 7.5
+  },
+  {
+    "Category": "Grains",
+    "Item": "Poha",
+    "Calories (kcal per 100g)": 379.5,
+    "Protein (g)": 9.1,
+    "Carbohydrates (g)": 79.3,
+    "Fat (g)": 3.1,
+    "Fiber (g)": 7.3,
+    "Price (INR per 100g)": 6.1
+  },
+  {
+    "Category": "Grains",
+    "Item": "Broken Wheat (Dalia)",
+    "Calories (kcal per 100g)": 366.7,
+    "Protein (g)": 10.5,
+    "Carbohydrates (g)": 74.6,
+    "Fat (g)": 3.0,
+    "Fiber (g)": 7.5,
+    "Price (INR per 100g)": 7.3
+  },
+  {
+    "Category": "Grains",
+    "Item": "Rye",
+    "Calories (kcal per 100g)": 388.6,
+    "Protein (g)": 10.0,
+    "Carbohydrates (g)": 78.3,
+    "Fat (g)": 2.8,
+    "Fiber (g)": 8.2,
+    "Price (INR per 100g)": 5.0
+  },
+  {
+    "Category": "Grains",
+    "Item": "Quinoa",
+    "Calories (kcal per 100g)": 348.1,
+    "Protein (g)": 9.9,
+    "Carbohydrates (g)": 71.8,
+    "Fat (g)": 3.3,
+    "Fiber (g)": 8.0,
+    "Price (INR per 100g)": 7.2
+  },
+  {
+    "Category": "Millets",
+    "Item": "Little Millet",
+    "Calories (kcal per 100g)": 317.5,
+    "Protein (g)": 11.1,
+    "Carbohydrates (g)": 63.4,
+    "Fat (g)": 4.1,
+    "Fiber (g)": 7.5,
+    "Price (INR per 100g)": 7.8
+  },
+  {
+    "Category": "Millets",
+    "Item": "Kodo Millet",
+    "Calories (kcal per 100g)": 329.6,
+    "Protein (g)": 10.9,
+    "Carbohydrates (g)": 70.7,
+    "Fat (g)": 3.7,
+    "Fiber (g)": 8.3,
+    "Price (INR per 100g)": 5.9
+  },
+  {
+    "Category": "Millets",
+    "Item": "Barnyard Millet",
+    "Calories (kcal per 100g)": 336.0,
+    "Protein (g)": 11.2,
+    "Carbohydrates (g)": 74.6,
+    "Fat (g)": 4.0,
+    "Fiber (g)": 7.2,
+    "Price (INR per 100g)": 6.2
+  },
+  {
+    "Category": "Millets",
+    "Item": "Proso Millet",
+    "Calories (kcal per 100g)": 322.3,
+    "Protein (g)": 10.1,
+    "Carbohydrates (g)": 66.2,
+    "Fat (g)": 4.0,
+    "Fiber (g)": 8.4,
+    "Price (INR per 100g)": 6.5
+  },
+  {
+    "Category": "Millets",
+    "Item": "Browntop Millet",
+    "Calories (kcal per 100g)": 315.5,
+    "Protein (g)": 10.7,
+    "Carbohydrates (g)": 63.0,
+    "Fat (g)": 3.9,
+    "Fiber (g)": 8.4,
+    "Price (INR per 100g)": 6.7
+  },
+  {
+    "Category": "Millets",
+    "Item": "Pearl Millet Flour",
+    "Calories (kcal per 100g)": 328.6,
+    "Protein (g)": 10.3,
+    "Carbohydrates (g)": 72.0,
+    "Fat (g)": 4.3,
+    "Fiber (g)": 8.2,
+    "Price (INR per 100g)": 7.9
+  },
+  {
+    "Category": "Millets",
+    "Item": "Sorghum Flour",
+    "Calories (kcal per 100g)": 311.1,
+    "Protein (g)": 11.6,
+    "Carbohydrates (g)": 72.9,
+    "Fat (g)": 3.8,
+    "Fiber (g)": 7.4,
+    "Price (INR per 100g)": 9.0
+  },
+  {
+    "Category": "Millets",
+    "Item": "Ragi Flour",
+    "Calories (kcal per 100g)": 308.2,
+    "Protein (g)": 10.2,
+    "Carbohydrates (g)": 73.3,
+    "Fat (g)": 4.1,
+    "Fiber (g)": 7.5,
+    "Price (INR per 100g)": 8.7
+  },
+  {
+    "Category": "Millets",
+    "Item": "Multi Millet Mix",
+    "Calories (kcal per 100g)": 337.3,
+    "Protein (g)": 11.3,
+    "Carbohydrates (g)": 73.8,
+    "Fat (g)": 3.9,
+    "Fiber (g)": 8.5,
+    "Price (INR per 100g)": 8.5
+  },
+  {
+    "Category": "Millets",
+    "Item": "Millet Flakes",
+    "Calories (kcal per 100g)": 307.8,
+    "Protein (g)": 11.0,
+    "Carbohydrates (g)": 70.1,
+    "Fat (g)": 3.7,
+    "Fiber (g)": 8.4,
+    "Price (INR per 100g)": 8.8
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Onion",
+    "Calories (kcal per 100g)": 37.7,
+    "Protein (g)": 1.9,
+    "Carbohydrates (g)": 7.5,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 4.4
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Cabbage",
+    "Calories (kcal per 100g)": 42.8,
+    "Protein (g)": 2.0,
+    "Carbohydrates (g)": 7.4,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.3,
+    "Price (INR per 100g)": 5.9
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Cauliflower",
+    "Calories (kcal per 100g)": 40.0,
+    "Protein (g)": 1.9,
+    "Carbohydrates (g)": 8.8,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.7,
+    "Price (INR per 100g)": 6.4
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Capsicum",
+    "Calories (kcal per 100g)": 38.7,
+    "Protein (g)": 2.1,
+    "Carbohydrates (g)": 8.7,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.6,
+    "Price (INR per 100g)": 6.1
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Brinjal",
+    "Calories (kcal per 100g)": 42.3,
+    "Protein (g)": 1.8,
+    "Carbohydrates (g)": 7.5,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 6.4
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Cucumber",
+    "Calories (kcal per 100g)": 42.8,
+    "Protein (g)": 2.1,
+    "Carbohydrates (g)": 7.9,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.3,
+    "Price (INR per 100g)": 4.8
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Pumpkin",
+    "Calories (kcal per 100g)": 37.8,
+    "Protein (g)": 1.8,
+    "Carbohydrates (g)": 8.4,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.3,
+    "Price (INR per 100g)": 5.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Radish",
+    "Calories (kcal per 100g)": 37.4,
+    "Protein (g)": 2.1,
+    "Carbohydrates (g)": 7.5,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.3,
+    "Price (INR per 100g)": 6.4
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Beans",
+    "Calories (kcal per 100g)": 38.6,
+    "Protein (g)": 2.1,
+    "Carbohydrates (g)": 7.6,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.7,
+    "Price (INR per 100g)": 5.3
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Green Peas",
+    "Calories (kcal per 100g)": 38.0,
+    "Protein (g)": 1.9,
+    "Carbohydrates (g)": 8.2,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.7,
+    "Price (INR per 100g)": 4.7
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Beetroot",
+    "Calories (kcal per 100g)": 40.2,
+    "Protein (g)": 2.0,
+    "Carbohydrates (g)": 8.6,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.5,
+    "Price (INR per 100g)": 6.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Bottle Gourd",
+    "Calories (kcal per 100g)": 39.2,
+    "Protein (g)": 2.1,
+    "Carbohydrates (g)": 7.7,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 5.0
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Bitter Gourd",
+    "Calories (kcal per 100g)": 41.2,
+    "Protein (g)": 2.1,
+    "Carbohydrates (g)": 8.5,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 4.4
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Drumstick",
+    "Calories (kcal per 100g)": 43.5,
+    "Protein (g)": 1.9,
+    "Carbohydrates (g)": 8.7,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.3,
+    "Price (INR per 100g)": 5.7
+  },
+  {
+    "Category": "Vegetables",
+    "Item": "Sweet Corn",
+    "Calories (kcal per 100g)": 41.9,
+    "Protein (g)": 2.0,
+    "Carbohydrates (g)": 7.6,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.4,
+    "Price (INR per 100g)": 6.5
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Papaya",
+    "Calories (kcal per 100g)": 61.1,
+    "Protein (g)": 0.9,
+    "Carbohydrates (g)": 13.8,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 1.9,
+    "Price (INR per 100g)": 8.8
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Guava",
+    "Calories (kcal per 100g)": 63.0,
+    "Protein (g)": 0.7,
+    "Carbohydrates (g)": 15.0,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 1.8,
+    "Price (INR per 100g)": 8.2
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Pineapple",
+    "Calories (kcal per 100g)": 64.1,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 15.1,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 1.8,
+    "Price (INR per 100g)": 8.2
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Pomegranate",
+    "Calories (kcal per 100g)": 58.8,
+    "Protein (g)": 0.7,
+    "Carbohydrates (g)": 16.4,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.1,
+    "Price (INR per 100g)": 8.4
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Grapes",
+    "Calories (kcal per 100g)": 65.4,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 14.2,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.0,
+    "Price (INR per 100g)": 10.1
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Watermelon",
+    "Calories (kcal per 100g)": 57.2,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 15.3,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.1,
+    "Price (INR per 100g)": 8.2
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Muskmelon",
+    "Calories (kcal per 100g)": 65.2,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 15.9,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.2,
+    "Price (INR per 100g)": 9.8
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Sapota",
+    "Calories (kcal per 100g)": 56.2,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 14.7,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.1,
+    "Price (INR per 100g)": 6.6
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Kiwi",
+    "Calories (kcal per 100g)": 61.5,
+    "Protein (g)": 0.7,
+    "Carbohydrates (g)": 14.9,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.0,
+    "Price (INR per 100g)": 8.8
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Strawberry",
+    "Calories (kcal per 100g)": 62.9,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 14.0,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 1.9,
+    "Price (INR per 100g)": 9.0
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Pear",
+    "Calories (kcal per 100g)": 63.6,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 14.4,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.1,
+    "Price (INR per 100g)": 10.0
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Plum",
+    "Calories (kcal per 100g)": 62.2,
+    "Protein (g)": 0.7,
+    "Carbohydrates (g)": 14.0,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.0,
+    "Price (INR per 100g)": 9.2
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Cherry",
+    "Calories (kcal per 100g)": 57.0,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 16.1,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 1.9,
+    "Price (INR per 100g)": 9.9
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Litchi",
+    "Calories (kcal per 100g)": 62.7,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 15.5,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 1.9,
+    "Price (INR per 100g)": 6.6
+  },
+  {
+    "Category": "Fruits",
+    "Item": "Custard Apple",
+    "Calories (kcal per 100g)": 61.6,
+    "Protein (g)": 0.8,
+    "Carbohydrates (g)": 13.8,
+    "Fat (g)": 0.3,
+    "Fiber (g)": 2.0,
+    "Price (INR per 100g)": 8.7
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Turkey",
+    "Calories (kcal per 100g)": 219.2,
+    "Protein (g)": 26.7,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 9.8,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 34.9
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Chicken Wings",
+    "Calories (kcal per 100g)": 218.0,
+    "Protein (g)": 24.9,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 9.4,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 35.0
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Chicken Liver",
+    "Calories (kcal per 100g)": 192.6,
+    "Protein (g)": 27.2,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 9.7,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 26.7
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Chicken Mince",
+    "Calories (kcal per 100g)": 193.1,
+    "Protein (g)": 26.6,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 10.7,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 23.5
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Quail",
+    "Calories (kcal per 100g)": 182.7,
+    "Protein (g)": 27.1,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 10.2,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 25.9
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Country Chicken",
+    "Calories (kcal per 100g)": 189.3,
+    "Protein (g)": 25.2,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 10.9,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 30.0
+  },
+  {
+    "Category": "Poultry",
+    "Item": "Chicken Sausage",
+    "Calories (kcal per 100g)": 212.8,
+    "Protein (g)": 23.0,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 9.2,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 34.6
+  },
+  {
+    "Category": "Meat",
+    "Item": "Lamb",
+    "Calories (kcal per 100g)": 221.6,
+    "Protein (g)": 24.8,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 15.7,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 58.2
+  },
+  {
+    "Category": "Meat",
+    "Item": "Buffalo Meat",
+    "Calories (kcal per 100g)": 232.6,
+    "Protein (g)": 25.1,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 15.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 37.9
+  },
+  {
+    "Category": "Meat",
+    "Item": "Minced Beef",
+    "Calories (kcal per 100g)": 212.6,
+    "Protein (g)": 25.3,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 14.6,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 36.5
+  },
+  {
+    "Category": "Meat",
+    "Item": "Minced Pork",
+    "Calories (kcal per 100g)": 203.3,
+    "Protein (g)": 23.5,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 14.3,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 51.6
+  },
+  {
+    "Category": "Meat",
+    "Item": "Bacon",
+    "Calories (kcal per 100g)": 212.4,
+    "Protein (g)": 28.3,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 15.8,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 50.5
+  },
+  {
+    "Category": "Meat",
+    "Item": "Ham",
+    "Calories (kcal per 100g)": 223.5,
+    "Protein (g)": 27.3,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 13.6,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 56.0
+  },
+  {
+    "Category": "Meat",
+    "Item": "Sausage",
+    "Calories (kcal per 100g)": 231.7,
+    "Protein (g)": 23.5,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 14.3,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 52.8
+  },
+  {
+    "Category": "Meat",
+    "Item": "Salami",
+    "Calories (kcal per 100g)": 230.9,
+    "Protein (g)": 26.4,
+    "Carbohydrates (g)": 0.0,
+    "Fat (g)": 15.9,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 42.3
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Skim Milk",
+    "Calories (kcal per 100g)": 160.8,
+    "Protein (g)": 6.0,
+    "Carbohydrates (g)": 5.3,
+    "Fat (g)": 10.8,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 17.9
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Toned Milk",
+    "Calories (kcal per 100g)": 144.6,
+    "Protein (g)": 6.2,
+    "Carbohydrates (g)": 4.8,
+    "Fat (g)": 10.3,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 16.0
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Buttermilk",
+    "Calories (kcal per 100g)": 150.1,
+    "Protein (g)": 6.5,
+    "Carbohydrates (g)": 5.2,
+    "Fat (g)": 9.7,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 18.3
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Cheddar Cheese",
+    "Calories (kcal per 100g)": 144.7,
+    "Protein (g)": 6.2,
+    "Carbohydrates (g)": 5.1,
+    "Fat (g)": 9.1,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 23.1
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Mozzarella",
+    "Calories (kcal per 100g)": 159.7,
+    "Protein (g)": 6.4,
+    "Carbohydrates (g)": 4.8,
+    "Fat (g)": 10.3,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 17.1
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Ghee",
+    "Calories (kcal per 100g)": 144.1,
+    "Protein (g)": 6.4,
+    "Carbohydrates (g)": 5.3,
+    "Fat (g)": 10.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 20.0
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Condensed Milk",
+    "Calories (kcal per 100g)": 145.2,
+    "Protein (g)": 5.5,
+    "Carbohydrates (g)": 5.1,
+    "Fat (g)": 10.7,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 18.4
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Ice Cream",
+    "Calories (kcal per 100g)": 152.9,
+    "Protein (g)": 6.4,
+    "Carbohydrates (g)": 4.8,
+    "Fat (g)": 10.2,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 16.3
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Cream",
+    "Calories (kcal per 100g)": 163.1,
+    "Protein (g)": 5.9,
+    "Carbohydrates (g)": 4.8,
+    "Fat (g)": 10.7,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 25.1
+  },
+  {
+    "Category": "Dairy",
+    "Item": "Milk Powder",
+    "Calories (kcal per 100g)": 155.2,
+    "Protein (g)": 6.0,
+    "Carbohydrates (g)": 4.9,
+    "Fat (g)": 10.0,
+    "Fiber (g)": 0.0,
+    "Price (INR per 100g)": 22.9
   }
 ]

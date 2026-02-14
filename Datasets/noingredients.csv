@@ -1,0 +1,239 @@
+food_name,protein,carbs,fat,calories
+chocolate hazelnut spread,1.0,11.5,5.5,100
+peanut spread,3.8,2.2,8.5,101
+chicken spread,10.1,2.3,9.8,88
+mozzarella steak fried,4.6,7.7,5.9,102
+refried red beans,11.7,36.0,16.1,336
+fried rice,6.5,43.4,3.2,228
+baked beans,11.1,43.3,10.3,310
+spinach spaghetti cooked,6.4,36.6,0.9,182
+corn pasta cooked,3.7,39.1,1.0,176
+spinach egg noodles cooked,8.1,38.8,2.5,211
+spinach pasta cooked,1.4,7.1,0.3,37
+crispy chicken drumstick kentucky fried chicken,10.6,0.0,3.0,70
+chicken crispy drumsticks kentucky fried chicken,11.8,4.5,10.1,156
+biscuit kentucky fried chicken,3.8,22.1,9.1,185
+chicken crispy wings kentucky fried chicken,9.2,5.1,10.1,148
+crispy chicken wing kentucky fried chicken,12.6,1.3,5.3,104
+crispy chicken breast kentucky fried chicken,38.2,0.4,6.7,214
+crispy chicken thigh kentucky fried chicken,20.4,0.0,9.1,163
+potato wedges kentucky fried chicken,5.4,45.0,19.8,379
+crispy chicken strips kentucky fried chicken,9.5,6.4,7.2,129
+chicken crispy breast kentucky fried chicken,29.7,11.9,23.2,375
+whitefish cooked,37.7,0.0,11.6,265
+wolffish cooked,53.4,0.0,7.3,293
+skipjack tuna cooked,86.9,0.0,4.0,407
+salmon cooked,78.7,0.0,44.0,733
+chum salmon cooked,79.5,0.0,14.9,474
+trout cooked,16.5,0.0,5.3,118
+rainbow trout cooked,16.9,0.0,5.2,119
+orange roughy cooked,6.4,0.0,0.3,30
+cuttlefish cooked,9.2,0.5,0.4,45
+pumpkin seed sunfish cooked,9.2,0.0,0.3,42
+bluefin tuna cooked,44.9,0.0,9.4,276
+sablefish cooked,51.9,0.0,59.3,755
+coho salmon cooked,34.7,0.0,11.8,255
+pink salmon cooked,56.0,0.0,12.0,349
+sockeye salmon cooked,82.1,0.0,17.3,493
+chinook salmon cooked,79.2,0.0,41.2,711
+fish fillet fried,13.3,15.4,11.2,211
+dolphinfish cooked,37.7,0.0,1.4,173
+crayfish cooked,5.0,0.0,0.4,25
+milkfish cooked,7.4,0.0,2.4,54
+catfish fried,15.7,7.0,11.6,199
+monkfish cooked,5.3,0.0,0.6,27
+yellowfin tuna cooked,8.2,0.0,0.2,37
+butterfish cooked,5.5,0.0,2.6,47
+catfish cooked,26.4,0.0,10.3,206
+tilefish cooked,73.5,0.0,14.1,441
+bluefish cooked,30.1,0.0,6.4,186
+rockfish cooked,33.1,0.0,2.4,162
+seatrout cooked,39.9,0.0,8.6,247
+swordfish cooked,24.9,0.0,8.4,182
+shrimp cooked,1.3,0.013,0.092,7
+alaska king crab cooked,25.9,0.0,2.1,130
+oyster cooked,4.7,2.5,1.2,41
+eastern oyster cooked,0.7,0.7,0.2,8
+spiny lobster cooked,43.0,5.1,3.2,233
+queen crab cooked,20.2,0.0,1.3,98
+dungeness crab cooked,28.3,1.2,1.6,140
+shrimp fried,1.3,4.8,3.2,52
+blue crab cooked,15.2,0.0,0.6,71
+lobster cooked,28.5,0.0,1.3,134
+eastern oyster fried,1.3,1.7,1.8,29
+oyster fried,2.1,6.7,3.0,61
+barley flour,15.5,110.3,2.4,511
+fruit juice bar,0.9,15.6,0.089,67
+barley raw,1.2,9.3,0.1,42
+quinoa cooked,8.1,39.4,3.6,222
+buckwheat cooked,5.7,33.5,1.0,155
+whole wheat cooked,4.8,33.2,1.0,150
+millet cooked,6.1,41.2,1.7,207
+barley cooked,3.5,44.3,0.7,193
+peanut granola bar,2.4,15.0,5.7,116
+almond granola bar,1.8,14.9,6.1,119
+chocolate chip granola bar,1.8,17.3,3.9,105
+peanut bar,6.2,19.0,13.5,209
+milk cereal bar,1.6,18.0,2.7,103
+almond rice bar,2.0,18.1,5.7,128
+rice wheat cereal bar,2.0,16.0,2.0,90
+crisped rice bar,1.4,20.4,3.8,113
+rice pilaf cooked,7.0,61.1,8.8,352
+beef flavored rice raw,19.8,139.1,2.3,657
+wild rice cooked,6.5,35.0,0.6,166
+white rice pasta cooked,5.1,43.3,5.7,246
+chicken flavored rice raw,17.9,127.3,2.2,601
+instant white rice raw,7.4,78.2,0.9,361
+parboiled white rice raw,13.9,149.6,1.9,692
+instant white rice cooked,3.6,41.4,0.8,193
+rice cracker cake,2.0,23.0,1.2,111
+parboiled white rice cooked,4.6,41.2,0.6,194
+white rice steamed,4.2,44.7,0.4,199
+glutinous white rice cooked,3.5,36.7,0.3,169
+brown rice cooked,4.5,45.8,1.6,218
+beef flavored rice cooked,7.0,54.4,7.9,319
+white rice cooked,4.3,44.5,0.4,205
+chicken flavored rice cooked,6.2,54.8,8.0,317
+bartlett pear,0.7,26.6,0.3,112
+applesauce,0.4,27.5,0.2,102
+prickly pear cooked,0.091,1.6,0.043,7
+banana chips,0.7,16.5,9.5,147
+fava beans cooked,12.9,33.4,0.7,187
+yellow beans cooked,16.2,44.7,1.9,255
+mung beans cooked,14.2,38.7,0.8,212
+pink beans cooked,15.3,47.2,0.8,252
+snap beans cooked,2.4,9.9,0.4,44
+black eyed cowpeas cooked,5.2,33.5,0.6,160
+hyacinth beans cooked,15.8,40.2,1.1,227
+pinto beans cooked,15.4,44.8,1.1,245
+winged beans cooked,18.3,25.7,10.0,253
+black turtle beans cooked,15.1,45.0,0.6,241
+white beans cooked,17.4,44.9,0.6,249
+cranberry beans cooked,16.5,43.3,0.8,241
+lentils cooked,17.9,39.9,0.8,230
+black beans cooked,15.2,40.8,0.9,227
+lima beans cooked,14.7,39.3,0.7,216
+pigeon peas cooked,11.4,39.1,0.6,203
+navy beans cooked,15.0,47.4,1.1,255
+cowpeas cooked,5.4,14.5,0.4,81
+mothbeans cooked,13.8,37.1,1.0,207
+french beans cooked,12.5,42.5,1.3,228
+adzuki beans cooked,17.3,57.0,0.2,294
+catjang cowpeas cooked,13.9,34.7,1.2,200
+baby lima beans cooked,12.0,35.0,0.5,189
+chickpeas cooked,14.5,45.0,4.2,269
+mungo beans cooked,13.6,33.0,1.0,189
+yellow snap beans cooked,2.4,9.9,0.4,44
+yardlong beans cooked,14.2,36.1,0.8,202
+beef under blade steak cooked,140.8,0.0,46.7,983
+t bone steak cooked,89.3,0.0,74.1,1049
+beef plate steak grilled,47.1,0.0,35.6,508
+rib eye steak grilled,62.4,0.0,47.7,680
+mock tender steak cooked,21.9,0.0,4.9,137
+beef round steak cooked,64.8,0.0,12.1,385
+corned beef cooked,3.8,0.006,4.0,53
+beef shoulder steak grilled,24.0,0.0,5.8,155
+beef bottom round steak cooked,155.8,0.0,35.1,980
+porterhouse steak cooked,20.4,0.0,16.4,235
+beef tenderloin steak cooked,37.0,0.0,24.0,374
+beef flank steak cooked,51.8,0.0,17.5,380
+chuck eye steak grilled,76.9,0.0,60.5,853
+beef top sirloin steak cooked,47.7,0.0,25.2,430
+chicken gizzard cooked,44.1,0.0,3.9,223
+chicken heart cooked,38.3,0.1,11.5,268
+chicken liver cooked,11.3,0.5,2.8,76
+pork leg cap steak cooked,53.5,0.0,8.6,307
+boston butt steak cooked,46.4,0.0,32.7,494
+pork boston steaks cooked,43.2,0.0,28.1,438
+chicken skin roasted,22.8,0.0,45.6,508
+chicken wing cooked,4.8,0.0,3.5,52
+chicken back cooked,8.0,0.0,6.5,93
+chicken leg fried,34.4,13.8,25.5,431
+chicken feet cooked,88.0,0.9,66.2,975
+turkey steak fried,9.1,10.9,10.8,179
+chicken neck cooked,7.5,0.0,6.9,94
+chicken drumstick fried,15.8,6.0,11.3,193
+chicken wing roasted,20.2,0.0,14.3,216
+chicken breast cooked,17.3,0.0,4.5,114
+ground chicken cooked,58.4,0.0,27.4,474
+instant coffee powder,12.2,75.4,0.5,353
+instant coffee powder decaffeinated,0.2,1.4,0.069,6
+ice tea lemon flavor nestle,0.0,22.3,0.0,88
+instant lemon tea,0.1,0.3,0.0,2
+instant lemon tea sweetened,0.071,22.3,0.2,91
+hazelnuts roasted,4.5,5.3,18.7,194
+peanuts cooked,24.3,38.3,39.6,572
+almonds roasted,6.4,5.3,16.6,182
+virginia peanuts roasted,7.8,6.0,14.6,173
+peanuts roasted,8.4,4.6,15.8,180
+cashew nuts roasted,5.1,9.0,14.3,174
+pistachio nuts roasted,6.3,8.5,13.7,172
+spanish peanuts roasted,41.2,25.7,72.1,851
+pecans roasted,2.8,3.9,22.6,215
+valencia peanuts roasted,8.1,4.9,15.4,177
+corn grits cooked,4.4,37.9,1.2,182
+rice noodles cooked,3.2,42.3,0.4,190
+whole wheat macaroni cooked,7.5,37.2,0.8,174
+whole wheat spaghetti cooked,7.5,37.2,0.8,174
+chocolate covered graham crackers,0.8,9.3,3.2,68
+oriental rice cracker mix,4.9,14.6,7.2,143
+milk crackers,0.8,7.7,1.7,50
+matzo crackers whole wheat,3.7,22.1,0.4,98
+crackers whole wheat,3.0,19.5,4.0,120
+baked potato,4.3,36.6,0.2,161
+potato cooked,1.1,12.1,0.006,52
+russet potato baked,7.9,64.1,0.4,290
+red potato baked,2.0,16.7,0.1,74
+corn chips,1.9,17.2,10.0,162
+corn chips barbecue,13.9,111.3,64.7,1036
+corn chips unsalted,5.8,50.5,29.4,490
+potato chips fat free,21.9,190.1,1.4,860
+potato chips reduced fat,12.1,113.7,35.4,801
+potato chips,2.1,15.9,10.4,161
+sweet potato chips,0.8,15.9,9.1,149
+potato chips barbecue,15.2,104.5,64.2,970
+chili pepper sauce red,0.1,0.6,0.089,3
+chili pepper sauce green,0.1,0.8,0.032,3
+fish sauce,0.9,0.7,0.013,6
+peppercorn dressing,0.2,0.5,8.2,76
+tomato sauce,2.9,13.0,0.7,59
+bacon tomato dressing,0.3,0.3,5.3,49
+spanish tomato sauce,3.5,17.7,0.7,81
+oyster sauce,0.2,2.0,0.066,9
+buttermilk dressing light,0.2,3.2,1.9,30
+pepper hot sauce,0.024,0.031,0.018,1
+tomato chili sauce,0.2,1.2,0.095,6
+steak sauce,0.2,3.7,0.004,16
+sprouted soybean cooked,8.0,6.1,4.2,76
+soy flour roasted,29.6,28.6,18.6,375
+green soybean cooked,11.1,9.9,5.8,127
+meatless chicken fried,27.7,11.1,16.6,304
+soybean dry roasted,36.8,30.4,20.1,419
+soybean cooked,28.6,17.1,15.4,296
+napa cabbage cooked,1.2,2.4,0.2,13
+broccoli cooked,6.7,20.1,1.1,98
+sweet potato leaves cooked,1.4,4.7,0.2,22
+sweet red peppers cooked,0.7,4.5,0.1,19
+peas onions cooked,4.6,15.5,0.4,81
+tomato cooked,1.2,4.9,0.1,22
+spinach cooked,5.3,6.8,0.5,41
+red cabbage cooked,2.6,11.8,0.2,49
+acorn squash cooked,2.3,29.9,0.3,115
+mung bean sprouts cooked,2.5,4.5,0.1,24
+sweet potato baked,2.3,23.6,0.2,103
+chinese cabbage pak choi cooked,2.7,3.0,0.3,20
+mustard spinach cooked,3.1,5.0,0.4,29
+savoy cabbage cooked,3.1,9.2,0.2,41
+carrots cooked,0.3,3.8,0.092,16
+corn cooked,3.5,21.6,1.5,99
+butternut squash cooked,1.8,21.0,0.2,80
+peas carrots cooked,4.9,16.2,0.7,77
+white corn cooked,3.4,22.4,1.5,100
+peas cooked,8.6,25.0,0.4,134
+broccoli raab cooked,3.3,2.7,0.4,21
+new zealand spinach cooked,2.3,3.8,0.3,22
+chinese cabbage pe tsai cooked,1.8,2.9,0.2,17
+onion cooked,0.2,1.5,0.034,7
+cabbage cooked,1.9,8.3,0.019,35
+split peas cooked,16.3,40.2,0.8,227
+sweet green peppers cooked,0.7,4.5,0.1,19
