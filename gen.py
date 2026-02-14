@@ -4,7 +4,8 @@ import random
 # ----------------------------
 # CONFIG
 # ----------------------------
-NUM_EXAMPLES = 100
+NUM_EXAMPLES = 2000
+
 TOLERANCE = 0.10
 OUTPUT_FILE = "Datasets/dataset.jsonl"
 
