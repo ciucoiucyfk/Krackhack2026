@@ -4,10 +4,10 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-from huggingface_hub import login
+
 
 # 1. Login and Resource Management
-login("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")
+
 ai_resources = {}
 
 @asynccontextmanager

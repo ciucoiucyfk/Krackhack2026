@@ -3,11 +3,11 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-from huggingface_hub import login
+
 import io
 
 # Log in using your token
-#login("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")
+
 
 # Dictionary to hold the model
 ai_resources = {}
