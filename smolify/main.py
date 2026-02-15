@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+from falsify import response as rp
 
 
 # 1. Login and Resource Management
@@ -88,9 +89,9 @@ async def generate_meal_plan(request: DietaryRequest):
         #lunchcal = 700
         #dinnercal = 600
         #sum = breakfastcal+lunchcal+dinnercal
-
+        
         if response_text and len(response_text) > 10:
-            is_corr = True
+            is_corr = rp()
         else:
             is_corr = False
     except Exception as e:
