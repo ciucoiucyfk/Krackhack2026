@@ -89,7 +89,7 @@ async def generate_meal_plan(request: DietaryRequest):
         #lunchcal = 700
         #dinnercal = 600
         #sum = breakfastcal+lunchcal+dinnercal
-        
+        print(response_text)
         if response_text and len(response_text) > 10:
             is_corr = rp()
         else:
