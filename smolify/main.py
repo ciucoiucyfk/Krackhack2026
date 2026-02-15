@@ -61,7 +61,11 @@ async def generate_meal_plan(request: DietaryRequest):
     dinnercal = 0
     sum = breakfastcal+lunchcal+dinnercal   
     protein = 0
+    bfm =0
+    lunm = 0
+    dinm = 0
     cost = request.budget
+    out = []
     try:
         model = ai_resources.get("model")
         tokenizer = ai_resources.get("tokenizer")
@@ -69,7 +73,22 @@ async def generate_meal_plan(request: DietaryRequest):
         if not model or not tokenizer:
             raise ValueError("Model not loaded")
 
-        system_prompt = "You are an expert Indian Clinical Nutritionist."
+       # system_prompt = (
+   # "Generate a structured diet plan for one day in valid JSON format. The JSON must have exactly three top-level keys: 'breakfast', 'lunch', and 'dinner'. Each of these keys should contain a flat object with the following four keys only: 'food_item' (string), 'protein_grams' (int), 'carbohydrates_grams' (int), and 'calories' (int). Ensure there is no nesting deeper than two levels."
+
+#)   
+        system_prompt = (
+            """Generate a one-day diet plan based on the user's goal and preferences.
+
+Output Requirement: > Return the plan as a single string with 3 lines (one for Breakfast, Lunch, and Dinner). Each line must follow this exact format, using '||' as a separator:
+
+Breakfast || [Food Item] || [Protein Grams] || [Calories]
+Lunch || [Food Item] || [Protein Grams] || [Calories]
+Dinner || [Food Item] || [Protein Grams] || [Calories]
+
+Do not include any headers, comments, or extra text. Use only integers for protein and calories."""
+        )
+        print("Pushing ")
         user_content = f"Goal: {request.goal}. Budget: {request.budget}. Database: {request.food_database}"
         
         messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_content}]
@@ -89,9 +108,23 @@ async def generate_meal_plan(request: DietaryRequest):
         #lunchcal = 700
         #dinnercal = 600
         #sum = breakfastcal+lunchcal+dinnercal
-        print(response_text)
+        print('response' , response_text)
+        from decode import run
+        c = run(response_text)
+        bf , lun , din = c
+
+
+        breakfastcal = bf[-1]
+        lunchcal = lun[-1]
+        dinnercal = din[-1]
+
+        protein = sum(bf[-2],lun[-2],din[-2])
+
+        bfm = bf[0]
+        lunm = lun[0]
+        dinm = din[0]
         if response_text and len(response_text) > 10:
-            is_corr = rp()
+            is_corr = True
         else:
             is_corr = False
     except Exception as e:
@@ -104,6 +137,10 @@ async def generate_meal_plan(request: DietaryRequest):
         protein = 0
         cost = request.budget
         is_corr = False
+
+
+
+        
     fallback_dict = {
         "calories": sum,
         "protein": protein,
@@ -122,9 +159,9 @@ async def generate_meal_plan(request: DietaryRequest):
         "protein": protein,
         "cost": request.budget,  # This returns your input budget back to the UI
         "meals": [
-            {"name": "Breakfast", "item": "Oats with Banana & Almonds", "kcal": 400},
-            {"name": "Lunch", "item": "Dal Rice with Salad", "kcal": 700},
-            {"name": "Dinner", "item": "Vegetable Stir Fry with Brown Rice", "kcal": 600}
+            {"name": "Breakfast", "item": bfm, "kcal": breakfastcal},
+            {"name": "Lunch", "item": lunm, "kcal": lunchcal},
+            {"name": "Dinner", "item": dinm, "kcal": dinnercal}
         ]
     }
 
