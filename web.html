@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlateWise | Precision Nutrition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(to bottom right, #e6f7f1, #ffffff); }
+        .glass-card { background: rgba(255,255,255,0.9); backdrop-filter: blur(10px); }
+        .hidden { display: none; }
+        .goal-btn.active { border: 2px solid #10b981; background-color: #f0fdf4; transform: translateY(-2px); }
+        .pref-btn.active { background-color: #10b981; color: white; border-color: #10b981; }
+    </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="glass-card rounded-3xl shadow-2xl max-w-5xl w-full p-12">
+        
+        <div id="form-section">
+            <h1 class="text-4xl font-bold text-emerald-600 mb-2">PlateWise</h1>
+            <p class="text-gray-500 mb-8 italic">"Consistency builds the body. Discipline builds the life."</p>
+
+            <div class="space-y-8">
+                <div>
+                    <label class="block text-sm font-bold text-gray-500 uppercase mb-4">Select Your Goal</label>
+                    <div class="grid grid-cols-3 gap-4">
+                        <button onclick="selectGoal(this, 'Weight Loss')" class="goal-btn p-4 rounded-xl bg-blue-50 transition-all text-left">📉 Weight Loss</button>
+                        <button onclick="selectGoal(this, 'Build Muscle')" class="goal-btn p-4 rounded-xl bg-orange-50 transition-all text-left">💪 Build Muscle</button>
+                        <button onclick="selectGoal(this, 'Eat Clean')" class="goal-btn p-4 rounded-xl bg-green-50 transition-all text-left">🌿 Eat Clean</button>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-bold text-gray-500 uppercase mb-4">Dietary Preference</label>
+                    <div class="flex gap-3">
+                        <button onclick="selectPref(this, 'Vegetarian')" class="pref-btn px-6 py-2 rounded-full border-2 transition-colors">Vegetarian</button>
+                        <button onclick="selectPref(this, 'Vegan')" class="pref-btn px-6 py-2 rounded-full border-2 transition-colors">Vegan</button>
+                        <button onclick="selectPref(this, 'Non-Veg')" class="pref-btn px-6 py-2 rounded-full border-2 transition-colors">Non-Veg</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-500 uppercase mb-2">Allergies</label>
+                        <input id="allergy-input" type="text" class="w-full bg-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-emerald-500 outline-none" placeholder="Peanuts, Dairy...">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-gray-500 uppercase mb-2">Daily Budget (₹)</label>
+                        <input id="budget-input" type="number" class="w-full bg-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-emerald-500 outline-none" placeholder="e.g. 300">
+                    </div>
+                </div>
+
+                <button id="submit-btn" onclick="generatePlan(event)" class="w-full bg-emerald-500 text-white py-5 rounded-xl font-bold text-xl shadow-lg hover:bg-emerald-600 transition-all">
+                    Generate My Plan →
+                </button>
+            </div>
+        </div>
+
+        <div id="results-section" class="hidden mt-4">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800">Your Daily Blueprint</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="bg-blue-50 p-4 rounded-xl text-center border border-blue-100">
+                    <p class="text-blue-500 text-xs font-bold uppercase mb-1">Goal</p>
+                    <p id="res-goal" class="text-lg font-bold text-blue-700">--</p>
+                </div>
+                <div class="bg-emerald-50 p-4 rounded-xl text-center border border-emerald-100">
+                    <p class="text-emerald-500 text-xs font-bold uppercase mb-1">Preference</p>
+                    <p id="res-pref" class="text-lg font-bold text-emerald-700">--</p>
+                </div>
+                <div class="bg-red-50 p-4 rounded-xl text-center border border-red-100">
+                    <p class="text-red-500 text-xs font-bold uppercase mb-1">Allergies</p>
+                    <p id="res-allergy" class="text-lg font-bold text-red-700">--</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-gray-50 p-6 rounded-xl text-center border border-gray-100">
+                    <p class="text-gray-500 font-semibold mb-2">Calories</p>
+                    <p id="calories" class="text-2xl font-bold text-emerald-600">-- kcal</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl text-center border border-gray-100">
+                    <p class="text-gray-500 font-semibold mb-2">Protein</p>
+                    <p id="protein" class="text-2xl font-bold text-blue-600">-- g</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl text-center border border-gray-100">
+                    <p class="text-gray-500 font-semibold mb-2">Est. Cost</p>
+                    <p id="cost" class="text-2xl font-bold text-orange-600">-- ₹</p>
+                </div>
+            </div>
+
+            <div id="meals" class="space-y-4"></div>
+
+            <button onclick="location.reload()" class="mt-8 text-emerald-600 font-bold flex items-center gap-2 hover:underline">
+                ← Edit Selection
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let selectedGoal = "";
+        let selectedPref = "";
+
+        function selectGoal(btn, value) {
+            document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            selectedGoal = value;
+        }
+
+        function selectPref(btn, value) {
+            document.querySelectorAll('.pref-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            selectedPref = value;
+        }
+
+        async function generatePlan(event) {
+            const btn = document.getElementById("submit-btn");
+            const budget = document.getElementById("budget-input").value;
+            const allergies = document.getElementById("allergy-input").value || "None";
+
+            if (!selectedGoal || !selectedPref || !budget) {
+                alert("Please select a goal, preference, and enter a budget.");
+                return;
+            }
+
+            btn.innerText = "Analyzing Nutrition...";
+            btn.disabled = true;
+
+            const payload = {
+                goal: selectedGoal,
+                preferences: selectedPref,
+                budget: parseInt(budget),
+                allergies: allergies,
+                food_database: "" 
+            };
+
+            try {
+                const response = await fetch("http://127.0.0.1:8000/generate-plan", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) throw new Error("Backend connection failed.");
+
+                const data = await response.json();
+                
+                // Set the text for the 3 new widgets
+                document.getElementById("res-goal").innerText = selectedGoal;
+                document.getElementById("res-pref").innerText = selectedPref;
+                document.getElementById("res-allergy").innerText = allergies;
+
+                displayResults(data);
+            } catch (err) {
+                alert("Server error. Ensure main.py is running on http://127.0.0.1:8000");
+                console.error(err);
+                btn.innerText = "Generate My Plan →";
+                btn.disabled = false;
+            }
+        }
+
+        function displayResults(data) {
+            document.getElementById("calories").innerText = data.calories + " kcal";
+            document.getElementById("protein").innerText = data.protein + " g";
+            document.getElementById("cost").innerText = "₹" + data.cost;
+
+            const mealContainer = document.getElementById("meals");
+            mealContainer.innerHTML = "";
+
+            // Check if backend returned structured meals or a string
+            if (data.meals && Array.isArray(data.meals)) {
+                data.meals.forEach(meal => {
+                    mealContainer.innerHTML += `
+                        <div class="flex justify-between items-center bg-white border border-gray-100 p-5 rounded-2xl shadow-sm">
+                            <div>
+                                <h4 class="font-extrabold text-gray-800">${meal.name}</h4>
+                                <p class="text-gray-500">${meal.item}</p>
+                            </div>
+                            <div class="font-bold text-emerald-600 bg-emerald-50 px-4 py-2 rounded-lg text-sm">
+                                ${meal.kcal} kcal
+                            </div>
+                        </div>
+                    `;
+                });
+            } else {
+                mealContainer.innerHTML = `<div class="p-6 bg-white rounded-2xl border border-gray-100 text-gray-700 leading-relaxed">${data.meal_plan || "No plan generated."}</div>`;
+            }
+
+            document.getElementById("form-section").classList.add("hidden");
+            document.getElementById("results-section").classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>

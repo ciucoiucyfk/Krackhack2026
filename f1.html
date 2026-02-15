@@ -1,232 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlateWise | Precision Nutrition</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f0f7f4; overflow-x: hidden; }
-        .doodle-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; opacity: 0.05; pointer-events: none; }
-        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); }
-        .goal-btn.active { border-radius: 4px solid #4CAF50; transform: scale(1.05); background-color: white; color: #1a1a1a; }
-        .pref-btn.active { background-color: #4CAF50; color: white; border-color: #4CAF50; }
-        @keyframes progressFill { from { width: 0; } to { width: var(--target); } }
-                /* Floating Animation */
-        @keyframes float {
-            0% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-15px) rotate(2deg); }
-            100% { transform: translateY(0px) rotate(0deg); }
-        }
-        .floating-doodle {
-            animation: float 4s ease-in-out infinite;
-        }
-        .doodle-delay-1 { animation-delay: 0.8s; }
-        .doodle-delay-2 { animation-delay: 1.6s; }
-        .floating-element {
-            animation: float 4s ease-in-out infinite;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlateWise | Precision Nutrition</title>
 
-        .doodle-delay { animation-delay: 2s; }
-        .progress-bar-fill { animation: progressFill 1.5s ease-out forwards; }
-        .hidden { display: none; }
-    </style>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f0f7f4; overflow-x: hidden; }
+.glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+.hidden { display: none; }
+.goal-btn.active { transform: scale(1.05); background-color: white; }
+.pref-btn.active { background-color: #4CAF50; color: white; border-color: #4CAF50; }
+</style>
 </head>
+
 <body>
 
-    <div class="doodle-bg">
-        <svg width="100%" height="100%"><pattern id="pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse"><path d="M50 50 Q70 10 90 50 T130 50" fill="none" stroke="black" stroke-width="2"/></pattern><rect width="100%" height="100%" fill="url(#pattern)"/></svg>
-    </div>
+<!-- ================= SETUP PAGE ================= -->
+<div id="setup-page" class="min-h-screen flex items-center justify-center p-6">
 
-    <div id="setup-page" class="min-h-screen flex items-center justify-center p-6">
-        <div class="glass-card rounded-[3rem] shadow-2xl max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden">
-            
-            <div class="bg-gradient-to-br from-green-500 to-emerald-700 p-12 text-white flex flex-col justify-between relative overflow-hidden">
-    
-    <div class="absolute top-12 right-60 text-4xl opacity-100 ">🥗</div>
-    <div class="absolute bottom-80 left-5 text-4xl opacity-50 floating-element doodle-delay">🥦</div>
+<div class="glass-card rounded-[3rem] shadow-2xl max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden">
 
-    <div>
-        <h1 class="text-4xl font-800 mb-4">PlateWise</h1>
-        <p class="text-emerald-50 text-lg italic">"Consistency builds the body. Discipline builds the life."</p>
-    </div>
-    <div class="relative z-10">
-                    
-
-                    <div class="grid grid-cols-3 gap-6 mb-12 ">
-                        <div class="floating-doodle text-center">
-                            <div class="bg-white/20 p-5 rounded-3xl backdrop-blur-md inline-block border border-white/30 shadow-lg">
-                                <span class="text-3xl">🌱</span>
-                            </div>
-                            <p class="text-[10px] mt-3 font-bold uppercase tracking-wider text-emerald-100 uppercase">Organic</p>
-                        </div>
-                        <div class="floating-doodle doodle-delay-1 text-center">
-                            <div class="bg-white/20 p-5 rounded-3xl backdrop-blur-md inline-block border border-white/30 shadow-lg">
-                                <span class="text-3xl">🍏</span>
-                            </div>
-                            <p class="text-[10px] mt-3 font-bold uppercase tracking-wider text-emerald-100 uppercase">Vitality</p>
-                        </div>
-                        <div class="floating-doodle doodle-delay-2 text-center">
-                            <div class="bg-white/20 p-5 rounded-3xl backdrop-blur-md inline-block border border-white/30 shadow-lg">
-                                <span class="text-3xl">⚖️</span>
-                            </div>
-                            <p class="text-[10px] mt-3 font-bold uppercase tracking-wider text-emerald-100 uppercase">Balance</p>
-                        </div>
-                    </div>
-                </div>
-    <div class="space-y-6 relative z-10">
-        <div class="bg-white/10 p-6 rounded-3xl backdrop-blur-md border border-white/20 shadow-xl ">
-            <div class="flex items-center gap-4 mb-2">
-                <span class="text-3xl">🥑</span>
-                <h4 class="font-bold text-white leading-tight">Ingredient Spotlight</h4>
-            </div>
-            <p class="text-[10px] text-emerald-300 uppercase font-black tracking-widest">Superfood of the Day</p>
-            <p class="text-xs text-emerald-50 opacity-90 leading-relaxed">
-                Rich in healthy fats and fiber! Eating avocados can help improve heart health and boost nutrient absorption.
-            </p>
-        </div>
-
-        <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
-            <p class="text-sm font-semibold ">Tip of the day:</p>
-            <p class="text-xs opacity-90">Drinking water 30 minutes before meals can increase weight loss by 44% over 3 months.</p>
-        </div>
-    </div>
+<!-- LEFT PANEL -->
+<div class="bg-gradient-to-br from-green-500 to-emerald-700 p-12 text-white flex flex-col justify-between">
+<div>
+<h1 class="text-4xl font-800 mb-4">PlateWise</h1>
+<p class="italic">"Consistency builds the body. Discipline builds the life."</p>
+</div>
 </div>
 
-            <div class="p-12 space-y-8">
-                <h2 class="text-2xl font-bold text-gray-800">Customize Your Plan</h2>
+<!-- RIGHT PANEL -->
+<div class="p-12 space-y-8">
 
-                <div>
-                    <label class="block text-sm font-bold text-gray-500 uppercase tracking-widest mb-4">Select Your Goal</label>
-                    <div class="grid grid-cols-3 gap-4">
-                        <button onclick="selectGoal(this)" class="goal-btn p-4 rounded-2xl bg-blue-50 text-center transition-all hover:bg-blue-100">
-                            <span class="text-2xl block mb-1">📉</span>
-                            <span class="text-[10px] font-bold">Weight Loss</span>
-                        </button>
-                        <button onclick="selectGoal(this)" class="goal-btn p-4 rounded-2xl bg-orange-50 text-center transition-all hover:bg-orange-100">
-                            <span class="text-2xl block mb-1">💪</span>
-                            <span class="text-[10px] font-bold">Build Muscle</span>
-                        </button>
-                        <button onclick="selectGoal(this)" class="goal-btn p-4 rounded-2xl bg-green-50 text-center transition-all hover:bg-green-100">
-                            <span class="text-2xl block mb-1">🌿</span>
-                            <span class="text-[10px] font-bold">Eat Clean</span>
-                        </button>
-                    </div>
-                </div>
+<h2 class="text-2xl font-bold text-gray-800">Customize Your Plan</h2>
 
-                <div>
-                    <label class="block text-sm font-bold text-gray-500 uppercase tracking-widest mb-4">Dietary Preference</label>
-                    <div class="flex flex-wrap gap-2">
-                        <button onclick="togglePref(this)" class="pref-btn px-6 py-2 rounded-full border-2 border-gray-100 text-sm font-semibold hover:border-green-200 transition">Vegetarian</button>
-                        <button onclick="togglePref(this)" class="pref-btn px-6 py-2 rounded-full border-2 border-gray-100 text-sm font-semibold hover:border-green-200 transition">Vegan</button>
-                        <button onclick="togglePref(this)" class="pref-btn px-6 py-2 rounded-full border-2 border-gray-100 text-sm font-semibold hover:border-green-200 transition">Non-Veg</button>
-                    </div>
-                </div>
+<!-- Goal -->
+<div>
+<label class="block text-sm font-bold text-gray-500 uppercase mb-4">Select Your Goal</label>
+<div class="grid grid-cols-3 gap-4">
+<button onclick="selectGoal(this)" class="goal-btn p-4 rounded-2xl bg-blue-50">
+📉 Weight Loss
+</button>
+<button onclick="selectGoal(this)" class="goal-btn p-4 rounded-2xl bg-orange-50">
+💪 Build Muscle
+</button>
+<button onclick="selectGoal(this)" class="goal-btn p-4 rounded-2xl bg-green-50">
+🌿 Eat Clean
+</button>
+</div>
+</div>
 
-                <div>
-                    <label class="block text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">Allergies</label>
-                    <input type="text" placeholder="e.g. Peanuts, Dairy, Gluten..." class="w-full bg-gray-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-green-400 outline-none transition">
-                </div>
+<!-- Preference -->
+<div>
+<label class="block text-sm font-bold text-gray-500 uppercase mb-4">Dietary Preference</label>
+<div class="flex gap-2">
+<button onclick="selectPref(this)" class="pref-btn px-6 py-2 rounded-full border-2">Vegetarian</button>
+<button onclick="selectPref(this)" class="pref-btn px-6 py-2 rounded-full border-2">Vegan</button>
+<button onclick="selectPref(this)" class="pref-btn px-6 py-2 rounded-full border-2">Non-Veg</button>
+</div>
+</div>
 
-                <div>
-                    <div class="flex justify-between text-sm font-bold text-gray-500 uppercase mb-4">
-                        <span>Budget Level</span>
-                        <span id="budget-val" class="text-green-600">Moderate</span>
-                    </div>
-                    <input type="range" min="1" max="3" value="2" oninput="updateBudget(this)" class="w-full h-2 bg-gray-200 rounded-lg appearance-none accent-green-500">
-                </div>
+<!-- Allergies -->
+<div>
+<label class="block text-sm font-bold text-gray-500 uppercase mb-2">Allergies</label>
+<input id="allergy-input" type="text"
+placeholder="e.g. Peanuts, Dairy"
+class="w-full bg-gray-50 rounded-xl p-4">
+</div>
 
-                <button onclick="generatePlan()" class="w-full bg-green-500 text-white py-5 rounded-2xl font-bold text-xl shadow-xl shadow-green-200 hover:bg-green-600 active:scale-95 transition-all">
-                    Generate My Plan →
-                </button>
-            </div>
-        </div>
-    </div>
+<!-- Budget -->
+<div>
+<div class="flex justify-between text-sm font-bold text-gray-500 uppercase mb-4">
+<span>Budget Level</span>
+<span id="budget-val" class="text-green-600">Moderate</span>
+</div>
+<input type="range" min="1" max="3" value="2"
+oninput="updateBudget(this)"
+class="w-full accent-green-500">
+</div>
 
-    <div id="results-page" class="min-h-screen hidden flex items-center justify-center p-6">
-        <div class="glass-card rounded-[3rem] shadow-2xl max-w-6xl w-full p-12">
-            <div class="flex justify-between items-start mb-12">
-                <div>
-                    <h2 class="text-4xl font-bold text-gray-800 mb-2">Your Daily Blueprint</h2>
-                    <p class="text-gray-500 italic">"Tailored nutrition based on your profile."</p>
-                </div>
-                <button onclick="location.reload()" class="text-sm font-bold text-green-600 hover:underline">Edit Selection</button>
-            </div>
+<button onclick="generatePlan(event)"
+class="w-full bg-green-500 text-white py-5 rounded-2xl font-bold text-xl">
+Generate My Plan →
+</button>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <div class="bg-gray-50 rounded-3xl p-6 text-center">
-                    <p class="text-sm font-bold text-gray-600 mb-4">Daily Calories</p>
-                    <div class="relative h-4 w-full bg-gray-200 rounded-full mb-2 overflow-hidden">
-                        <div class="progress-bar-fill h-full bg-orange-400" style="--target: 70%;"></div>
-                    </div>
-                    <p class="text-2xl font-800">1,850 <span class="text-sm font-normal text-gray-500">kcal</span></p>
-                </div>
-                <div class="bg-gray-50 rounded-3xl p-6 text-center">
-                    <p class="text-sm font-bold text-gray-600 mb-4">Target Protein</p>
-                    <div class="relative h-4 w-full bg-gray-200 rounded-full mb-2 overflow-hidden">
-                        <div class="progress-bar-fill h-full bg-blue-500" style="--target: 85%;"></div>
-                    </div>
-                    <p class="text-2xl font-800">145 <span class="text-sm font-normal text-gray-500">grams</span></p>
-                </div>
-                <div class="bg-gray-50 rounded-3xl p-6 text-center">
-                    <p class="text-sm font-bold text-gray-600 mb-4">Est. Cost</p>
-                    <div class="relative h-4 w-full bg-gray-200 rounded-full mb-2 overflow-hidden">
-                        <div class="progress-bar-fill h-full bg-green-500" style="--target: 40%;"></div>
-                    </div>
-                    <p class="text-2xl font-800">₹450 <span class="text-sm font-normal text-gray-500">/day</span></p>
-                </div>
-            </div>
+</div>
+</div>
+</div>
 
-            <div class="space-y-4">
-                <div class="flex items-center gap-6 p-4 border-b">
-                    <span class="text-3xl">🥣</span>
-                    <div class="flex-1"><h4 class="font-bold text-lg">Breakfast</h4><p class="text-gray-500">Oats with Almonds and Banana</p></div>
-                    <span class="font-bold text-green-600">+420 kcal</span>
-                </div>
-                <div class="flex items-center gap-6 p-4 border-b">
-                    <span class="text-3xl">🍲</span>
-                    <div class="flex-1"><h4 class="font-bold text-lg">Lunch</h4><p class="text-gray-500">Quinoa Salad with Grilled Paneer</p></div>
-                    <span class="font-bold text-green-600">+650 kcal</span>
-                </div>
-                <div class="flex items-center gap-6 p-4">
-                    <span class="text-3xl">🥗</span>
-                    <div class="flex-1"><h4 class="font-bold text-lg">Dinner</h4><p class="text-gray-500">Stir-fry Veggies with Brown Rice</p></div>
-                    <span class="font-bold text-green-600">+510 kcal</span>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- ================= RESULTS PAGE ================= -->
+<div id="results-page" class="min-h-screen hidden flex items-center justify-center p-6">
 
-    <script>
-        function selectGoal(btn) {
-            document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        }
+<div class="glass-card rounded-[3rem] shadow-2xl max-w-6xl w-full p-12">
 
-        function togglePref(btn) {
-            document.querySelectorAll('.pref-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        }
+<h2 class="text-4xl font-bold mb-10">Your Daily Blueprint</h2>
 
-        function updateBudget(slider) {
-            const vals = ["Low", "Moderate", "Premium"];
-            document.getElementById('budget-val').innerText = vals[slider.value - 1];
-        }
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
 
-        function generatePlan() {
-            // Add a "Loading" state to the button
-            const btn = event.target;
-            btn.innerHTML = "Calculating Nutrition...";
-            btn.disabled = true;
+<div class="bg-gray-50 rounded-3xl p-6 text-center">
+<p class="font-bold mb-4">Daily Calories</p>
+<p id="calories-value" class="text-2xl font-bold">-- kcal</p>
+</div>
 
-            setTimeout(() => {
-                document.getElementById('setup-page').classList.add('hidden');
-                document.getElementById('results-page').classList.remove('hidden');
-                window.scrollTo(0,0);
-            }, 1000);
-        }
-    </script>
+<div class="bg-gray-50 rounded-3xl p-6 text-center">
+<p class="font-bold mb-4">Target Protein</p>
+<p id="protein-value" class="text-2xl font-bold">-- g</p>
+</div>
+
+<div class="bg-gray-50 rounded-3xl p-6 text-center">
+<p class="font-bold mb-4">Estimated Cost</p>
+<p id="cost-value" class="text-2xl font-bold">-- ₹</p>
+</div>
+
+</div>
+
+<div id="meal-container" class="space-y-4"></div>
+
+<button onclick="location.reload()" class="mt-8 text-green-600 font-bold">
+Edit Selection
+</button>
+
+</div>
+</div>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+
+let selectedGoal = "";
+let selectedPref = "";
+let selectedBudget = "Moderate";
+
+function selectGoal(btn){
+document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
+btn.classList.add('active');
+selectedGoal = btn.innerText.trim();
+}
+
+function selectPref(btn){
+document.querySelectorAll('.pref-btn').forEach(b => b.classList.remove('active'));
+btn.classList.add('active');
+selectedPref = btn.innerText.trim();
+}
+
+function updateBudget(slider){
+const vals = ["Low","Moderate","Premium"];
+selectedBudget = vals[slider.value - 1];
+document.getElementById('budget-val').innerText = selectedBudget;
+}
+
+async function generatePlan(event){
+
+const btn = event.target;
+btn.innerText = "Calculating...";
+btn.disabled = true;
+
+const payload = {
+goal: selectedGoal,
+preference: selectedPref,
+budget: selectedBudget,
+allergies: document.getElementById("allergy-input").value
+};
+
+try {
+
+const response = await fetch("http://127.0.0.1:8000/generate-plan", {
+method: "POST",
+headers: { "Content-Type": "application/json" },
+body: JSON.stringify(payload)
+});
+
+const data = await response.json();
+
+displayResults(data);
+
+} catch(err){
+alert("Server error. Check backend.");
+console.error(err);
+}
+}
+
+function displayResults(data){
+
+document.getElementById("calories-value").innerText = data.calories + " kcal";
+document.getElementById("protein-value").innerText = data.protein + " g";
+document.getElementById("cost-value").innerText = "₹" + data.cost;
+
+const container = document.getElementById("meal-container");
+container.innerHTML = "";
+
+data.meals.forEach(meal => {
+container.innerHTML += `
+<div class="flex justify-between bg-gray-50 p-4 rounded-xl">
+<div>
+<h4 class="font-bold">${meal.name}</h4>
+<p class="text-gray-500">${meal.item}</p>
+</div>
+<div class="font-bold text-green-600">+${meal.kcal} kcal</div>
+</div>
+`;
+});
+
+document.getElementById("setup-page").classList.add("hidden");
+document.getElementById("results-page").classList.remove("hidden");
+
+}
+
+</script>
+
 </body>
-</html> 
+</html>
